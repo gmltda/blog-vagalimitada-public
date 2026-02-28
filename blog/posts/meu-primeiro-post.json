@@ -1,0 +1,16 @@
+{
+  "slug": "meu-primeiro-post",
+  "title": "Bem-vindo ao Blog Vaga Limitada",
+  "excerpt": "Este é o nosso primeiro post automatizado.",
+  "date": "2026-02-27",
+  "category": "pacote-moldes",
+  "category_name": "Pacote de Moldes",
+  "tags": ["boas-vindas", "moldes", "costura"],
+  "cover": "https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/meu-primeiro-post/cover.webp",
+  "product_path": "/products/pacote-moldes",
+  "cta": {
+    "text": "Quero acessar agora",
+    "url": "/products/pacote-moldes"
+  },
+  "content_html": "<h2>Bem-vindo!</h2><p>Conteúdo inicial.</p>"
+}

@@ -1,0 +1,26 @@
+{
+  "published_slugs": [
+    "pacote-moldes-1772232665680",
+    "pacote-moldes-1772246301582"
+  ],
+  "published_keywords": {
+    "moldes": "2026-02-28",
+    "costura": "2026-02-28",
+    "dicas": "2026-02-28",
+    "tutorial": "2026-02-28"
+  },
+  "published_by_product": {
+    "pacote-moldes": {
+      "2026-02-27": 1,
+      "2026-02-28": 1
+    }
+  },
+  "last_published_at": "2026-02-28T02:38:21.583Z",
+  "published_count": 1,
+  "history": [
+    {
+      "date": "2026-02-28T05:37:26.989Z",
+      "post_file": "undefined-1772257046989.json"
+    }
+  ]
+}

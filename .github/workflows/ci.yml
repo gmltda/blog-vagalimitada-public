@@ -1,0 +1,52 @@
+name: CI - Build Blog Content
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'blog/posts/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Leak & Security Scan
+        run: |
+          echo "Running security gate..."
+          # Scan only blog directory for secrets
+          node scripts/validate_public_repo.mjs blog
+          echo "Security gate passed."
+
+      - name: Build Index, Sitemap and RSS
+        run: |
+          node scripts/build_index.mjs
+          node scripts/build_sitemap.mjs
+          node scripts/build_rss.mjs
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add blog/index.json blog/sitemap.xml blog/rss.xml
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update blog index, sitemap and rss [skip ci]"
+            git push
+          fi

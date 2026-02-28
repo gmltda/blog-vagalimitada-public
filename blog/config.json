@@ -1,0 +1,6 @@
+{
+  "canonical_origin": "https://pay.vagalimitada.com",
+  "max_posts_per_day_total": 3,
+  "max_posts_per_day_per_product": 1,
+  "min_days_before_repeat_same_keyword": 120
+}
