@@ -1,5 +1,20 @@
 [
   {
+    "id": "pacote-moldes-2",
+    "slug": "pacote-moldes-2",
+    "title": "Descubra como os Moldes podem revolucionar seus projetos de artesanato",
+    "date": "2026-02-28T16:52:35.688-03:00",
+    "date_display": "28/02/2026 às 13:52:35",
+    "tags": [
+      "artesanato",
+      "moldes",
+      "criatividade",
+      "DIY"
+    ],
+    "cover": "https://images.unsplash.com/photo-1727689484465-c704c115740e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4ODQ1OTR8MHwxfHNlYXJjaHwxfHxtb2xkZXMlMjBjb3N0dXJhfGVufDB8MHx8fDE3NzIyOTc1NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "excerpt": "Conheça os benefícios dos Moldes e como eles podem tornar a sua vida mais fácil e criativa. Aproveite já!"
+  },
+  {
     "id": "pacote-moldes",
     "slug": "pacote-moldes",
     "title": "Transforme seus Projetos com o Pacote de Moldes Exclusivos",

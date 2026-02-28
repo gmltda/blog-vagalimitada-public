@@ -1,0 +1,33 @@
+{
+  "id": "pacote-moldes-2",
+  "slug": "pacote-moldes-2",
+  "title": "Descubra como os Moldes podem revolucionar seus projetos de artesanato",
+  "date_iso": "2026-02-28T16:52:35.688-03:00",
+  "date_display": "28/02/2026 às 13:52:35",
+  "author": "Equipe Vaga Limitada",
+  "tags": [
+    "artesanato",
+    "moldes",
+    "criatividade",
+    "DIY"
+  ],
+  "cover": "https://images.unsplash.com/photo-1727689484465-c704c115740e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4ODQ1OTR8MHwxfHNlYXJjaHwxfHxtb2xkZXMlMjBjb3N0dXJhfGVufDB8MHx8fDE3NzIyOTc1NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "cover_credit": {
+    "name": "Muskan Dev",
+    "photographer_url": "https://unsplash.com/@muskan_dev_00",
+    "unsplash_url": "https://unsplash.com/?utm_source=blog_vagalimitada&utm_medium=referral"
+  },
+  "excerpt": "Conheça os benefícios dos Moldes e como eles podem tornar a sua vida mais fácil e criativa. Aproveite já!",
+  "content_html": "<div class=\"toc\" style=\"background:#f9f9f9; padding:16px; border-radius:8px; margin-bottom:24px;\"><strong>Neste artigo:</strong><ul>\n<li><a href=\"#sec-0\">Moldes: a chave para a criatividade</a></li>\n<li><a href=\"#sec-1\">Qualidade e versatilidade em um único pacote</a></li>\n<li><a href=\"#sec-2\">Aproveite a oferta exclusiva</a></li>\n</ul></div>\n<h2 id=\"sec-0\">Moldes: a chave para a criatividade</h2>\n<p>Os Moldes são ferramentas essenciais para quem ama artesanato. Com eles, é possível criar peças únicas e personalizadas de forma fácil e prática. Basta escolher o molde desejado, o material adequado e soltar a imaginação. Seja para trabalhos em papel, tecido, resina ou qualquer outro material, os Moldes são indispensáveis para quem busca inovar e se destacar no mundo do DIY.</p>\n\n                <figure style=\"margin: 24px 0;\">\n                    <img src=\"https://images.unsplash.com/photo-1595972499967-4779c68725e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4ODQ1OTR8MHwxfHNlYXJjaHwxfHxtb2xkZXMlMjBjb3N0dXJhfGVufDB8fHx8MTc3MjI5NzU1Nnww&ixlib=rb-4.1.0&q=80&w=1080\" alt=\"white and black knit textile\" loading=\"lazy\" style=\"width:100%; border-radius:12px;\">\n                    <figcaption style=\"font-size:12px; color:#666; text-align:center;\">Foto por Frames For Your Heart no Unsplash</figcaption>\n                </figure>\n<h2 id=\"sec-1\">Qualidade e versatilidade em um único pacote</h2>\n<p>Nosso Pacote de Moldes foi cuidadosamente selecionado para atender às necessidades dos mais exigentes artesãos. Com uma variedade de modelos e tamanhos, você terá à disposição tudo o que precisa para dar vida às suas criações. Além disso, os Moldes são feitos com materiais de alta qualidade, garantindo durabilidade e precisão nos detalhes. Não perca a oportunidade de adquirir um produto que fará toda a diferença nos seus projetos.</p>\n<h2 id=\"sec-2\">Aproveite a oferta exclusiva</h2>\n<p>Não perca mais tempo e adquira agora mesmo o nosso Pacote de Moldes. Com um investimento acessível, você terá em mãos uma ferramenta poderosa para potencializar a sua criatividade e elevar o nível dos seus trabalhos. Seja você um iniciante ou um artesão experiente, os Moldes serão seus melhores aliados. Garanta já o seu e surpreenda-se com os resultados!</p>\n\n                <figure style=\"margin: 24px 0;\">\n                    <img src=\"https://images.unsplash.com/photo-1727689484465-c704c115740e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4ODQ1OTR8MHwxfHNlYXJjaHwyfHxtb2xkZXMlMjBjb3N0dXJhfGVufDB8fHx8MTc3MjI5NzU1Nnww&ixlib=rb-4.1.0&q=80&w=1080\" alt=\"A close up of a brick wall with a pattern on it\" loading=\"lazy\" style=\"width:100%; border-radius:12px;\">\n                    <figcaption style=\"font-size:12px; color:#666; text-align:center;\">Foto por Muskan Dev no Unsplash</figcaption>\n                </figure>\n<hr><p style=\"font-size:12px; color:#999;\">Capa: Foto por <a href=\"https://unsplash.com/@muskan_dev_00\" target=\"_blank\" rel=\"nofollow\">Muskan Dev</a> no Unsplash.</p>",
+  "cta": {
+    "text": "Adquira seu Pacote de Moldes agora",
+    "url": "undefined"
+  },
+  "debug": {
+    "sources": {
+      "products": "cartpanda_api",
+      "text": "openai",
+      "images": "unsplash_api"
+    }
+  }
+}
