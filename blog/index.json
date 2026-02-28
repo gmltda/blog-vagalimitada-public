@@ -1,51 +1,59 @@
 [
   {
+    "id": "pacote-moldes-1772246301582",
     "slug": "pacote-moldes-1772246301582",
     "title": "Tudo sobre Pacote de Moldes: Guia Rápido",
-    "excerpt": "Conheça os principais benefícios e como aproveitar ao máximo o Pacote de Moldes.",
-    "cover": "https://source.unsplash.com/1600x900/?moldes%2Ccostura",
-    "date": "2026-02-28",
+    "date": "2026-02-28T12:00:00-03:00",
+    "date_display": "28/02/2026 às 15:00",
     "tags": [
       "moldes",
       "costura",
       "dicas",
       "tutorial"
-    ]
+    ],
+    "cover": "https://source.unsplash.com/1600x900/?moldes%2Ccostura",
+    "excerpt": "Conheça os principais benefícios e como aproveitar ao máximo o Pacote de Moldes."
   },
   {
+    "id": "undefined-1772257046989",
     "slug": "undefined-1772257046989",
     "title": "Descubra Como o Pacote de Moldes Pode Transformar Suas Artesanias em Obras Incríveis",
-    "excerpt": "Transforme suas ideias em peças únicas com o Pacote de Moldes - a solução ideal para artesãos criativos.",
-    "cover": "",
-    "date": "2026-02-28",
+    "date": "2026-02-28T12:00:00-03:00",
+    "date_display": "28/02/2026 às 15:00",
     "tags": [
       "Destaque",
       "Novidade"
-    ]
+    ],
+    "cover": "https://source.unsplash.com/random/1200x600/?technology",
+    "excerpt": "Transforme suas ideias em peças únicas com o Pacote de Moldes - a solução ideal para artesãos criativos."
   },
   {
+    "id": "meu-primeiro-post",
     "slug": "meu-primeiro-post",
     "title": "Bem-vindo ao Blog Vaga Limitada",
-    "excerpt": "Este é o nosso primeiro post automatizado.",
-    "cover": "https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/meu-primeiro-post/cover.webp",
-    "date": "2026-02-27",
+    "date": "2026-02-27T12:00:00-03:00",
+    "date_display": "27/02/2026 às 15:00",
     "tags": [
       "boas-vindas",
       "moldes",
       "costura"
-    ]
+    ],
+    "cover": "https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/meu-primeiro-post/cover.webp",
+    "excerpt": "Este é o nosso primeiro post automatizado."
   },
   {
+    "id": "pacote-moldes-1772232665680",
     "slug": "pacote-moldes-1772232665680",
     "title": "Guia Completo: Como usar Pacote de Moldes para Melhores Resultados",
-    "excerpt": "Descubra as melhores dicas e truques para aproveitar ao máximo o seu Pacote de Moldes.",
-    "cover": "https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/pacote-moldes-1772232665680/cover.webp",
-    "date": "2026-02-27",
+    "date": "2026-02-27T12:00:00-03:00",
+    "date_display": "27/02/2026 às 15:00",
     "tags": [
       "moldes",
       "costura",
       "dicas",
       "tutorial"
-    ]
+    ],
+    "cover": "https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/pacote-moldes-1772232665680/cover.webp",
+    "excerpt": "Descubra as melhores dicas e truques para aproveitar ao máximo o seu Pacote de Moldes."
   }
 ]
