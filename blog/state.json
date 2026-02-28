@@ -1,7 +1,8 @@
 {
   "published_slugs": [
     "pacote-moldes-1772232665680",
-    "pacote-moldes-1772246301582"
+    "pacote-moldes-1772246301582",
+    "pacote-moldes"
   ],
   "published_keywords": {
     "moldes": "2026-02-28",
@@ -16,11 +17,16 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 1,
+  "published_count": 2,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
       "post_file": "undefined-1772257046989.json"
+    },
+    {
+      "date": "2026-02-28T13:45:14.654Z",
+      "post_file": "pacote-moldes.json",
+      "slug": "pacote-moldes"
     }
   ]
 }
