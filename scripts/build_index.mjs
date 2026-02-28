@@ -12,6 +12,18 @@ if (!fs.existsSync(POSTS_DIR)) {
   fs.mkdirSync(POSTS_DIR, { recursive: true });
 }
 
+// --- RUN CLEANUP FIRST ---
+try {
+    const cleanupScript = path.join(BLOG_DIR, '../scripts/cleanup_public.mjs');
+    if (fs.existsSync(cleanupScript)) {
+        console.log("Running cleanup...");
+        const { execSync } = await import('child_process');
+        execSync(`node "${cleanupScript}"`, { stdio: 'inherit' });
+    }
+} catch (e) {
+    console.error("Cleanup failed:", e.message);
+}
+
 console.log('Building Blog Index...');
 
 const posts = [];
