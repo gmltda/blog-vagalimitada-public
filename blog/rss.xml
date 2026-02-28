@@ -4,7 +4,7 @@
     <title>Blog VagaLimitada</title>
     <link>https://pay.vagalimitada.com/pages/blog</link>
     <description>Moldes, Costura, Crochê e Dicas Profissionais</description>
-    <lastBuildDate>Sat, 28 Feb 2026 13:16:51 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 13:45:22 GMT</lastBuildDate>
     <atom:link href="https://pay.vagalimitada.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tudo sobre Pacote de Moldes: Guia Rápido</title>
@@ -33,6 +33,13 @@
       <guid>https://pay.vagalimitada.com/pages/blogpost?slug=pacote-moldes-1772232665680</guid>
       <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
       <description>Descubra as melhores dicas e truques para aproveitar ao máximo o seu Pacote de Moldes.</description>
+    </item>
+    <item>
+      <title>Transforme seus Projetos com o Pacote de Moldes Exclusivos</title>
+      <link>https://pay.vagalimitada.com/pages/blogpost?slug=pacote-moldes</link>
+      <guid>https://pay.vagalimitada.com/pages/blogpost?slug=pacote-moldes</guid>
+      <pubDate>Invalid Date</pubDate>
+      <description>Descubra como os moldes podem revolucionar a sua criatividade e facilitar o seu trabalho com este pacote exclusivo.</description>
     </item>
   </channel>
 </rss>
