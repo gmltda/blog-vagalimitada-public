@@ -1,5 +1,19 @@
 [
   {
+    "id": "curso-de-confeco-de-bolsas-passo-a-passo",
+    "slug": "curso-de-confeco-de-bolsas-passo-a-passo",
+    "title": "Aprenda a Fazer Bolsas com Nosso Curso Passo a Passo",
+    "date": "2026-03-01T18:15:04.738-03:00",
+    "date_display": "01/03/2026 às 15:15",
+    "tags": [
+      "artesanato",
+      "costura",
+      "bolsas"
+    ],
+    "cover": "assets/generated/curso-de-confeco-de-bolsas-passo-a-passo/cover-pixabay-bolsas-artesanais.jpg",
+    "excerpt": "Descubra como confeccionar bolsas incríveis com nosso curso passo a passo. Aprenda técnicas e dicas práticas."
+  },
+  {
     "id": "receitas-dos-tapetes-de-croch",
     "slug": "receitas-dos-tapetes-de-croch",
     "title": "Aprenda a Fazer Tapetes de Crochê: Receitas Imperdíveis",

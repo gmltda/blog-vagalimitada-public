@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 5,
+  "published_count": 6,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -45,6 +45,12 @@
       "product_id": 23316819,
       "post_file": "receitas-dos-tapetes-de-croch.json",
       "slug": "receitas-dos-tapetes-de-croch"
+    },
+    {
+      "date": "2026-03-01T18:16:19.590Z",
+      "product_id": 22476585,
+      "post_file": "curso-de-confeco-de-bolsas-passo-a-passo.json",
+      "slug": "curso-de-confeco-de-bolsas-passo-a-passo"
     }
   ]
 }
