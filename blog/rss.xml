@@ -4,7 +4,7 @@
     <title>Blog VagaLimitada</title>
     <link>https://pay.vagalimitada.com/pages/blog</link>
     <description>Moldes, Costura, Crochê e Dicas Profissionais</description>
-    <lastBuildDate>Sun, 01 Mar 2026 00:18:58 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 17:30:18 GMT</lastBuildDate>
     <atom:link href="https://pay.vagalimitada.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bem-vindo ao Blog Vaga Limitada</title>
@@ -47,6 +47,13 @@
       <guid>https://pay.vagalimitada.com/pages/blogpost?slug=pacote-moldes</guid>
       <pubDate>Invalid Date</pubDate>
       <description>Descubra como os moldes podem revolucionar a sua criatividade e facilitar o seu trabalho com este pacote exclusivo.</description>
+    </item>
+    <item>
+      <title>Aprenda a Fazer Tapetes de Crochê: Receitas Imperdíveis</title>
+      <link>https://pay.vagalimitada.com/pages/blogpost?slug=receitas-dos-tapetes-de-croch</link>
+      <guid>https://pay.vagalimitada.com/pages/blogpost?slug=receitas-dos-tapetes-de-croch</guid>
+      <pubDate>Invalid Date</pubDate>
+      <description>Descubra receitas incríveis para criar tapetes de crochê e transforme sua casa com estilo e charme.</description>
     </item>
   </channel>
 </rss>
