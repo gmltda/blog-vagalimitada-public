@@ -70,6 +70,12 @@ function readPosts() {
         modified = true;
       }
 
+      const normalizedStatus = normalizeStatus(post.status);
+      if (post.status !== normalizedStatus) {
+        post.status = normalizedStatus;
+        modified = true;
+      }
+
       if (modified) {
         fs.writeFileSync(filePath, JSON.stringify(post, null, 2));
       }
@@ -87,6 +93,18 @@ function readPosts() {
 
 function getPostDate(post) {
   return post.date_iso || post.date || new Date().toISOString();
+}
+
+function normalizeStatus(status) {
+  const value = String(status || '').toLowerCase().trim();
+  if (value === 'published' || value === 'archived' || value === 'draft') {
+    return value;
+  }
+  return 'published';
+}
+
+function onlyPublished(posts) {
+  return posts.filter(post => normalizeStatus(post.status) === 'published');
 }
 
 export function buildIndex(posts) {
@@ -161,21 +179,21 @@ export function buildSitemap(posts) {
 
 export function buildAll() {
   const posts = readPosts();
-  buildIndex(posts);
-  buildSitemap(posts);
-  buildRss(posts);
-  return posts.length;
+  const published = onlyPublished(posts);
+  buildIndex(published);
+  buildSitemap(published);
+  buildRss(published);
+  return published.length;
 }
 
-export function deletePost(slug) {
+export function setPostStatus(slug, status) {
   if (!slug) throw new Error('Slug is required.');
   const postFile = path.join(POSTS_DIR, `${slug}.json`);
   if (!fs.existsSync(postFile)) {
     throw new Error(`Post not found: ${slug}`);
   }
-  fs.unlinkSync(postFile);
-  const generatedDir = path.join(BLOG_DIR, 'assets', 'generated', slug);
-  const shopeeDir = path.join(BLOG_DIR, 'assets', 'shopee', slug);
-  if (fs.existsSync(generatedDir)) fs.rmSync(generatedDir, { recursive: true, force: true });
-  if (fs.existsSync(shopeeDir)) fs.rmSync(shopeeDir, { recursive: true, force: true });
+  const post = JSON.parse(fs.readFileSync(postFile, 'utf8'));
+  const nextStatus = normalizeStatus(status);
+  post.status = nextStatus;
+  fs.writeFileSync(postFile, JSON.stringify(post, null, 2));
 }
