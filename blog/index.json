@@ -1,19 +1,5 @@
 [
   {
-    "id": "curso-de-confeco-de-bolsas-passo-a-passo",
-    "slug": "curso-de-confeco-de-bolsas-passo-a-passo",
-    "title": "Aprenda a Fazer Bolsas com Nosso Curso Passo a Passo",
-    "date": "2026-03-01T18:15:04.738-03:00",
-    "date_display": "01/03/2026 às 15:15",
-    "tags": [
-      "artesanato",
-      "costura",
-      "bolsas"
-    ],
-    "cover": "assets/generated/curso-de-confeco-de-bolsas-passo-a-passo/cover-pixabay-bolsas-artesanais.jpg",
-    "excerpt": "Descubra como confeccionar bolsas incríveis com nosso curso passo a passo. Aprenda técnicas e dicas práticas."
-  },
-  {
     "id": "receitas-dos-tapetes-de-croch",
     "slug": "receitas-dos-tapetes-de-croch",
     "title": "Aprenda a Fazer Tapetes de Crochê: Receitas Imperdíveis",
@@ -26,92 +12,5 @@
     ],
     "cover": "/blog/assets/generated/receitas-dos-tapetes-de-croch/cover-pixabay-tapete-de-croche.jpg",
     "excerpt": "Descubra receitas incríveis para criar tapetes de crochê e transforme sua casa com estilo e charme."
-  },
-  {
-    "id": "pacote-de-moldes-premium-fallback",
-    "slug": "pacote-de-moldes-premium-fallback",
-    "title": "Descubra o Pacote de Moldes Premium para Costura Criativa",
-    "date": "2026-03-01T00:18:27.267-03:00",
-    "date_display": "28/02/2026 às 21:18",
-    "tags": [
-      "costura criativa",
-      "moldes",
-      "artesanato"
-    ],
-    "cover": "https://placehold.co/600x600?text=Produto",
-    "excerpt": "Transforme suas ideias em realidade com nosso Pacote de Moldes Premium para costura criativa!"
-  },
-  {
-    "id": "pacote-moldes-2",
-    "slug": "pacote-moldes-2",
-    "title": "Descubra como os Moldes podem revolucionar seus projetos de artesanato",
-    "date": "2026-02-28T16:52:35.688-03:00",
-    "date_display": "28/02/2026 às 13:52:35",
-    "tags": [
-      "artesanato",
-      "moldes",
-      "criatividade",
-      "DIY"
-    ],
-    "cover": "https://images.unsplash.com/photo-1727689484465-c704c115740e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4ODQ1OTR8MHwxfHNlYXJjaHwxfHxtb2xkZXMlMjBjb3N0dXJhfGVufDB8MHx8fDE3NzIyOTc1NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "excerpt": "Conheça os benefícios dos Moldes e como eles podem tornar a sua vida mais fácil e criativa. Aproveite já!"
-  },
-  {
-    "id": "pacote-moldes",
-    "slug": "pacote-moldes",
-    "title": "Transforme seus Projetos com o Pacote de Moldes Exclusivos",
-    "date": "2026-02-28T13:45:09.099-03:00",
-    "date_display": "28/02/2026 às 10:45:09",
-    "tags": [
-      "moldes",
-      "criatividade",
-      "projetos DIY"
-    ],
-    "cover": "https://placehold.co/1200x600?text=Vaga+Limitada",
-    "excerpt": "Descubra como os moldes podem revolucionar a sua criatividade e facilitar o seu trabalho com este pacote exclusivo."
-  },
-  {
-    "id": "pacote-moldes-1772246301582",
-    "slug": "pacote-moldes-1772246301582",
-    "title": "Tudo sobre Pacote de Moldes: Guia Rápido",
-    "date": "2026-02-28T12:00:00-03:00",
-    "date_display": "28/02/2026 às 15:00",
-    "tags": [
-      "moldes",
-      "costura",
-      "dicas",
-      "tutorial"
-    ],
-    "cover": "https://source.unsplash.com/1600x900/?moldes%2Ccostura",
-    "excerpt": "Conheça os principais benefícios e como aproveitar ao máximo o Pacote de Moldes."
-  },
-  {
-    "id": "meu-primeiro-post",
-    "slug": "meu-primeiro-post",
-    "title": "Bem-vindo ao Blog Vaga Limitada",
-    "date": "2026-02-27T12:00:00-03:00",
-    "date_display": "27/02/2026 às 15:00",
-    "tags": [
-      "boas-vindas",
-      "moldes",
-      "costura"
-    ],
-    "cover": "https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/meu-primeiro-post/cover.webp",
-    "excerpt": "Este é o nosso primeiro post automatizado."
-  },
-  {
-    "id": "pacote-moldes-1772232665680",
-    "slug": "pacote-moldes-1772232665680",
-    "title": "Guia Completo: Como usar Pacote de Moldes para Melhores Resultados",
-    "date": "2026-02-27T12:00:00-03:00",
-    "date_display": "27/02/2026 às 15:00",
-    "tags": [
-      "moldes",
-      "costura",
-      "dicas",
-      "tutorial"
-    ],
-    "cover": "https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/pacote-moldes-1772232665680/cover.webp",
-    "excerpt": "Descubra as melhores dicas e truques para aproveitar ao máximo o seu Pacote de Moldes."
   }
 ]
