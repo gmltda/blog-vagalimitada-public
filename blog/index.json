@@ -1,5 +1,19 @@
 [
   {
+    "id": "pacote-de-moldes-premium-fallback",
+    "slug": "pacote-de-moldes-premium-fallback",
+    "title": "Descubra o Pacote de Moldes Premium para Costura Criativa",
+    "date": "2026-03-01T00:18:27.267-03:00",
+    "date_display": "28/02/2026 às 21:18",
+    "tags": [
+      "costura criativa",
+      "moldes",
+      "artesanato"
+    ],
+    "cover": "https://placehold.co/600x600?text=Produto",
+    "excerpt": "Transforme suas ideias em realidade com nosso Pacote de Moldes Premium para costura criativa!"
+  },
+  {
     "id": "pacote-moldes-2",
     "slug": "pacote-moldes-2",
     "title": "Descubra como os Moldes podem revolucionar seus projetos de artesanato",
