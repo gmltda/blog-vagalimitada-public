@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pay.vagalimitada.com/pages/blog</loc>
-    <lastmod>undefined</lastmod>
+    <lastmod>2026-03-01T18:15:04.738-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://pay.vagalimitada.com/pages/blogpost?slug=curso-de-confeco-de-bolsas-passo-a-passo</loc>
-    <lastmod>undefined</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=meu-primeiro-post</loc>
-    <lastmod>2026-02-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=pacote-de-moldes-premium-fallback</loc>
-    <lastmod>undefined</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=pacote-moldes-1772246301582</loc>
-    <lastmod>2026-02-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=pacote-moldes-1772232665680</loc>
-    <lastmod>2026-02-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=pacote-moldes-2</loc>
-    <lastmod>undefined</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=pacote-moldes</loc>
-    <lastmod>undefined</lastmod>
+    <lastmod>2026-03-01T18:15:04.738-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pay.vagalimitada.com/pages/blogpost?slug=receitas-dos-tapetes-de-croch</loc>
-    <lastmod>undefined</lastmod>
+    <lastmod>2026-03-01T17:29:03.713-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=pacote-de-moldes-premium-fallback</loc>
+    <lastmod>2026-03-01T00:18:27.267-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=pacote-moldes-2</loc>
+    <lastmod>2026-02-28T16:52:35.688-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=pacote-moldes</loc>
+    <lastmod>2026-02-28T13:45:09.099-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=pacote-moldes-1772246301582</loc>
+    <lastmod>2026-02-28T12:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=meu-primeiro-post</loc>
+    <lastmod>2026-02-27T12:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=pacote-moldes-1772232665680</loc>
+    <lastmod>2026-02-27T12:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
