@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 6,
+  "published_count": 7,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -51,6 +51,12 @@
       "product_id": 22476585,
       "post_file": "curso-de-confeco-de-bolsas-passo-a-passo.json",
       "slug": "curso-de-confeco-de-bolsas-passo-a-passo"
+    },
+    {
+      "date": "2026-03-01T22:26:50.152Z",
+      "product_id": 22476584,
+      "post_file": "2500-modelos-de-croch.json",
+      "slug": "2500-modelos-de-croch"
     }
   ]
 }
