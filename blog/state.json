@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 7,
+  "published_count": 8,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -57,6 +57,12 @@
       "product_id": 22476584,
       "post_file": "2500-modelos-de-croch.json",
       "slug": "2500-modelos-de-croch"
+    },
+    {
+      "date": "2026-03-02T19:05:04.934Z",
+      "product_id": 23316090,
+      "post_file": "bolsas-de-croch-lucrativas-aulas.json",
+      "slug": "bolsas-de-croch-lucrativas-aulas"
     }
   ]
 }
