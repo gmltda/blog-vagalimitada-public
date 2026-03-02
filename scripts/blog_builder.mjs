@@ -79,23 +79,43 @@ function getShopeeItems(post) {
   return [];
 }
 
-function isValidOfferUrl(url) {
+function isValidHttpUrl(url) {
   const value = String(url || '').trim();
-  return /^https?:\/\/s\.shopee\.com\.br\//i.test(value);
+  return /^https?:\/\//i.test(value);
 }
 
-function extractMaterialName(liHtml) {
+function extractMaterialLabel(liHtml) {
   const boldMatch = liHtml.match(/<b[^>]*>([\s\S]*?)<\/b>/i);
   if (boldMatch && boldMatch[1]) {
-    return normalizeText(boldMatch[1]);
+    return boldMatch[1].replace(/[:\s]+$/, '').trim();
   }
   const text = liHtml.replace(/<[^>]*>/g, ' ');
-  const normalized = normalizeText(text);
-  const parts = normalized.split(':');
-  return parts[0] || normalized;
+  const parts = text.split(':');
+  return (parts[0] || text).trim();
 }
 
-function enrichMaterialsHtml(html, shopeeItems) {
+function buildFallbackSearchUrl(term, shopeeItems) {
+  const keyword = encodeURIComponent(term || '');
+  const reference = shopeeItems.find(item => isValidHttpUrl(item.search_url));
+  if (reference && reference.search_url) {
+    try {
+      const url = new URL(reference.search_url);
+      url.searchParams.set('keyword', term);
+      return url.toString();
+    } catch {}
+  }
+  return `https://shopee.com.br/search?keyword=${keyword}`;
+}
+
+function ensureUlClass(ulHtml, className) {
+  if (/class=["'][^"']*materials-ul[^"']*["']/i.test(ulHtml)) return ulHtml;
+  if (/class=["'][^"']*["']/i.test(ulHtml)) {
+    return ulHtml.replace(/class=["']([^"']*)["']/, (match, classes) => `class="${classes} ${className}"`);
+  }
+  return ulHtml.replace('<ul', `<ul class="${className}"`);
+}
+
+function enrichMaterialsUlWithThumbs(html, shopeeItems) {
   const source = String(html || '');
   if (!source) return source;
   const headingRegex = /<h([23])[^>]*>([\s\S]*?)<\/h\1>/gi;
@@ -112,18 +132,45 @@ function enrichMaterialsHtml(html, shopeeItems) {
       continue;
     }
     const ulHtml = ulMatch[0];
-    const updatedUl = ulHtml.replace(/<li[^>]*>[\s\S]*?<\/li>/gi, li => {
-      if (/<a\s/i.test(li)) return li;
-      const nameNormalized = extractMaterialName(li);
-      if (!nameNormalized) return li;
+    const updatedUl = ensureUlClass(ulHtml, 'materials-ul').replace(/<li[^>]*>[\s\S]*?<\/li>/gi, li => {
+      const nameLabel = extractMaterialLabel(li);
+      const nameNormalized = normalizeText(nameLabel);
+      const hasThumb = /class=["'][^"']*material-thumb[^"']*["']/i.test(li);
+      const hasBody = /class=["'][^"']*material-body[^"']*["']/i.test(li);
       const candidate = shopeeItems.find(item => {
         const keyword = normalizeText(item.keyword_used || '');
         if (!keyword) return false;
         return keyword.includes(nameNormalized) || nameNormalized.includes(keyword);
       });
-      if (!candidate || !isValidOfferUrl(candidate.offer_url)) return li;
-      const link = `<br><a href="${candidate.offer_url}" target="_blank" rel="nofollow noopener">Ver produto recomendado</a>`;
-      return li.replace(/<\/li>/i, `${link}</li>`);
+      const imageUrl = candidate?.image_url ? absolutizeAssetUrl(candidate.image_url) : `${BLOG_ASSETS_ORIGIN}/blog/assets/ui/placeholder-item.jpg`;
+      const offerUrl = candidate?.offer_url && isValidHttpUrl(candidate.offer_url) ? candidate.offer_url : null;
+      const searchUrl = candidate?.search_url && isValidHttpUrl(candidate.search_url)
+        ? candidate.search_url
+        : buildFallbackSearchUrl(nameLabel, shopeeItems);
+      const linkUrl = offerUrl || searchUrl;
+      const hasLink = /<a\s/i.test(li);
+      let updatedLi = li;
+      if (hasLink && offerUrl) {
+        updatedLi = updatedLi.replace(/href=["'][^"']*["']/, `href="${offerUrl}"`);
+      }
+      if (!hasLink && linkUrl) {
+        updatedLi = updatedLi.replace(/<\/li>/i, `<br><a href="${linkUrl}" target="_blank" rel="nofollow noopener">Ver produto recomendado</a></li>`);
+      }
+      if (!hasBody) {
+        updatedLi = updatedLi.replace(/<li([^>]*)>/i, (match, attrs) => {
+          if (/class=["'][^"']*["']/.test(attrs)) {
+            return `<li${attrs.replace(/class=["']([^"']*)["']/, (m, cls) => ` class="${cls} material-li"`)}>`;
+          }
+          return `<li${attrs} class="material-li">`;
+        });
+        updatedLi = updatedLi.replace(/<li[^>]*>([\s\S]*?)<\/li>/i, (matchAll, inner) => {
+          const body = `<div class="material-body">${inner}</div>`;
+          if (hasThumb) return `<li class="material-li">${body}</li>`;
+          const thumb = `<img class="material-thumb" src="${imageUrl}" alt="${nameLabel || 'Material'}" loading="lazy" onerror="this.remove()">`;
+          return `<li class="material-li">${thumb}${body}</li>`;
+        });
+      }
+      return updatedLi;
     });
     const start = afterHeadingIndex + (ulMatch.index || 0);
     const end = start + ulHtml.length;
@@ -182,7 +229,7 @@ function readPosts() {
         const shopeeItems = getShopeeItems(post);
         const withAssets = rewriteHtmlAssets(post.content_html);
         const withoutGrid = removeShopeeGrid(withAssets);
-        const enriched = enrichMaterialsHtml(withoutGrid, shopeeItems);
+        const enriched = enrichMaterialsUlWithThumbs(withoutGrid, shopeeItems);
         if (enriched !== post.content_html) {
           post.content_html = enriched;
           modified = true;
