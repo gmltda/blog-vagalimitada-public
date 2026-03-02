@@ -94,17 +94,20 @@ function extractMaterialLabel(liHtml) {
   return (parts[0] || text).trim();
 }
 
-function buildFallbackSearchUrl(term, shopeeItems) {
-  const keyword = encodeURIComponent(term || '');
+function buildFallbackSearchUrl(term, slug, shopeeItems) {
+  const keyword = String(term || '');
   const reference = shopeeItems.find(item => isValidHttpUrl(item.search_url));
   if (reference && reference.search_url) {
     try {
       const url = new URL(reference.search_url);
-      url.searchParams.set('keyword', term);
+      url.searchParams.set('keyword', keyword);
+      if (slug) url.searchParams.set('utm_content', slug);
+      url.searchParams.set('utm_term', keyword);
       return url.toString();
     } catch {}
   }
-  return `https://shopee.com.br/search?keyword=${keyword}`;
+  const encoded = encodeURIComponent(keyword);
+  return `https://shopee.com.br/search?keyword=${encoded}`;
 }
 
 function ensureUlClass(ulHtml, className) {
@@ -115,14 +118,16 @@ function ensureUlClass(ulHtml, className) {
   return ulHtml.replace('<ul', `<ul class="${className}"`);
 }
 
-function enrichMaterialsUlWithThumbs(html, shopeeItems) {
+function enrichMaterialsUlWithThumbs(html, shopeeItems, slug) {
   const source = String(html || '');
   if (!source) return source;
   const headingRegex = /<h([23])[^>]*>([\s\S]*?)<\/h\1>/gi;
   let match;
   while ((match = headingRegex.exec(source)) !== null) {
     const headingText = normalizeText(match[2] || '');
-    if (!headingText.includes('materiais')) continue;
+    if (!(headingText.includes('materiais recomendados') || headingText.includes('materiais para comecar'))) {
+      continue;
+    }
     const afterHeadingIndex = match.index + match[0].length;
     const afterHeading = source.slice(afterHeadingIndex);
     const ulMatch = afterHeading.match(/<ul[\s\S]*?<\/ul>/i);
@@ -146,12 +151,16 @@ function enrichMaterialsUlWithThumbs(html, shopeeItems) {
       const offerUrl = candidate?.offer_url && isValidHttpUrl(candidate.offer_url) ? candidate.offer_url : null;
       const searchUrl = candidate?.search_url && isValidHttpUrl(candidate.search_url)
         ? candidate.search_url
-        : buildFallbackSearchUrl(nameLabel, shopeeItems);
+        : buildFallbackSearchUrl(nameLabel, slug, shopeeItems);
       const linkUrl = offerUrl || searchUrl;
       const hasLink = /<a\s/i.test(li);
+      const hasImage = Boolean(candidate?.image_url);
       let updatedLi = li;
       if (hasLink && offerUrl) {
         updatedLi = updatedLi.replace(/href=["'][^"']*["']/, `href="${offerUrl}"`);
+      }
+      if (hasLink && !offerUrl && linkUrl) {
+        updatedLi = updatedLi.replace(/href=["'][^"']*["']/, `href="${linkUrl}"`);
       }
       if (!hasLink && linkUrl) {
         updatedLi = updatedLi.replace(/<\/li>/i, `<br><a href="${linkUrl}" target="_blank" rel="nofollow noopener">Ver produto recomendado</a></li>`);
@@ -159,15 +168,19 @@ function enrichMaterialsUlWithThumbs(html, shopeeItems) {
       if (!hasBody) {
         updatedLi = updatedLi.replace(/<li([^>]*)>/i, (match, attrs) => {
           if (/class=["'][^"']*["']/.test(attrs)) {
-            return `<li${attrs.replace(/class=["']([^"']*)["']/, (m, cls) => ` class="${cls} material-li"`)}>`;
+            const classes = hasImage ? 'material-li has-thumb' : 'material-li no-thumb';
+            return `<li${attrs.replace(/class=["']([^"']*)["']/, (m, cls) => ` class="${cls} ${classes}"`)}>`;
           }
-          return `<li${attrs} class="material-li">`;
+          return `<li${attrs} class="${hasImage ? 'material-li has-thumb' : 'material-li no-thumb'}">`;
         });
         updatedLi = updatedLi.replace(/<li[^>]*>([\s\S]*?)<\/li>/i, (matchAll, inner) => {
           const body = `<div class="material-body">${inner}</div>`;
-          if (hasThumb) return `<li class="material-li">${body}</li>`;
-          const thumb = `<img class="material-thumb" src="${imageUrl}" alt="${nameLabel || 'Material'}" loading="lazy" onerror="this.remove()">`;
-          return `<li class="material-li">${thumb}${body}</li>`;
+          const liClass = hasImage ? 'material-li has-thumb' : 'material-li no-thumb';
+          if (hasThumb) return `<li class="${liClass}">${body}</li>`;
+          const thumb = hasImage || imageUrl
+            ? `<img class="material-thumb" src="${imageUrl}" alt="${nameLabel || 'Material'}" loading="lazy" onerror="this.remove()">`
+            : '';
+          return `<li class="${liClass}">${thumb}${body}</li>`;
         });
       }
       return updatedLi;
@@ -196,6 +209,23 @@ function removeShopeeGrid(html) {
     headingRegex.lastIndex = 0;
   }
   return output;
+}
+
+function applyTemplateVariant(html, template) {
+  const content = String(html || '');
+  if (!template || !content) return content;
+  const marker = `data-template-block="${template}"`;
+  if (content.includes(marker)) return content;
+  const blockMap = {
+    guide: `<h2 data-template-block="guide">Passo a Passo Resumido</h2><ol><li>Separe os materiais principais.</li><li>Teste uma pequena amostra antes de iniciar.</li><li>Finalize com acabamento simples.</li></ol>`,
+    checklist: `<h2 data-template-block="checklist">Checklist Rápido</h2><ul><li>Materiais separados</li><li>Ferramentas à mão</li><li>Tempo reservado</li></ul>`,
+    mistakes: `<h2 data-template-block="mistakes">Erros Comuns</h2><ul><li>Ignorar a tensão do fio</li><li>Medidas sem conferência</li><li>Escolha de material inadequada</li></ul>`,
+    comparison: `<h2 data-template-block="comparison">Comparativo Rápido</h2><ul><li>Opção A: mais simples</li><li>Opção B: mais resistente</li><li>Opção C: acabamento premium</li></ul>`,
+    ideas: `<h2 data-template-block="ideas">Ideias para Variar</h2><ul><li>Troque a paleta de cores</li><li>Combine texturas</li><li>Adapte o tamanho</li></ul>`
+  };
+  const block = blockMap[template];
+  if (!block) return content;
+  return `${content}\n${block}`;
 }
 
 function readPosts() {
@@ -229,9 +259,10 @@ function readPosts() {
         const shopeeItems = getShopeeItems(post);
         const withAssets = rewriteHtmlAssets(post.content_html);
         const withoutGrid = removeShopeeGrid(withAssets);
-        const enriched = enrichMaterialsUlWithThumbs(withoutGrid, shopeeItems);
-        if (enriched !== post.content_html) {
-          post.content_html = enriched;
+        const enriched = enrichMaterialsUlWithThumbs(withoutGrid, shopeeItems, post.slug);
+        const templated = applyTemplateVariant(enriched, post.template);
+        if (templated !== post.content_html) {
+          post.content_html = templated;
           modified = true;
         }
       }

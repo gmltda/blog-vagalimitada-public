@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 9,
+  "published_count": 7,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -57,18 +57,6 @@
       "product_id": 22476584,
       "post_file": "2500-modelos-de-croch.json",
       "slug": "2500-modelos-de-croch"
-    },
-    {
-      "date": "2026-03-02T02:29:29.767Z",
-      "product_id": 22476583,
-      "post_file": "pacote-de-moldes.json",
-      "slug": "pacote-de-moldes"
-    },
-    {
-      "date": "2026-03-02T02:52:52.150Z",
-      "product_id": 28471749,
-      "post_file": "formas-de-criar-hortas-em-casa.json",
-      "slug": "formas-de-criar-hortas-em-casa"
     }
   ]
 }
