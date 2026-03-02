@@ -7,11 +7,148 @@ const INDEX_FILE = path.join(BLOG_DIR, 'index.json');
 const RSS_FILE = path.join(BLOG_DIR, 'rss.xml');
 const SITEMAP_FILE = path.join(BLOG_DIR, 'sitemap.xml');
 const baseUrl = 'https://pay.vagalimitada.com';
+const BLOG_ASSETS_ORIGIN = 'https://assets.vagalimitada.com';
 
 function ensureDirs() {
   if (!fs.existsSync(POSTS_DIR)) {
     fs.mkdirSync(POSTS_DIR, { recursive: true });
   }
+}
+
+function normalizeText(value) {
+  return String(value || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function absolutizeAssetUrl(url) {
+  const raw = String(url || '').trim();
+  if (!raw) return raw;
+  if (/^https?:\/\//i.test(raw)) return raw;
+  let value = raw;
+  if (value.startsWith('./')) value = value.slice(2);
+  while (value.startsWith('../')) value = value.slice(3);
+  if (value.startsWith('/blog/')) return `${BLOG_ASSETS_ORIGIN}${value}`;
+  if (value.startsWith('blog/')) return `${BLOG_ASSETS_ORIGIN}/${value}`;
+  if (value.startsWith('/assets/')) return `${BLOG_ASSETS_ORIGIN}/blog${value}`;
+  if (value.startsWith('assets/')) return `${BLOG_ASSETS_ORIGIN}/blog/${value}`;
+  return value;
+}
+
+function rewriteSrcset(srcset) {
+  return String(srcset || '')
+    .split(',')
+    .map(part => {
+      const trimmed = part.trim();
+      if (!trimmed) return '';
+      const pieces = trimmed.split(/\s+/);
+      const url = absolutizeAssetUrl(pieces[0]);
+      const descriptor = pieces.slice(1).join(' ');
+      return descriptor ? `${url} ${descriptor}` : url;
+    })
+    .filter(Boolean)
+    .join(', ');
+}
+
+function rewriteTagAttributes(html, tagName) {
+  const tagRegex = new RegExp(`<${tagName}[^>]*>`, 'gi');
+  return String(html || '').replace(tagRegex, tag => {
+    let updated = tag;
+    updated = updated.replace(/\s(src|srcset)=["']([^"']+)["']/gi, (match, attr, value) => {
+      const fixed = attr.toLowerCase() === 'srcset' ? rewriteSrcset(value) : absolutizeAssetUrl(value);
+      return ` ${attr}="${fixed}"`;
+    });
+    return updated;
+  });
+}
+
+function rewriteHtmlAssets(html) {
+  let updated = String(html || '');
+  updated = rewriteTagAttributes(updated, 'img');
+  updated = rewriteTagAttributes(updated, 'source');
+  return updated;
+}
+
+function getShopeeItems(post) {
+  if (Array.isArray(post.shopee_recommendations)) return post.shopee_recommendations;
+  if (Array.isArray(post.shopee?.searches)) return post.shopee.searches;
+  return [];
+}
+
+function isValidOfferUrl(url) {
+  const value = String(url || '').trim();
+  return /^https?:\/\/s\.shopee\.com\.br\//i.test(value);
+}
+
+function extractMaterialName(liHtml) {
+  const boldMatch = liHtml.match(/<b[^>]*>([\s\S]*?)<\/b>/i);
+  if (boldMatch && boldMatch[1]) {
+    return normalizeText(boldMatch[1]);
+  }
+  const text = liHtml.replace(/<[^>]*>/g, ' ');
+  const normalized = normalizeText(text);
+  const parts = normalized.split(':');
+  return parts[0] || normalized;
+}
+
+function enrichMaterialsHtml(html, shopeeItems) {
+  const source = String(html || '');
+  if (!source) return source;
+  const headingRegex = /<h([23])[^>]*>([\s\S]*?)<\/h\1>/gi;
+  let match;
+  while ((match = headingRegex.exec(source)) !== null) {
+    const headingText = normalizeText(match[2] || '');
+    if (!headingText.includes('materiais')) continue;
+    const afterHeadingIndex = match.index + match[0].length;
+    const afterHeading = source.slice(afterHeadingIndex);
+    const ulMatch = afterHeading.match(/<ul[\s\S]*?<\/ul>/i);
+    const nextHeading = afterHeading.match(/<h[23][^>]*>/i);
+    if (!ulMatch) return source;
+    if (nextHeading && nextHeading.index !== null && nextHeading.index < ulMatch.index) {
+      continue;
+    }
+    const ulHtml = ulMatch[0];
+    const updatedUl = ulHtml.replace(/<li[^>]*>[\s\S]*?<\/li>/gi, li => {
+      if (/<a\s/i.test(li)) return li;
+      const nameNormalized = extractMaterialName(li);
+      if (!nameNormalized) return li;
+      const candidate = shopeeItems.find(item => {
+        const keyword = normalizeText(item.keyword_used || '');
+        if (!keyword) return false;
+        return keyword.includes(nameNormalized) || nameNormalized.includes(keyword);
+      });
+      if (!candidate || !isValidOfferUrl(candidate.offer_url)) return li;
+      const link = `<br><a href="${candidate.offer_url}" target="_blank" rel="nofollow noopener">Ver produto recomendado</a>`;
+      return li.replace(/<\/li>/i, `${link}</li>`);
+    });
+    const start = afterHeadingIndex + (ulMatch.index || 0);
+    const end = start + ulHtml.length;
+    return source.slice(0, start) + updatedUl + source.slice(end);
+  }
+  return source;
+}
+
+function removeShopeeGrid(html) {
+  let output = String(html || '');
+  const headingRegex = /<h([23])[^>]*>([\s\S]*?)<\/h\1>/gi;
+  let match;
+  while ((match = headingRegex.exec(output)) !== null) {
+    const headingText = normalizeText(match[2] || '');
+    if (!headingText.includes('materiais na shopee')) continue;
+    const start = match.index;
+    const after = output.slice(start + match[0].length);
+    const nextHeading = after.match(/<h[23][^>]*>/i);
+    const end = nextHeading && nextHeading.index !== null
+      ? start + match[0].length + nextHeading.index
+      : output.length;
+    output = output.slice(0, start) + output.slice(end);
+    headingRegex.lastIndex = 0;
+  }
+  return output;
 }
 
 function readPosts() {
@@ -39,6 +176,17 @@ function readPosts() {
       if (post.content && !post.content_html) {
         post.content_html = post.content;
         modified = true;
+      }
+
+      if (post.content_html) {
+        const shopeeItems = getShopeeItems(post);
+        const withAssets = rewriteHtmlAssets(post.content_html);
+        const withoutGrid = removeShopeeGrid(withAssets);
+        const enriched = enrichMaterialsHtml(withoutGrid, shopeeItems);
+        if (enriched !== post.content_html) {
+          post.content_html = enriched;
+          modified = true;
+        }
       }
 
       if (!post.date_iso) {
@@ -73,6 +221,11 @@ function readPosts() {
       const normalizedStatus = normalizeStatus(post.status);
       if (post.status !== normalizedStatus) {
         post.status = normalizedStatus;
+        modified = true;
+      }
+
+      if (post.cta_button_text !== 'Acesse os Modelos de Crochê Agora!') {
+        post.cta_button_text = 'Acesse os Modelos de Crochê Agora!';
         modified = true;
       }
 
