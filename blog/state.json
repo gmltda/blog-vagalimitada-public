@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 9,
+  "published_count": 10,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -69,6 +69,12 @@
       "product_id": 24040943,
       "post_file": "mtodo-sapatinho-de-ouro.json",
       "slug": "mtodo-sapatinho-de-ouro"
+    },
+    {
+      "date": "2026-03-03T13:23:09.870Z",
+      "product_id": 23315664,
+      "post_file": "criao-de-camares-projetos.json",
+      "slug": "criao-de-camares-projetos"
     }
   ]
 }
