@@ -1,5 +1,21 @@
 [
   {
+    "id": "mtodo-sapatinho-de-ouro",
+    "slug": "mtodo-sapatinho-de-ouro",
+    "title": "Aprenda a Fazer Sapatinhos de Bebê com o Método Sapatinho de Ouro",
+    "date": "2026-03-03T03:11:59.020-03:00",
+    "date_display": "03/03/2026 às 00:11",
+    "tags": [
+      "sapatinhos",
+      "costura",
+      "artesanato",
+      "DIY",
+      "moldes"
+    ],
+    "cover": "assets/generated/mtodo-sapatinho-de-ouro/cover-pixabay-sapatinhos-de-bebe-em-fe.jpg",
+    "excerpt": "Descubra como o Método Sapatinho de Ouro transforma sua costura e traz resultados incríveis para sapatinhos de bebê."
+  },
+  {
     "id": "bolsas-de-croch-lucrativas-aulas",
     "slug": "bolsas-de-croch-lucrativas-aulas",
     "title": "Aprenda a Fazer Bolsas de Crochê Lucrativas com Nossas Aulas",
