@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 12,
+  "published_count": 13,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -87,6 +87,12 @@
       "product_id": 24783372,
       "post_file": "curso-resina-artstica.json",
       "slug": "curso-resina-artstica"
+    },
+    {
+      "date": "2026-03-05T02:51:48.328Z",
+      "product_id": 22333280,
+      "post_file": "moldes-feltro.json",
+      "slug": "moldes-feltro"
     }
   ]
 }
