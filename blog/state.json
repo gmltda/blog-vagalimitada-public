@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 13,
+  "published_count": 14,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -93,6 +93,12 @@
       "product_id": 22333280,
       "post_file": "moldes-feltro.json",
       "slug": "moldes-feltro"
+    },
+    {
+      "date": "2026-03-05T13:36:29.376Z",
+      "product_id": 23316784,
+      "post_file": "receitas-dos-biqunis-de-croch.json",
+      "slug": "receitas-dos-biqunis-de-croch"
     }
   ]
 }
