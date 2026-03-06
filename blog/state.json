@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 15,
+  "published_count": 16,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -105,6 +105,12 @@
       "product_id": 24813717,
       "post_file": "500-moldes-de-eva.json",
       "slug": "500-moldes-de-eva"
+    },
+    {
+      "date": "2026-03-06T02:49:58.981Z",
+      "product_id": 23316749,
+      "post_file": "receitas-dos-vestidos-de-croch.json",
+      "slug": "receitas-dos-vestidos-de-croch"
     }
   ]
 }
