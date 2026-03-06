@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 16,
+  "published_count": 17,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -111,6 +111,12 @@
       "product_id": 23316749,
       "post_file": "receitas-dos-vestidos-de-croch.json",
       "slug": "receitas-dos-vestidos-de-croch"
+    },
+    {
+      "date": "2026-03-06T13:20:39.419Z",
+      "product_id": 22812385,
+      "post_file": "ateli-dos-sapatinhos-chic.json",
+      "slug": "ateli-dos-sapatinhos-chic"
     }
   ]
 }
