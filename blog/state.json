@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 20,
+  "published_count": 21,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -135,6 +135,12 @@
       "product_id": 28471749,
       "post_file": "formas-de-criar-hortas-em-casa.json",
       "slug": "formas-de-criar-hortas-em-casa"
+    },
+    {
+      "date": "2026-03-08T13:11:02.699Z",
+      "product_id": 22476585,
+      "post_file": "curso-de-confeco-de-bolsas-passo-a-passo-2.json",
+      "slug": "curso-de-confeco-de-bolsas-passo-a-passo-2"
     }
   ]
 }
