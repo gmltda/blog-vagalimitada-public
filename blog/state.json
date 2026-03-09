@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 22,
+  "published_count": 23,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -147,6 +147,12 @@
       "product_id": 23315664,
       "post_file": "criao-de-camares-projetos-2.json",
       "slug": "criao-de-camares-projetos-2"
+    },
+    {
+      "date": "2026-03-09T03:14:21.099Z",
+      "product_id": 22476584,
+      "post_file": "2500-modelos-de-croch-2.json",
+      "slug": "2500-modelos-de-croch-2"
     }
   ]
 }
