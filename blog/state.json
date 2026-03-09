@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 23,
+  "published_count": 24,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -153,6 +153,12 @@
       "product_id": 22476584,
       "post_file": "2500-modelos-de-croch-2.json",
       "slug": "2500-modelos-de-croch-2"
+    },
+    {
+      "date": "2026-03-09T19:07:56.426Z",
+      "product_id": 22476583,
+      "post_file": "pacote-de-moldes.json",
+      "slug": "pacote-de-moldes"
     }
   ]
 }
