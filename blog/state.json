@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 29,
+  "published_count": 30,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -189,6 +189,12 @@
       "product_id": 24783372,
       "post_file": "curso-resina-artstica-2.json",
       "slug": "curso-resina-artstica-2"
+    },
+    {
+      "date": "2026-03-12T02:54:06.863Z",
+      "product_id": 23316090,
+      "post_file": "bolsas-de-croch-lucrativas-aulas-3.json",
+      "slug": "bolsas-de-croch-lucrativas-aulas-3"
     }
   ]
 }
