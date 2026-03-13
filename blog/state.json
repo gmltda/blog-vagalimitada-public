@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 31,
+  "published_count": 32,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -201,6 +201,12 @@
       "product_id": 28394753,
       "post_file": "bolsas-praianas-em-croch-2.json",
       "slug": "bolsas-praianas-em-croch-2"
+    },
+    {
+      "date": "2026-03-13T02:51:11.213Z",
+      "product_id": 28471749,
+      "post_file": "formas-de-criar-hortas-em-casa-2.json",
+      "slug": "formas-de-criar-hortas-em-casa-2"
     }
   ]
 }
