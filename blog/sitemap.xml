@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pay.vagalimitada.com/pages/blog</loc>
-    <lastmod>2026-03-13T13:22:48.701-03:00</lastmod>
+    <lastmod>2026-03-13T18:58:42.546-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=ateli-dos-sapatinhos-chic-2</loc>
+    <lastmod>2026-03-13T18:58:42.546-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pay.vagalimitada.com/pages/blogpost?slug=receitas-dos-vestidos-de-croch-2</loc>
