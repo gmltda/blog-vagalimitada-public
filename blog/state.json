@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 36,
+  "published_count": 37,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -231,6 +231,12 @@
       "product_id": 23315664,
       "post_file": "criao-de-camares-projetos-3.json",
       "slug": "criao-de-camares-projetos-3"
+    },
+    {
+      "date": "2026-03-15T03:30:06.367Z",
+      "product_id": 22476583,
+      "post_file": "pacote-de-moldes-2.json",
+      "slug": "pacote-de-moldes-2"
     }
   ]
 }
