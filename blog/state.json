@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 38,
+  "published_count": 39,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -243,6 +243,12 @@
       "product_id": 24040943,
       "post_file": "mtodo-sapatinho-de-ouro-3.json",
       "slug": "mtodo-sapatinho-de-ouro-3"
+    },
+    {
+      "date": "2026-03-15T18:57:42.036Z",
+      "product_id": 23316819,
+      "post_file": "receitas-dos-tapetes-de-croch-3.json",
+      "slug": "receitas-dos-tapetes-de-croch-3"
     }
   ]
 }
