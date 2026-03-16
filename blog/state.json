@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 39,
+  "published_count": 40,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -249,6 +249,12 @@
       "product_id": 23316819,
       "post_file": "receitas-dos-tapetes-de-croch-3.json",
       "slug": "receitas-dos-tapetes-de-croch-3"
+    },
+    {
+      "date": "2026-03-16T13:53:53.210Z",
+      "product_id": 22354760,
+      "post_file": "moldes-feltro-religioso-2.json",
+      "slug": "moldes-feltro-religioso-2"
     }
   ]
 }
