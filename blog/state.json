@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 40,
+  "published_count": 41,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -255,6 +255,12 @@
       "product_id": 22354760,
       "post_file": "moldes-feltro-religioso-2.json",
       "slug": "moldes-feltro-religioso-2"
+    },
+    {
+      "date": "2026-03-16T19:19:32.728Z",
+      "product_id": 22476585,
+      "post_file": "curso-de-confeco-de-bolsas-passo-a-passo-3.json",
+      "slug": "curso-de-confeco-de-bolsas-passo-a-passo-3"
     }
   ]
 }
