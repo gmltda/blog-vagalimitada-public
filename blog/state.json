@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 43,
+  "published_count": 44,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -273,6 +273,12 @@
       "product_id": 22333280,
       "post_file": "moldes-feltro-2.json",
       "slug": "moldes-feltro-2"
+    },
+    {
+      "date": "2026-03-17T19:19:36.865Z",
+      "product_id": 23316749,
+      "post_file": "receitas-dos-vestidos-de-croch-3.json",
+      "slug": "receitas-dos-vestidos-de-croch-3"
     }
   ]
 }
