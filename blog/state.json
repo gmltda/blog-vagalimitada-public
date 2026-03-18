@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 45,
+  "published_count": 46,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -285,6 +285,12 @@
       "product_id": 24783372,
       "post_file": "curso-resina-artstica-3.json",
       "slug": "curso-resina-artstica-3"
+    },
+    {
+      "date": "2026-03-18T13:53:02.621Z",
+      "product_id": 28471749,
+      "post_file": "formas-de-criar-hortas-em-casa-3.json",
+      "slug": "formas-de-criar-hortas-em-casa-3"
     }
   ]
 }
