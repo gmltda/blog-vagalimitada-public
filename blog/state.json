@@ -18,7 +18,7 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 48,
+  "published_count": 49,
   "history": [
     {
       "date": "2026-02-28T05:37:26.989Z",
@@ -303,6 +303,12 @@
       "product_id": 22476584,
       "post_file": "2500-modelos-de-croch-4.json",
       "slug": "2500-modelos-de-croch-4"
+    },
+    {
+      "date": "2026-03-19T19:13:21.994Z",
+      "product_id": 22812385,
+      "post_file": "ateli-dos-sapatinhos-chic-3.json",
+      "slug": "ateli-dos-sapatinhos-chic-3"
     }
   ]
 }
