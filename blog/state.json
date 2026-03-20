@@ -18,12 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 50,
+  "published_count": 51,
   "history": [
-    {
-      "date": "2026-02-28T05:37:26.989Z",
-      "post_file": "undefined-1772257046989.json"
-    },
     {
       "date": "2026-02-28T13:45:14.654Z",
       "post_file": "pacote-moldes.json",
@@ -315,6 +311,12 @@
       "product_id": 23316819,
       "post_file": "receitas-dos-tapetes-de-croch-4.json",
       "slug": "receitas-dos-tapetes-de-croch-4"
+    },
+    {
+      "date": "2026-03-20T13:34:19.279Z",
+      "product_id": 23315664,
+      "post_file": "criao-de-camares-projetos-4.json",
+      "slug": "criao-de-camares-projetos-4"
     }
   ]
 }
