@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 55,
+  "published_count": 56,
   "history": [
-    {
-      "date": "2026-03-01T18:16:19.590Z",
-      "product_id": 22476585,
-      "post_file": "curso-de-confeco-de-bolsas-passo-a-passo.json",
-      "slug": "curso-de-confeco-de-bolsas-passo-a-passo"
-    },
     {
       "date": "2026-03-01T22:26:50.152Z",
       "product_id": 22476584,
@@ -319,6 +313,12 @@
       "product_id": 22333280,
       "post_file": "moldes-feltro-3.json",
       "slug": "moldes-feltro-3"
+    },
+    {
+      "date": "2026-03-22T03:19:52.303Z",
+      "product_id": 24040943,
+      "post_file": "mtodo-sapatinho-de-ouro-4.json",
+      "slug": "mtodo-sapatinho-de-ouro-4"
     }
   ]
 }
