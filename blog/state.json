@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 57,
+  "published_count": 58,
   "history": [
-    {
-      "date": "2026-03-02T19:05:04.934Z",
-      "product_id": 23316090,
-      "post_file": "bolsas-de-croch-lucrativas-aulas.json",
-      "slug": "bolsas-de-croch-lucrativas-aulas"
-    },
     {
       "date": "2026-03-03T03:13:37.544Z",
       "product_id": 24040943,
@@ -319,6 +313,12 @@
       "product_id": 23316749,
       "post_file": "receitas-dos-vestidos-de-croch-4.json",
       "slug": "receitas-dos-vestidos-de-croch-4"
+    },
+    {
+      "date": "2026-03-23T03:22:34.465Z",
+      "product_id": 23316784,
+      "post_file": "receitas-dos-biqunis-de-croch-3.json",
+      "slug": "receitas-dos-biqunis-de-croch-3"
     }
   ]
 }
