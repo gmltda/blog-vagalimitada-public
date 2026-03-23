@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 59,
+  "published_count": 60,
   "history": [
-    {
-      "date": "2026-03-03T13:23:09.870Z",
-      "product_id": 23315664,
-      "post_file": "criao-de-camares-projetos.json",
-      "slug": "criao-de-camares-projetos"
-    },
     {
       "date": "2026-03-03T19:11:11.764Z",
       "product_id": 22354760,
@@ -319,6 +313,12 @@
       "product_id": 22476584,
       "post_file": "2500-modelos-de-croch-5.json",
       "slug": "2500-modelos-de-croch-5"
+    },
+    {
+      "date": "2026-03-23T19:11:01.725Z",
+      "product_id": 24783372,
+      "post_file": "curso-resina-artstica-4.json",
+      "slug": "curso-resina-artstica-4"
     }
   ]
 }
