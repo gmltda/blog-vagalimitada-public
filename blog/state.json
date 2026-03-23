@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 58,
+  "published_count": 59,
   "history": [
-    {
-      "date": "2026-03-03T03:13:37.544Z",
-      "product_id": 24040943,
-      "post_file": "mtodo-sapatinho-de-ouro.json",
-      "slug": "mtodo-sapatinho-de-ouro"
-    },
     {
       "date": "2026-03-03T13:23:09.870Z",
       "product_id": 23315664,
@@ -319,6 +313,12 @@
       "product_id": 23316784,
       "post_file": "receitas-dos-biqunis-de-croch-3.json",
       "slug": "receitas-dos-biqunis-de-croch-3"
+    },
+    {
+      "date": "2026-03-23T13:47:47.824Z",
+      "product_id": 22476584,
+      "post_file": "2500-modelos-de-croch-5.json",
+      "slug": "2500-modelos-de-croch-5"
     }
   ]
 }
