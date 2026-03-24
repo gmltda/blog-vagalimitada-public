@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 62,
+  "published_count": 63,
   "history": [
-    {
-      "date": "2026-03-05T02:51:48.328Z",
-      "product_id": 22333280,
-      "post_file": "moldes-feltro.json",
-      "slug": "moldes-feltro"
-    },
     {
       "date": "2026-03-05T13:36:29.376Z",
       "product_id": 23316784,
@@ -319,6 +313,12 @@
       "product_id": 22812385,
       "post_file": "ateli-dos-sapatinhos-chic-4.json",
       "slug": "ateli-dos-sapatinhos-chic-4"
+    },
+    {
+      "date": "2026-03-24T19:19:52.945Z",
+      "product_id": 22476585,
+      "post_file": "curso-de-confeco-de-bolsas-passo-a-passo-4.json",
+      "slug": "curso-de-confeco-de-bolsas-passo-a-passo-4"
     }
   ]
 }
