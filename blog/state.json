@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 63,
+  "published_count": 64,
   "history": [
-    {
-      "date": "2026-03-05T13:36:29.376Z",
-      "product_id": 23316784,
-      "post_file": "receitas-dos-biqunis-de-croch.json",
-      "slug": "receitas-dos-biqunis-de-croch"
-    },
     {
       "date": "2026-03-05T19:26:09.399Z",
       "product_id": 24813717,
@@ -319,6 +313,12 @@
       "product_id": 22476585,
       "post_file": "curso-de-confeco-de-bolsas-passo-a-passo-4.json",
       "slug": "curso-de-confeco-de-bolsas-passo-a-passo-4"
+    },
+    {
+      "date": "2026-03-25T03:17:21.472Z",
+      "product_id": 28394753,
+      "post_file": "bolsas-praianas-em-croch-4.json",
+      "slug": "bolsas-praianas-em-croch-4"
     }
   ]
 }
