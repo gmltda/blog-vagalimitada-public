@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 64,
+  "published_count": 65,
   "history": [
-    {
-      "date": "2026-03-05T19:26:09.399Z",
-      "product_id": 24813717,
-      "post_file": "500-moldes-de-eva.json",
-      "slug": "500-moldes-de-eva"
-    },
     {
       "date": "2026-03-06T02:49:58.981Z",
       "product_id": 23316749,
@@ -319,6 +313,12 @@
       "product_id": 28394753,
       "post_file": "bolsas-praianas-em-croch-4.json",
       "slug": "bolsas-praianas-em-croch-4"
+    },
+    {
+      "date": "2026-03-25T13:49:04.173Z",
+      "product_id": 23315664,
+      "post_file": "criao-de-camares-projetos-5.json",
+      "slug": "criao-de-camares-projetos-5"
     }
   ]
 }
