@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pay.vagalimitada.com/pages/blog</loc>
-    <lastmod>2026-03-25T19:09:27.851-03:00</lastmod>
+    <lastmod>2026-03-26T03:23:59.885-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=formas-de-criar-hortas-em-casa-4</loc>
+    <lastmod>2026-03-26T03:23:59.885-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pay.vagalimitada.com/pages/blogpost?slug=pacote-de-moldes-4</loc>
