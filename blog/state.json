@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 68,
+  "published_count": 69,
   "history": [
-    {
-      "date": "2026-03-07T13:09:09.413Z",
-      "product_id": 23316090,
-      "post_file": "bolsas-de-croch-lucrativas-aulas-2.json",
-      "slug": "bolsas-de-croch-lucrativas-aulas-2"
-    },
     {
       "date": "2026-03-08T02:55:24.931Z",
       "product_id": 28471749,
@@ -319,6 +313,12 @@
       "product_id": 22354760,
       "post_file": "moldes-feltro-religioso-4.json",
       "slug": "moldes-feltro-religioso-4"
+    },
+    {
+      "date": "2026-03-26T19:22:40.898Z",
+      "product_id": 22333280,
+      "post_file": "moldes-feltro-4.json",
+      "slug": "moldes-feltro-4"
     }
   ]
 }
