@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 69,
+  "published_count": 70,
   "history": [
-    {
-      "date": "2026-03-08T02:55:24.931Z",
-      "product_id": 28471749,
-      "post_file": "formas-de-criar-hortas-em-casa.json",
-      "slug": "formas-de-criar-hortas-em-casa"
-    },
     {
       "date": "2026-03-08T13:11:02.699Z",
       "product_id": 22476585,
@@ -319,6 +313,12 @@
       "product_id": 22333280,
       "post_file": "moldes-feltro-4.json",
       "slug": "moldes-feltro-4"
+    },
+    {
+      "date": "2026-03-27T03:28:04.673Z",
+      "product_id": 22476584,
+      "post_file": "2500-modelos-de-croch-6.json",
+      "slug": "2500-modelos-de-croch-6"
     }
   ]
 }
