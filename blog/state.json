@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 70,
+  "published_count": 71,
   "history": [
-    {
-      "date": "2026-03-08T13:11:02.699Z",
-      "product_id": 22476585,
-      "post_file": "curso-de-confeco-de-bolsas-passo-a-passo-2.json",
-      "slug": "curso-de-confeco-de-bolsas-passo-a-passo-2"
-    },
     {
       "date": "2026-03-08T18:52:17.073Z",
       "product_id": 23315664,
@@ -319,6 +313,12 @@
       "product_id": 22476584,
       "post_file": "2500-modelos-de-croch-6.json",
       "slug": "2500-modelos-de-croch-6"
+    },
+    {
+      "date": "2026-03-27T13:42:23.269Z",
+      "product_id": 23316784,
+      "post_file": "receitas-dos-biqunis-de-croch-4.json",
+      "slug": "receitas-dos-biqunis-de-croch-4"
     }
   ]
 }
