@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 71,
+  "published_count": 72,
   "history": [
-    {
-      "date": "2026-03-08T18:52:17.073Z",
-      "product_id": 23315664,
-      "post_file": "criao-de-camares-projetos-2.json",
-      "slug": "criao-de-camares-projetos-2"
-    },
     {
       "date": "2026-03-09T03:14:21.099Z",
       "product_id": 22476584,
@@ -319,6 +313,12 @@
       "product_id": 23316784,
       "post_file": "receitas-dos-biqunis-de-croch-4.json",
       "slug": "receitas-dos-biqunis-de-croch-4"
+    },
+    {
+      "date": "2026-03-27T19:10:04.405Z",
+      "product_id": 23316749,
+      "post_file": "receitas-dos-vestidos-de-croch-5.json",
+      "slug": "receitas-dos-vestidos-de-croch-5"
     }
   ]
 }
