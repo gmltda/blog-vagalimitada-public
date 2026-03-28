@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 72,
+  "published_count": 73,
   "history": [
-    {
-      "date": "2026-03-09T03:14:21.099Z",
-      "product_id": 22476584,
-      "post_file": "2500-modelos-de-croch-2.json",
-      "slug": "2500-modelos-de-croch-2"
-    },
     {
       "date": "2026-03-09T19:07:56.426Z",
       "product_id": 22476583,
@@ -319,6 +313,12 @@
       "product_id": 23316749,
       "post_file": "receitas-dos-vestidos-de-croch-5.json",
       "slug": "receitas-dos-vestidos-de-croch-5"
+    },
+    {
+      "date": "2026-03-28T03:14:49.791Z",
+      "product_id": 24040943,
+      "post_file": "mtodo-sapatinho-de-ouro-5.json",
+      "slug": "mtodo-sapatinho-de-ouro-5"
     }
   ]
 }
