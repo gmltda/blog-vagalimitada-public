@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 76,
+  "published_count": 77,
   "history": [
-    {
-      "date": "2026-03-10T19:06:05.601Z",
-      "product_id": 24040943,
-      "post_file": "mtodo-sapatinho-de-ouro-2.json",
-      "slug": "mtodo-sapatinho-de-ouro-2"
-    },
     {
       "date": "2026-03-11T02:49:02.231Z",
       "product_id": 24813717,
@@ -319,6 +313,12 @@
       "product_id": 28394753,
       "post_file": "bolsas-praianas-em-croch-5.json",
       "slug": "bolsas-praianas-em-croch-5"
+    },
+    {
+      "date": "2026-03-29T19:01:25.987Z",
+      "product_id": 23316819,
+      "post_file": "receitas-dos-tapetes-de-croch-6.json",
+      "slug": "receitas-dos-tapetes-de-croch-6"
     }
   ]
 }
