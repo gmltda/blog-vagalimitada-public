@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 77,
+  "published_count": 78,
   "history": [
-    {
-      "date": "2026-03-11T02:49:02.231Z",
-      "product_id": 24813717,
-      "post_file": "500-moldes-de-eva-2.json",
-      "slug": "500-moldes-de-eva-2"
-    },
     {
       "date": "2026-03-11T19:08:41.941Z",
       "product_id": 24783372,
@@ -319,6 +313,12 @@
       "product_id": 23316819,
       "post_file": "receitas-dos-tapetes-de-croch-6.json",
       "slug": "receitas-dos-tapetes-de-croch-6"
+    },
+    {
+      "date": "2026-03-30T03:36:22.052Z",
+      "product_id": 23315664,
+      "post_file": "criao-de-camares-projetos-6.json",
+      "slug": "criao-de-camares-projetos-6"
     }
   ]
 }
