@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 80,
+  "published_count": 81,
   "history": [
-    {
-      "date": "2026-03-12T19:09:02.729Z",
-      "product_id": 28394753,
-      "post_file": "bolsas-praianas-em-croch-2.json",
-      "slug": "bolsas-praianas-em-croch-2"
-    },
     {
       "date": "2026-03-13T02:51:11.213Z",
       "product_id": 28471749,
@@ -319,6 +313,12 @@
       "product_id": 24783372,
       "post_file": "curso-resina-artstica-5.json",
       "slug": "curso-resina-artstica-5"
+    },
+    {
+      "date": "2026-03-31T19:17:53.241Z",
+      "product_id": 22812385,
+      "post_file": "ateli-dos-sapatinhos-chic-5.json",
+      "slug": "ateli-dos-sapatinhos-chic-5"
     }
   ]
 }
