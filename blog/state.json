@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 82,
+  "published_count": 83,
   "history": [
-    {
-      "date": "2026-03-13T13:23:58.845Z",
-      "product_id": 23316749,
-      "post_file": "receitas-dos-vestidos-de-croch-2.json",
-      "slug": "receitas-dos-vestidos-de-croch-2"
-    },
     {
       "date": "2026-03-13T18:59:50.214Z",
       "product_id": 22812385,
@@ -319,6 +313,12 @@
       "product_id": 22354760,
       "post_file": "moldes-feltro-religioso-5.json",
       "slug": "moldes-feltro-religioso-5"
+    },
+    {
+      "date": "2026-04-01T14:05:06.433Z",
+      "product_id": 22476584,
+      "post_file": "2500-modelos-de-croch-7.json",
+      "slug": "2500-modelos-de-croch-7"
     }
   ]
 }
