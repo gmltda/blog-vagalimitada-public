@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 86,
+  "published_count": 87,
   "history": [
-    {
-      "date": "2026-03-15T03:30:06.367Z",
-      "product_id": 22476583,
-      "post_file": "pacote-de-moldes-2.json",
-      "slug": "pacote-de-moldes-2"
-    },
     {
       "date": "2026-03-15T13:16:56.131Z",
       "product_id": 24040943,
@@ -319,6 +313,12 @@
       "product_id": 23316090,
       "post_file": "bolsas-de-croch-lucrativas-aulas-6.json",
       "slug": "bolsas-de-croch-lucrativas-aulas-6"
+    },
+    {
+      "date": "2026-04-02T19:13:14.968Z",
+      "product_id": 22333280,
+      "post_file": "moldes-feltro-5.json",
+      "slug": "moldes-feltro-5"
     }
   ]
 }
