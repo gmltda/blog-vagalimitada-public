@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 84,
+  "published_count": 85,
   "history": [
-    {
-      "date": "2026-03-14T02:49:53.697Z",
-      "product_id": 22476584,
-      "post_file": "2500-modelos-de-croch-3.json",
-      "slug": "2500-modelos-de-croch-3"
-    },
     {
       "date": "2026-03-14T18:56:26.620Z",
       "product_id": 23315664,
@@ -319,6 +313,12 @@
       "product_id": 23316784,
       "post_file": "receitas-dos-biqunis-de-croch-5.json",
       "slug": "receitas-dos-biqunis-de-croch-5"
+    },
+    {
+      "date": "2026-04-02T03:24:04.344Z",
+      "product_id": 24813717,
+      "post_file": "500-moldes-de-eva-5.json",
+      "slug": "500-moldes-de-eva-5"
     }
   ]
 }
