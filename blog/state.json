@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 85,
+  "published_count": 86,
   "history": [
-    {
-      "date": "2026-03-14T18:56:26.620Z",
-      "product_id": 23315664,
-      "post_file": "criao-de-camares-projetos-3.json",
-      "slug": "criao-de-camares-projetos-3"
-    },
     {
       "date": "2026-03-15T03:30:06.367Z",
       "product_id": 22476583,
@@ -319,6 +313,12 @@
       "product_id": 24813717,
       "post_file": "500-moldes-de-eva-5.json",
       "slug": "500-moldes-de-eva-5"
+    },
+    {
+      "date": "2026-04-02T13:55:34.678Z",
+      "product_id": 23316090,
+      "post_file": "bolsas-de-croch-lucrativas-aulas-6.json",
+      "slug": "bolsas-de-croch-lucrativas-aulas-6"
     }
   ]
 }
