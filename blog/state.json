@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 87,
+  "published_count": 88,
   "history": [
-    {
-      "date": "2026-03-15T13:16:56.131Z",
-      "product_id": 24040943,
-      "post_file": "mtodo-sapatinho-de-ouro-3.json",
-      "slug": "mtodo-sapatinho-de-ouro-3"
-    },
     {
       "date": "2026-03-15T18:57:42.036Z",
       "product_id": 23316819,
@@ -319,6 +313,12 @@
       "product_id": 22333280,
       "post_file": "moldes-feltro-5.json",
       "slug": "moldes-feltro-5"
+    },
+    {
+      "date": "2026-04-03T19:04:11.648Z",
+      "product_id": 28394753,
+      "post_file": "bolsas-praianas-em-croch-6.json",
+      "slug": "bolsas-praianas-em-croch-6"
     }
   ]
 }
