@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 90,
+  "published_count": 91,
   "history": [
-    {
-      "date": "2026-03-16T19:19:32.728Z",
-      "product_id": 22476585,
-      "post_file": "curso-de-confeco-de-bolsas-passo-a-passo-3.json",
-      "slug": "curso-de-confeco-de-bolsas-passo-a-passo-3"
-    },
     {
       "date": "2026-03-17T02:53:54.549Z",
       "product_id": 28394753,
@@ -319,6 +313,12 @@
       "product_id": 24040943,
       "post_file": "mtodo-sapatinho-de-ouro-6.json",
       "slug": "mtodo-sapatinho-de-ouro-6"
+    },
+    {
+      "date": "2026-04-04T19:01:03.470Z",
+      "product_id": 23316749,
+      "post_file": "receitas-dos-vestidos-de-croch-6.json",
+      "slug": "receitas-dos-vestidos-de-croch-6"
     }
   ]
 }
