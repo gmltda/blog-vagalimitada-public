@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 88,
+  "published_count": 89,
   "history": [
-    {
-      "date": "2026-03-15T18:57:42.036Z",
-      "product_id": 23316819,
-      "post_file": "receitas-dos-tapetes-de-croch-3.json",
-      "slug": "receitas-dos-tapetes-de-croch-3"
-    },
     {
       "date": "2026-03-16T13:53:53.210Z",
       "product_id": 22354760,
@@ -319,6 +313,12 @@
       "product_id": 28394753,
       "post_file": "bolsas-praianas-em-croch-6.json",
       "slug": "bolsas-praianas-em-croch-6"
+    },
+    {
+      "date": "2026-04-04T03:13:31.214Z",
+      "product_id": 28471749,
+      "post_file": "formas-de-criar-hortas-em-casa-5.json",
+      "slug": "formas-de-criar-hortas-em-casa-5"
     }
   ]
 }
