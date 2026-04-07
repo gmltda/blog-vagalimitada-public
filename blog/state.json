@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 98,
+  "published_count": 99,
   "history": [
-    {
-      "date": "2026-03-19T19:13:21.994Z",
-      "product_id": 22812385,
-      "post_file": "ateli-dos-sapatinhos-chic-3.json",
-      "slug": "ateli-dos-sapatinhos-chic-3"
-    },
     {
       "date": "2026-03-20T02:52:59.293Z",
       "product_id": 23316819,
@@ -319,6 +313,12 @@
       "product_id": 22476585,
       "post_file": "curso-de-confeco-de-bolsas-passo-a-passo-5.json",
       "slug": "curso-de-confeco-de-bolsas-passo-a-passo-5"
+    },
+    {
+      "date": "2026-04-07T19:20:58.008Z",
+      "product_id": 28394753,
+      "post_file": "bolsas-praianas-em-croch-7.json",
+      "slug": "bolsas-praianas-em-croch-7"
     }
   ]
 }
