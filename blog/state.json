@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 97,
+  "published_count": 98,
   "history": [
-    {
-      "date": "2026-03-19T13:42:38.014Z",
-      "product_id": 22476584,
-      "post_file": "2500-modelos-de-croch-4.json",
-      "slug": "2500-modelos-de-croch-4"
-    },
     {
       "date": "2026-03-19T19:13:21.994Z",
       "product_id": 22812385,
@@ -319,6 +313,12 @@
       "product_id": 23316819,
       "post_file": "receitas-dos-tapetes-de-croch-7.json",
       "slug": "receitas-dos-tapetes-de-croch-7"
+    },
+    {
+      "date": "2026-04-07T13:59:49.977Z",
+      "product_id": 22476585,
+      "post_file": "curso-de-confeco-de-bolsas-passo-a-passo-5.json",
+      "slug": "curso-de-confeco-de-bolsas-passo-a-passo-5"
     }
   ]
 }
