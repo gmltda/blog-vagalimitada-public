@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 99,
+  "published_count": 100,
   "history": [
-    {
-      "date": "2026-03-20T02:52:59.293Z",
-      "product_id": 23316819,
-      "post_file": "receitas-dos-tapetes-de-croch-4.json",
-      "slug": "receitas-dos-tapetes-de-croch-4"
-    },
     {
       "date": "2026-03-20T13:34:19.279Z",
       "product_id": 23315664,
@@ -319,6 +313,12 @@
       "product_id": 28394753,
       "post_file": "bolsas-praianas-em-croch-7.json",
       "slug": "bolsas-praianas-em-croch-7"
+    },
+    {
+      "date": "2026-04-08T03:30:28.977Z",
+      "product_id": 22476584,
+      "post_file": "2500-modelos-de-croch-8.json",
+      "slug": "2500-modelos-de-croch-8"
     }
   ]
 }
