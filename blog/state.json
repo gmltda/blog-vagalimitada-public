@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 103,
+  "published_count": 104,
   "history": [
-    {
-      "date": "2026-03-21T13:12:21.374Z",
-      "product_id": 22354760,
-      "post_file": "moldes-feltro-religioso-3.json",
-      "slug": "moldes-feltro-religioso-3"
-    },
     {
       "date": "2026-03-21T18:53:38.412Z",
       "product_id": 22333280,
@@ -319,6 +313,12 @@
       "product_id": 28471749,
       "post_file": "formas-de-criar-hortas-em-casa-6.json",
       "slug": "formas-de-criar-hortas-em-casa-6"
+    },
+    {
+      "date": "2026-04-09T19:24:16.134Z",
+      "product_id": 22354760,
+      "post_file": "moldes-feltro-religioso-7.json",
+      "slug": "moldes-feltro-religioso-7"
     }
   ]
 }
