@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 102,
+  "published_count": 103,
   "history": [
-    {
-      "date": "2026-03-21T02:46:54.946Z",
-      "product_id": 23316090,
-      "post_file": "bolsas-de-croch-lucrativas-aulas-4.json",
-      "slug": "bolsas-de-croch-lucrativas-aulas-4"
-    },
     {
       "date": "2026-03-21T13:12:21.374Z",
       "product_id": 22354760,
@@ -319,6 +313,12 @@
       "product_id": 23316749,
       "post_file": "receitas-dos-vestidos-de-croch-7.json",
       "slug": "receitas-dos-vestidos-de-croch-7"
+    },
+    {
+      "date": "2026-04-09T14:11:40.258Z",
+      "product_id": 28471749,
+      "post_file": "formas-de-criar-hortas-em-casa-6.json",
+      "slug": "formas-de-criar-hortas-em-casa-6"
     }
   ]
 }
