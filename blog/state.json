@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 106,
+  "published_count": 107,
   "history": [
-    {
-      "date": "2026-03-22T13:14:50.803Z",
-      "product_id": 23316749,
-      "post_file": "receitas-dos-vestidos-de-croch-4.json",
-      "slug": "receitas-dos-vestidos-de-croch-4"
-    },
     {
       "date": "2026-03-23T03:22:34.465Z",
       "product_id": 23316784,
@@ -319,6 +313,12 @@
       "product_id": 23315664,
       "post_file": "criao-de-camares-projetos-7.json",
       "slug": "criao-de-camares-projetos-7"
+    },
+    {
+      "date": "2026-04-10T19:10:12.362Z",
+      "product_id": 24783372,
+      "post_file": "curso-resina-artstica-7.json",
+      "slug": "curso-resina-artstica-7"
     }
   ]
 }
