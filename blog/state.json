@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 105,
+  "published_count": 106,
   "history": [
-    {
-      "date": "2026-03-22T03:19:52.303Z",
-      "product_id": 24040943,
-      "post_file": "mtodo-sapatinho-de-ouro-4.json",
-      "slug": "mtodo-sapatinho-de-ouro-4"
-    },
     {
       "date": "2026-03-22T13:14:50.803Z",
       "product_id": 23316749,
@@ -319,6 +313,12 @@
       "product_id": 24040943,
       "post_file": "mtodo-sapatinho-de-ouro-7.json",
       "slug": "mtodo-sapatinho-de-ouro-7"
+    },
+    {
+      "date": "2026-04-10T13:49:26.695Z",
+      "product_id": 23315664,
+      "post_file": "criao-de-camares-projetos-7.json",
+      "slug": "criao-de-camares-projetos-7"
     }
   ]
 }
