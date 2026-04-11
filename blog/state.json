@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 107,
+  "published_count": 108,
   "history": [
-    {
-      "date": "2026-03-23T03:22:34.465Z",
-      "product_id": 23316784,
-      "post_file": "receitas-dos-biqunis-de-croch-3.json",
-      "slug": "receitas-dos-biqunis-de-croch-3"
-    },
     {
       "date": "2026-03-23T13:47:47.824Z",
       "product_id": 22476584,
@@ -319,6 +313,12 @@
       "product_id": 24783372,
       "post_file": "curso-resina-artstica-7.json",
       "slug": "curso-resina-artstica-7"
+    },
+    {
+      "date": "2026-04-11T13:22:04.219Z",
+      "product_id": 23316090,
+      "post_file": "bolsas-de-croch-lucrativas-aulas-7.json",
+      "slug": "bolsas-de-croch-lucrativas-aulas-7"
     }
   ]
 }
