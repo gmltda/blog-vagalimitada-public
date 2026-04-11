@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 108,
+  "published_count": 109,
   "history": [
-    {
-      "date": "2026-03-23T13:47:47.824Z",
-      "product_id": 22476584,
-      "post_file": "2500-modelos-de-croch-5.json",
-      "slug": "2500-modelos-de-croch-5"
-    },
     {
       "date": "2026-03-23T19:11:01.725Z",
       "product_id": 24783372,
@@ -319,6 +313,12 @@
       "product_id": 23316090,
       "post_file": "bolsas-de-croch-lucrativas-aulas-7.json",
       "slug": "bolsas-de-croch-lucrativas-aulas-7"
+    },
+    {
+      "date": "2026-04-11T19:03:38.161Z",
+      "product_id": 22476585,
+      "post_file": "curso-de-confeco-de-bolsas-passo-a-passo-6.json",
+      "slug": "curso-de-confeco-de-bolsas-passo-a-passo-6"
     }
   ]
 }
