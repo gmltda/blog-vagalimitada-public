@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 109,
+  "published_count": 110,
   "history": [
-    {
-      "date": "2026-03-23T19:11:01.725Z",
-      "product_id": 24783372,
-      "post_file": "curso-resina-artstica-4.json",
-      "slug": "curso-resina-artstica-4"
-    },
     {
       "date": "2026-03-24T02:54:40.739Z",
       "product_id": 23316819,
@@ -319,6 +313,12 @@
       "product_id": 22476585,
       "post_file": "curso-de-confeco-de-bolsas-passo-a-passo-6.json",
       "slug": "curso-de-confeco-de-bolsas-passo-a-passo-6"
+    },
+    {
+      "date": "2026-04-12T13:33:49.993Z",
+      "product_id": 23316819,
+      "post_file": "receitas-dos-tapetes-de-croch-8.json",
+      "slug": "receitas-dos-tapetes-de-croch-8"
     }
   ]
 }
