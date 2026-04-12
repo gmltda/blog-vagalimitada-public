@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 110,
+  "published_count": 111,
   "history": [
-    {
-      "date": "2026-03-24T02:54:40.739Z",
-      "product_id": 23316819,
-      "post_file": "receitas-dos-tapetes-de-croch-5.json",
-      "slug": "receitas-dos-tapetes-de-croch-5"
-    },
     {
       "date": "2026-03-24T13:49:57.254Z",
       "product_id": 22812385,
@@ -319,6 +313,12 @@
       "product_id": 23316819,
       "post_file": "receitas-dos-tapetes-de-croch-8.json",
       "slug": "receitas-dos-tapetes-de-croch-8"
+    },
+    {
+      "date": "2026-04-12T19:06:00.873Z",
+      "product_id": 22476584,
+      "post_file": "2500-modelos-de-croch-9.json",
+      "slug": "2500-modelos-de-croch-9"
     }
   ]
 }
