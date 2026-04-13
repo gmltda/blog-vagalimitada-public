@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 111,
+  "published_count": 112,
   "history": [
-    {
-      "date": "2026-03-24T13:49:57.254Z",
-      "product_id": 22812385,
-      "post_file": "ateli-dos-sapatinhos-chic-4.json",
-      "slug": "ateli-dos-sapatinhos-chic-4"
-    },
     {
       "date": "2026-03-24T19:19:52.945Z",
       "product_id": 22476585,
@@ -319,6 +313,12 @@
       "product_id": 22476584,
       "post_file": "2500-modelos-de-croch-9.json",
       "slug": "2500-modelos-de-croch-9"
+    },
+    {
+      "date": "2026-04-13T03:50:19.366Z",
+      "product_id": 28394753,
+      "post_file": "bolsas-praianas-em-croch-8.json",
+      "slug": "bolsas-praianas-em-croch-8"
     }
   ]
 }
