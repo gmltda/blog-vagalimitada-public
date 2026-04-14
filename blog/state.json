@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 115,
+  "published_count": 116,
   "history": [
-    {
-      "date": "2026-03-25T19:11:04.733Z",
-      "product_id": 22476583,
-      "post_file": "pacote-de-moldes-4.json",
-      "slug": "pacote-de-moldes-4"
-    },
     {
       "date": "2026-03-26T03:25:07.014Z",
       "product_id": 28471749,
@@ -319,6 +313,12 @@
       "product_id": 22333280,
       "post_file": "moldes-feltro-6.json",
       "slug": "moldes-feltro-6"
+    },
+    {
+      "date": "2026-04-14T19:39:48.779Z",
+      "product_id": 22354760,
+      "post_file": "moldes-feltro-religioso-8.json",
+      "slug": "moldes-feltro-religioso-8"
     }
   ]
 }
