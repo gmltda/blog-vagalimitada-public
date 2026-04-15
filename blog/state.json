@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 117,
+  "published_count": 118,
   "history": [
-    {
-      "date": "2026-03-26T13:57:36.709Z",
-      "product_id": 22354760,
-      "post_file": "moldes-feltro-religioso-4.json",
-      "slug": "moldes-feltro-religioso-4"
-    },
     {
       "date": "2026-03-26T19:22:40.898Z",
       "product_id": 22333280,
@@ -319,6 +313,12 @@
       "product_id": 24040943,
       "post_file": "mtodo-sapatinho-de-ouro-8.json",
       "slug": "mtodo-sapatinho-de-ouro-8"
+    },
+    {
+      "date": "2026-04-15T14:03:56.309Z",
+      "product_id": 24783372,
+      "post_file": "curso-resina-artstica-8.json",
+      "slug": "curso-resina-artstica-8"
     }
   ]
 }
