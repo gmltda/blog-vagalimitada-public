@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 118,
+  "published_count": 119,
   "history": [
-    {
-      "date": "2026-03-26T19:22:40.898Z",
-      "product_id": 22333280,
-      "post_file": "moldes-feltro-4.json",
-      "slug": "moldes-feltro-4"
-    },
     {
       "date": "2026-03-27T03:28:04.673Z",
       "product_id": 22476584,
@@ -319,6 +313,12 @@
       "product_id": 24783372,
       "post_file": "curso-resina-artstica-8.json",
       "slug": "curso-resina-artstica-8"
+    },
+    {
+      "date": "2026-04-15T19:42:29.000Z",
+      "product_id": 23316749,
+      "post_file": "receitas-dos-vestidos-de-croch-8.json",
+      "slug": "receitas-dos-vestidos-de-croch-8"
     }
   ]
 }
