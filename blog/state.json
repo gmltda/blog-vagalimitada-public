@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 121,
+  "published_count": 122,
   "history": [
-    {
-      "date": "2026-03-27T19:10:04.405Z",
-      "product_id": 23316749,
-      "post_file": "receitas-dos-vestidos-de-croch-5.json",
-      "slug": "receitas-dos-vestidos-de-croch-5"
-    },
     {
       "date": "2026-03-28T03:14:49.791Z",
       "product_id": 24040943,
@@ -319,6 +313,12 @@
       "product_id": 29493934,
       "post_file": "stitchnova-mtodo-completo-de-bordado-com-preciso-profissional.json",
       "slug": "stitchnova-mtodo-completo-de-bordado-com-preciso-profissional"
+    },
+    {
+      "date": "2026-04-17T19:17:43.450Z",
+      "product_id": 23316090,
+      "post_file": "bolsas-de-croch-lucrativas-aulas-8.json",
+      "slug": "bolsas-de-croch-lucrativas-aulas-8"
     }
   ]
 }
