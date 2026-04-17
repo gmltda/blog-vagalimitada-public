@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 120,
+  "published_count": 121,
   "history": [
-    {
-      "date": "2026-03-27T13:42:23.269Z",
-      "product_id": 23316784,
-      "post_file": "receitas-dos-biqunis-de-croch-4.json",
-      "slug": "receitas-dos-biqunis-de-croch-4"
-    },
     {
       "date": "2026-03-27T19:10:04.405Z",
       "product_id": 23316749,
@@ -319,6 +313,12 @@
       "product_id": 28471749,
       "post_file": "formas-de-criar-hortas-em-casa-7.json",
       "slug": "formas-de-criar-hortas-em-casa-7"
+    },
+    {
+      "date": "2026-04-17T03:40:29.201Z",
+      "product_id": 29493934,
+      "post_file": "stitchnova-mtodo-completo-de-bordado-com-preciso-profissional.json",
+      "slug": "stitchnova-mtodo-completo-de-bordado-com-preciso-profissional"
     }
   ]
 }
