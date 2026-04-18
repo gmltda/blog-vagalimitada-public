@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 124,
+  "published_count": 125,
   "history": [
-    {
-      "date": "2026-03-29T03:33:29.850Z",
-      "product_id": 23316090,
-      "post_file": "bolsas-de-croch-lucrativas-aulas-5.json",
-      "slug": "bolsas-de-croch-lucrativas-aulas-5"
-    },
     {
       "date": "2026-03-29T13:19:57.659Z",
       "product_id": 28394753,
@@ -319,6 +313,12 @@
       "product_id": 22476585,
       "post_file": "curso-de-confeco-de-bolsas-passo-a-passo-7.json",
       "slug": "curso-de-confeco-de-bolsas-passo-a-passo-7"
+    },
+    {
+      "date": "2026-04-18T19:07:12.868Z",
+      "product_id": 29487868,
+      "post_file": "kit-caneta-de-bordado-curso-completo-de-bordado-2.json",
+      "slug": "kit-caneta-de-bordado-curso-completo-de-bordado-2"
     }
   ]
 }
