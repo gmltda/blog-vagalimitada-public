@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 125,
+  "published_count": 126,
   "history": [
-    {
-      "date": "2026-03-29T13:19:57.659Z",
-      "product_id": 28394753,
-      "post_file": "bolsas-praianas-em-croch-5.json",
-      "slug": "bolsas-praianas-em-croch-5"
-    },
     {
       "date": "2026-03-29T19:01:25.987Z",
       "product_id": 23316819,
@@ -319,6 +313,12 @@
       "product_id": 29487868,
       "post_file": "kit-caneta-de-bordado-curso-completo-de-bordado-2.json",
       "slug": "kit-caneta-de-bordado-curso-completo-de-bordado-2"
+    },
+    {
+      "date": "2026-04-19T03:47:52.917Z",
+      "product_id": 23316784,
+      "post_file": "receitas-dos-biqunis-de-croch-8.json",
+      "slug": "receitas-dos-biqunis-de-croch-8"
     }
   ]
 }
