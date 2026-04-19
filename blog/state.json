@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 126,
+  "published_count": 127,
   "history": [
-    {
-      "date": "2026-03-29T19:01:25.987Z",
-      "product_id": 23316819,
-      "post_file": "receitas-dos-tapetes-de-croch-6.json",
-      "slug": "receitas-dos-tapetes-de-croch-6"
-    },
     {
       "date": "2026-03-30T03:36:22.052Z",
       "product_id": 23315664,
@@ -319,6 +313,12 @@
       "product_id": 23316784,
       "post_file": "receitas-dos-biqunis-de-croch-8.json",
       "slug": "receitas-dos-biqunis-de-croch-8"
+    },
+    {
+      "date": "2026-04-19T13:33:57.217Z",
+      "product_id": 29487985,
+      "post_file": "super-receitas-donuts-americanos.json",
+      "slug": "super-receitas-donuts-americanos"
     }
   ]
 }
