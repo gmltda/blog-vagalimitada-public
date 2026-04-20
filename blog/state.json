@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 128,
+  "published_count": 129,
   "history": [
-    {
-      "date": "2026-03-30T14:02:09.536Z",
-      "product_id": 22476583,
-      "post_file": "pacote-de-moldes-5.json",
-      "slug": "pacote-de-moldes-5"
-    },
     {
       "date": "2026-03-31T14:02:45.408Z",
       "product_id": 24783372,
@@ -319,6 +313,12 @@
       "product_id": 22476584,
       "post_file": "2500-modelos-de-croch-10.json",
       "slug": "2500-modelos-de-croch-10"
+    },
+    {
+      "date": "2026-04-20T14:09:36.131Z",
+      "product_id": 23315664,
+      "post_file": "criao-de-camares-projetos-8.json",
+      "slug": "criao-de-camares-projetos-8"
     }
   ]
 }
