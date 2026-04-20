@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 129,
+  "published_count": 130,
   "history": [
-    {
-      "date": "2026-03-31T14:02:45.408Z",
-      "product_id": 24783372,
-      "post_file": "curso-resina-artstica-5.json",
-      "slug": "curso-resina-artstica-5"
-    },
     {
       "date": "2026-03-31T19:17:53.241Z",
       "product_id": 22812385,
@@ -319,6 +313,12 @@
       "product_id": 23315664,
       "post_file": "criao-de-camares-projetos-8.json",
       "slug": "criao-de-camares-projetos-8"
+    },
+    {
+      "date": "2026-04-20T19:22:24.136Z",
+      "product_id": 22476583,
+      "post_file": "pacote-de-moldes-7.json",
+      "slug": "pacote-de-moldes-7"
     }
   ]
 }
