@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 131,
+  "published_count": 132,
   "history": [
-    {
-      "date": "2026-04-01T03:39:22.131Z",
-      "product_id": 22354760,
-      "post_file": "moldes-feltro-religioso-5.json",
-      "slug": "moldes-feltro-religioso-5"
-    },
     {
       "date": "2026-04-01T14:05:06.433Z",
       "product_id": 22476584,
@@ -319,6 +313,12 @@
       "product_id": 24040943,
       "post_file": "mtodo-sapatinho-de-ouro-9.json",
       "slug": "mtodo-sapatinho-de-ouro-9"
+    },
+    {
+      "date": "2026-04-21T14:07:33.784Z",
+      "product_id": 23316819,
+      "post_file": "receitas-dos-tapetes-de-croch-9.json",
+      "slug": "receitas-dos-tapetes-de-croch-9"
     }
   ]
 }
