@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 130,
+  "published_count": 131,
   "history": [
-    {
-      "date": "2026-03-31T19:17:53.241Z",
-      "product_id": 22812385,
-      "post_file": "ateli-dos-sapatinhos-chic-5.json",
-      "slug": "ateli-dos-sapatinhos-chic-5"
-    },
     {
       "date": "2026-04-01T03:39:22.131Z",
       "product_id": 22354760,
@@ -319,6 +313,12 @@
       "product_id": 22476583,
       "post_file": "pacote-de-moldes-7.json",
       "slug": "pacote-de-moldes-7"
+    },
+    {
+      "date": "2026-04-21T03:42:45.330Z",
+      "product_id": 24040943,
+      "post_file": "mtodo-sapatinho-de-ouro-9.json",
+      "slug": "mtodo-sapatinho-de-ouro-9"
     }
   ]
 }
