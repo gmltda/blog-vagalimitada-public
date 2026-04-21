@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 132,
+  "published_count": 133,
   "history": [
-    {
-      "date": "2026-04-01T14:05:06.433Z",
-      "product_id": 22476584,
-      "post_file": "2500-modelos-de-croch-7.json",
-      "slug": "2500-modelos-de-croch-7"
-    },
     {
       "date": "2026-04-01T19:19:46.597Z",
       "product_id": 23316784,
@@ -319,6 +313,12 @@
       "product_id": 23316819,
       "post_file": "receitas-dos-tapetes-de-croch-9.json",
       "slug": "receitas-dos-tapetes-de-croch-9"
+    },
+    {
+      "date": "2026-04-21T19:36:09.726Z",
+      "product_id": 22812385,
+      "post_file": "ateli-dos-sapatinhos-chic-7.json",
+      "slug": "ateli-dos-sapatinhos-chic-7"
     }
   ]
 }
