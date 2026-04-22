@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 133,
+  "published_count": 134,
   "history": [
-    {
-      "date": "2026-04-01T19:19:46.597Z",
-      "product_id": 23316784,
-      "post_file": "receitas-dos-biqunis-de-croch-5.json",
-      "slug": "receitas-dos-biqunis-de-croch-5"
-    },
     {
       "date": "2026-04-02T03:24:04.344Z",
       "product_id": 24813717,
@@ -319,6 +313,12 @@
       "product_id": 22812385,
       "post_file": "ateli-dos-sapatinhos-chic-7.json",
       "slug": "ateli-dos-sapatinhos-chic-7"
+    },
+    {
+      "date": "2026-04-22T03:37:53.583Z",
+      "product_id": 28471749,
+      "post_file": "formas-de-criar-hortas-em-casa-8.json",
+      "slug": "formas-de-criar-hortas-em-casa-8"
     }
   ]
 }
