@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 134,
+  "published_count": 135,
   "history": [
-    {
-      "date": "2026-04-02T03:24:04.344Z",
-      "product_id": 24813717,
-      "post_file": "500-moldes-de-eva-5.json",
-      "slug": "500-moldes-de-eva-5"
-    },
     {
       "date": "2026-04-02T13:55:34.678Z",
       "product_id": 23316090,
@@ -319,6 +313,12 @@
       "product_id": 28471749,
       "post_file": "formas-de-criar-hortas-em-casa-8.json",
       "slug": "formas-de-criar-hortas-em-casa-8"
+    },
+    {
+      "date": "2026-04-22T19:37:56.697Z",
+      "product_id": 23316749,
+      "post_file": "receitas-dos-vestidos-de-croch-9.json",
+      "slug": "receitas-dos-vestidos-de-croch-9"
     }
   ]
 }
