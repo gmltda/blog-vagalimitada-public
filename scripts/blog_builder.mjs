@@ -296,6 +296,16 @@ function readPosts() {
         modified = true;
       }
 
+      if (post.cover && !post.cover_absolute) {
+        post.cover_absolute = absolutizeAssetUrl(post.cover);
+        modified = true;
+      }
+
+      if (!post.canonical_url && post.slug) {
+        post.canonical_url = `${baseUrl}/pages/blogpost?slug=${post.slug}`;
+        modified = true;
+      }
+
       const normalizedStatus = normalizeStatus(post.status);
       if (post.status !== normalizedStatus) {
         post.status = normalizedStatus;
@@ -339,16 +349,22 @@ function onlyPublished(posts) {
 }
 
 export function buildIndex(posts) {
-  const index = posts.map(post => ({
-    id: post.id,
-    slug: post.slug,
-    title: post.title,
-    date: post.date_iso,
-    date_display: post.date_display,
-    tags: post.tags || [],
-    cover: post.cover,
-    excerpt: post.excerpt
-  }));
+  const index = posts.map(post => {
+    const coverAbsolute = post.cover_absolute || (post.cover ? absolutizeAssetUrl(post.cover) : '');
+    const canonicalUrl = post.canonical_url || `${baseUrl}/pages/blogpost?slug=${post.slug}`;
+    return {
+      id: post.id,
+      slug: post.slug,
+      title: post.title,
+      date: post.date_iso,
+      date_display: post.date_display,
+      tags: post.tags || [],
+      cover: post.cover,
+      cover_absolute: coverAbsolute,
+      canonical_url: canonicalUrl,
+      excerpt: post.excerpt
+    };
+  });
   fs.writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2));
   console.log(`Successfully built blog/index.json with ${index.length} posts.`);
 }
