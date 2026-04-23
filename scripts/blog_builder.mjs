@@ -365,9 +365,9 @@ export function buildIndex(posts) {
       canonical_url: canonicalUrl,
       reading_time_min: post.reading_time_min || null, // #33
       excerpt: post.excerpt,
-      // #12, #17, #18 — pass-through OG/Twitter meta for the frontend head renderer.
-      og: post.og || null,
-      twitter: post.twitter || null
+      // #12, #18 — pass-through OG meta for the frontend head renderer.
+      // Twitter Cards removidos: não há conta Twitter/X ativa.
+      og: post.og || null
     };
   });
   fs.writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2));
