@@ -2,9 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://pay.vagalimitada.com/pages/blog</loc>
-    <lastmod>2026-04-23T17:30:26.416-03:00</lastmod>
+    <lastmod>2026-04-23T20:04:01.605-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=curso-de-confeccao-de-bolsas</loc>
+    <lastmod>2026-04-23T20:04:01.605-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://assets.vagalimitada.com/blog/assets/generated/curso-de-confeccao-de-bolsas/cover-unsplash-handmade-fabric-bags-on-.jpg</image:loc>
+      <image:title>Curso de Confecção de Bolsas: Aprenda Passo a Passo em 2026</image:title>
+      <image:caption>Descubra como fazer bolsas incríveis com nosso curso de confecção passo a passo. Inscreva-se agora!</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://pay.vagalimitada.com/pages/blogpost?slug=modelos-de-croche-para-iniciantes</loc>

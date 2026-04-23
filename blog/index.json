@@ -1,5 +1,45 @@
 [
   {
+    "id": "curso-de-confeccao-de-bolsas",
+    "slug": "curso-de-confeccao-de-bolsas",
+    "title": "Curso de Confecção de Bolsas: Aprenda Passo a Passo em 2026",
+    "date": "2026-04-23T20:04:01.605-03:00",
+    "updated_at": "2026-04-23T20:04:01.605-03:00",
+    "date_display": "23/04/2026 às 20:04",
+    "tags": [
+      "curso de costura",
+      "bolsas artesanais",
+      "costura criativa",
+      "artesanato"
+    ],
+    "cover": "assets/generated/curso-de-confeccao-de-bolsas/cover-unsplash-handmade-fabric-bags-on-.jpg",
+    "cover_absolute": "https://assets.vagalimitada.com/blog/assets/generated/curso-de-confeccao-de-bolsas/cover-unsplash-handmade-fabric-bags-on-.jpg",
+    "canonical_url": "https://vagalimitada.com/curso-de-confeccao-de-bolsas/",
+    "reading_time_min": 5,
+    "excerpt": "Descubra como fazer bolsas incríveis com nosso curso de confecção passo a passo. Inscreva-se agora!",
+    "og": {
+      "title": "Curso de Confecção de Bolsas | Vaga Limitada",
+      "description": "Aprenda a criar bolsas incríveis com nosso curso passo a passo. Domine a costura criativa e comece hoje mesmo!",
+      "image": "https://assets.vagalimitada.com/blog/assets/generated/curso-de-confeccao-de-bolsas-passo-a-passo/cover-unsplash-handmade-fabric-bags-on-.jpg",
+      "image_width": 1200,
+      "image_height": 630,
+      "image_alt": "bolsas de tecido artesanal em uma mesa de costura",
+      "type": "article",
+      "locale": "pt_BR",
+      "site_name": "Vaga Limitada",
+      "url": "https://vagalimitada.com/curso-de-confeccao-de-bolsas/",
+      "article_section": "Costura",
+      "article_published_time": "2026-04-23T20:04:01.605-03:00",
+      "article_modified_time": "2026-04-23T20:04:01.605-03:00",
+      "article_tags": [
+        "curso de costura",
+        "bolsas artesanais",
+        "costura criativa",
+        "artesanato"
+      ]
+    }
+  },
+  {
     "id": "modelos-de-croche-para-iniciantes",
     "slug": "modelos-de-croche-para-iniciantes",
     "title": "Modelos de Crochê para Iniciantes: +2500 Receitas e Ideias Criativas",

@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 139,
+  "published_count": 140,
   "history": [
-    {
-      "date": "2026-04-04T13:20:33.442Z",
-      "product_id": 24040943,
-      "post_file": "mtodo-sapatinho-de-ouro-6.json",
-      "slug": "mtodo-sapatinho-de-ouro-6"
-    },
     {
       "date": "2026-04-04T19:01:03.470Z",
       "product_id": 23316749,
@@ -319,6 +313,12 @@
       "product_id": 22476584,
       "post_file": "modelos-de-croche-para-iniciantes.json",
       "slug": "modelos-de-croche-para-iniciantes"
+    },
+    {
+      "date": "2026-04-23T23:05:08.757Z",
+      "product_id": 22476585,
+      "post_file": "curso-de-confeccao-de-bolsas.json",
+      "slug": "curso-de-confeccao-de-bolsas"
     }
   ],
   "wp_posts": {

@@ -50,5 +50,18 @@
       "calls": 2
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-04-23T23:05:33.173Z",
+    "duration_ms": 92279,
+    "slug": "curso-de-confeccao-de-bolsas",
+    "product_id": 22476585,
+    "openai": {
+      "prompt_tokens": 3934,
+      "completion_tokens": 3475,
+      "cost_usd": 0.0026750999999999997,
+      "calls": 2
+    },
+    "status": "ok"
   }
 ]
