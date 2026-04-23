@@ -11,5 +11,18 @@
       "calls": 2
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-04-23T15:55:17.218Z",
+    "duration_ms": 81044,
+    "slug": "500-moldes-de-eva-7",
+    "product_id": 24813717,
+    "openai": {
+      "prompt_tokens": 3781,
+      "completion_tokens": 3694,
+      "cost_usd": 0.0027835499999999997,
+      "calls": 2
+    },
+    "status": "ok"
   }
 ]

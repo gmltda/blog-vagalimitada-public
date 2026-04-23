@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 136,
+  "published_count": 137,
   "history": [
-    {
-      "date": "2026-04-02T19:13:14.968Z",
-      "product_id": 22333280,
-      "post_file": "moldes-feltro-5.json",
-      "slug": "moldes-feltro-5"
-    },
     {
       "date": "2026-04-03T19:04:11.648Z",
       "product_id": 28394753,
@@ -319,6 +313,30 @@
       "product_id": 29487868,
       "post_file": "kit-caneta-de-bordado-curso-completo-de-bordado-3.json",
       "slug": "kit-caneta-de-bordado-curso-completo-de-bordado-3"
+    },
+    {
+      "date": "2026-04-23T15:55:13.368Z",
+      "product_id": 24813717,
+      "post_file": "500-moldes-de-eva-7.json",
+      "slug": "500-moldes-de-eva-7"
     }
-  ]
+  ],
+  "wp_posts": {
+    "500-moldes-de-eva-7": {
+      "wp_url": "https://vagalimitada.com/500-moldes-de-eva-7/",
+      "wp_post_id": 2501,
+      "title": "500 Moldes de E.V.A para Criar Peças Incríveis | Tutorial Completo",
+      "tags": [
+        "E.V.A",
+        "artesanato",
+        "volta às aulas",
+        "moldes grátis"
+      ],
+      "niche": "Artesanato com E.V.A",
+      "primary_keyword": "moldes de E.V.A para iniciantes",
+      "content_angle": "Aprenda a utilizar 500 moldes de E.V.A para criar peças personalizadas e práticas para a volta às aulas.",
+      "editorial_type": "tutorial_passo",
+      "published_at": "2026-04-23T15:55:17.217Z"
+    }
+  }
 }
