@@ -357,38 +357,67 @@ export function buildIndex(posts) {
       slug: post.slug,
       title: post.title,
       date: post.date_iso,
+      updated_at: post.updated_at || post.date_iso, // #11
       date_display: post.date_display,
       tags: post.tags || [],
       cover: post.cover,
       cover_absolute: coverAbsolute,
       canonical_url: canonicalUrl,
-      excerpt: post.excerpt
+      reading_time_min: post.reading_time_min || null, // #33
+      excerpt: post.excerpt,
+      // #12, #17, #18 — pass-through OG/Twitter meta for the frontend head renderer.
+      og: post.og || null,
+      twitter: post.twitter || null
     };
   });
   fs.writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2));
   console.log(`Successfully built blog/index.json with ${index.length} posts.`);
 }
 
+function xmlEscape(s) {
+  return String(s || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+// #10 RSS with content:encoded + enclosure for cover image.
 export function buildRss(posts) {
   const lastBuildDate = new Date().toUTCString();
   let xml = '<?xml version="1.0" encoding="UTF-8" ?>\n';
-  xml += '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n';
+  xml += '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">\n';
   xml += '  <channel>\n';
   xml += '    <title>Blog VagaLimitada</title>\n';
   xml += `    <link>${baseUrl}/pages/blog</link>\n`;
   xml += '    <description>Moldes, Costura, Crochê e Dicas Profissionais</description>\n';
+  xml += '    <language>pt-BR</language>\n';
   xml += `    <lastBuildDate>${lastBuildDate}</lastBuildDate>\n`;
   xml += `    <atom:link href="${baseUrl}/blog/rss.xml" rel="self" type="application/rss+xml" />\n`;
 
   for (const post of posts) {
     const postUrl = `${baseUrl}/pages/blogpost?slug=${post.slug}`;
     const pubDate = new Date(getPostDate(post)).toUTCString();
+    const coverAbs = post.cover_absolute || (post.cover ? absolutizeAssetUrl(post.cover) : '');
+    const fullHtml = rewriteHtmlAssets(post.content_html || '');
     xml += '    <item>\n';
-    xml += `      <title>${post.title}</title>\n`;
+    xml += `      <title>${xmlEscape(post.title)}</title>\n`;
     xml += `      <link>${postUrl}</link>\n`;
-    xml += `      <guid>${postUrl}</guid>\n`;
+    xml += `      <guid isPermaLink="true">${postUrl}</guid>\n`;
     xml += `      <pubDate>${pubDate}</pubDate>\n`;
-    xml += `      <description>${post.excerpt}</description>\n`;
+    xml += `      <dc:creator>${xmlEscape(post.author || 'Equipe Vaga Limitada')}</dc:creator>\n`;
+    xml += `      <description>${xmlEscape(post.excerpt || '')}</description>\n`;
+    if (fullHtml) {
+      xml += `      <content:encoded><![CDATA[${fullHtml}]]></content:encoded>\n`;
+    }
+    (post.tags || []).forEach(t => {
+      xml += `      <category>${xmlEscape(t)}</category>\n`;
+    });
+    if (coverAbs) {
+      const mime = coverAbs.endsWith('.webp') ? 'image/webp' : (coverAbs.endsWith('.png') ? 'image/png' : 'image/jpeg');
+      xml += `      <enclosure url="${coverAbs}" type="${mime}" length="0" />\n`;
+    }
     xml += '    </item>\n';
   }
 
@@ -398,24 +427,33 @@ export function buildRss(posts) {
   console.log(`Successfully built blog/rss.xml with ${posts.length} items.`);
 }
 
+// #9 Sitemap with image:image extension and updated_at precedence.
 export function buildSitemap(posts) {
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
-  xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+  xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n';
   xml += '  <url>\n';
   xml += `    <loc>${baseUrl}/pages/blog</loc>\n`;
   if (posts.length > 0) {
-    xml += `    <lastmod>${getPostDate(posts[0])}</lastmod>\n`;
+    xml += `    <lastmod>${posts[0].updated_at || getPostDate(posts[0])}</lastmod>\n`;
   }
   xml += '    <changefreq>daily</changefreq>\n';
   xml += '    <priority>1.0</priority>\n';
   xml += '  </url>\n';
 
   for (const post of posts) {
+    const coverAbs = post.cover_absolute || (post.cover ? absolutizeAssetUrl(post.cover) : '');
     xml += '  <url>\n';
     xml += `    <loc>${baseUrl}/pages/blogpost?slug=${post.slug}</loc>\n`;
-    xml += `    <lastmod>${getPostDate(post)}</lastmod>\n`;
+    xml += `    <lastmod>${post.updated_at || getPostDate(post)}</lastmod>\n`;
     xml += '    <changefreq>monthly</changefreq>\n';
     xml += '    <priority>0.8</priority>\n';
+    if (coverAbs) {
+      xml += '    <image:image>\n';
+      xml += `      <image:loc>${coverAbs}</image:loc>\n`;
+      xml += `      <image:title>${xmlEscape(post.title)}</image:title>\n`;
+      if (post.excerpt) xml += `      <image:caption>${xmlEscape(post.excerpt)}</image:caption>\n`;
+      xml += '    </image:image>\n';
+    }
     xml += '  </url>\n';
   }
 
