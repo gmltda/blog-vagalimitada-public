@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 138,
+  "published_count": 139,
   "history": [
-    {
-      "date": "2026-04-04T03:13:31.214Z",
-      "product_id": 28471749,
-      "post_file": "formas-de-criar-hortas-em-casa-5.json",
-      "slug": "formas-de-criar-hortas-em-casa-5"
-    },
     {
       "date": "2026-04-04T13:20:33.442Z",
       "product_id": 24040943,
@@ -319,6 +313,12 @@
       "product_id": 23316090,
       "post_file": "bolsas-de-croch-lucrativas-aulas-9.json",
       "slug": "bolsas-de-croch-lucrativas-aulas-9"
+    },
+    {
+      "date": "2026-04-23T20:31:59.179Z",
+      "product_id": 22476584,
+      "post_file": "modelos-de-croche-para-iniciantes.json",
+      "slug": "modelos-de-croche-para-iniciantes"
     }
   ],
   "wp_posts": {

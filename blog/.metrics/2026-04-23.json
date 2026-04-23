@@ -37,5 +37,18 @@
       "calls": 2
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-04-23T20:32:01.440Z",
+    "duration_ms": 95725,
+    "slug": "modelos-de-croche-para-iniciantes",
+    "product_id": 22476584,
+    "openai": {
+      "prompt_tokens": 3936,
+      "completion_tokens": 3565,
+      "cost_usd": 0.0027294,
+      "calls": 2
+    },
+    "status": "ok"
   }
 ]
