@@ -24,5 +24,18 @@
       "calls": 2
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-04-23T19:39:08.548Z",
+    "duration_ms": 93546,
+    "slug": "bolsas-de-croch-lucrativas-aulas-9",
+    "product_id": 23316090,
+    "openai": {
+      "prompt_tokens": 3795,
+      "completion_tokens": 3708,
+      "cost_usd": 0.0027940499999999993,
+      "calls": 2
+    },
+    "status": "ok"
   }
 ]

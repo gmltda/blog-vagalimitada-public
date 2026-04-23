@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 137,
+  "published_count": 138,
   "history": [
-    {
-      "date": "2026-04-03T19:04:11.648Z",
-      "product_id": 28394753,
-      "post_file": "bolsas-praianas-em-croch-6.json",
-      "slug": "bolsas-praianas-em-croch-6"
-    },
     {
       "date": "2026-04-04T03:13:31.214Z",
       "product_id": 28471749,
@@ -319,6 +313,12 @@
       "product_id": 24813717,
       "post_file": "500-moldes-de-eva-7.json",
       "slug": "500-moldes-de-eva-7"
+    },
+    {
+      "date": "2026-04-23T19:39:06.838Z",
+      "product_id": 23316090,
+      "post_file": "bolsas-de-croch-lucrativas-aulas-9.json",
+      "slug": "bolsas-de-croch-lucrativas-aulas-9"
     }
   ],
   "wp_posts": {
