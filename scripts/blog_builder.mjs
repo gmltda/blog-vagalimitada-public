@@ -147,7 +147,9 @@ function enrichMaterialsUlWithThumbs(html, shopeeItems, slug) {
         if (!keyword) return false;
         return keyword.includes(nameNormalized) || nameNormalized.includes(keyword);
       });
-      const imageUrl = candidate?.image_url ? absolutizeAssetUrl(candidate.image_url) : `${BLOG_ASSETS_ORIGIN}/blog/assets/ui/placeholder-item.jpg`;
+      // Se não houver imagem real do Shopee, NÃO injetar placeholder cinza (fica feio no WP e no blog).
+      // Deixar sem thumbnail quando não há match — o CSS cuida de layout com/sem thumb via classe has-thumb/no-thumb.
+      const imageUrl = candidate?.image_url ? absolutizeAssetUrl(candidate.image_url) : null;
       const offerUrl = candidate?.offer_url && isValidHttpUrl(candidate.offer_url) ? candidate.offer_url : null;
       const searchUrl = candidate?.search_url && isValidHttpUrl(candidate.search_url)
         ? candidate.search_url
@@ -177,7 +179,8 @@ function enrichMaterialsUlWithThumbs(html, shopeeItems, slug) {
           const body = `<div class="material-body">${inner}</div>`;
           const liClass = hasImage ? 'material-li has-thumb' : 'material-li no-thumb';
           if (hasThumb) return `<li class="${liClass}">${body}</li>`;
-          const thumb = hasImage || imageUrl
+          // Só injeta thumbnail quando houver imagem real; sem imagem, apenas o corpo (no-thumb).
+          const thumb = imageUrl
             ? `<img class="material-thumb" src="${imageUrl}" alt="${nameLabel || 'Material'}" loading="lazy" onerror="this.remove()">`
             : '';
           return `<li class="${liClass}">${thumb}${body}</li>`;
