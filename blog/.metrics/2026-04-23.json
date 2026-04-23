@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-04-23T03:43:49.428Z",
+    "duration_ms": 67567,
+    "slug": "kit-caneta-de-bordado-curso-completo-de-bordado-3",
+    "product_id": 29487868,
+    "openai": {
+      "prompt_tokens": 2237,
+      "completion_tokens": 3083,
+      "cost_usd": 0.00218535,
+      "calls": 2
+    },
+    "status": "ok"
+  }
+]

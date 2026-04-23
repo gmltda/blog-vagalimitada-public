@@ -48,5 +48,7 @@
       "shopee": "none"
     }
   },
-  "cta_button_text": "Acesse os Modelos de Crochê Agora!"
+  "cta_button_text": "Acesse os Modelos de Crochê Agora!",
+  "cover_absolute": "https://placehold.co/600x600?text=Produto",
+  "canonical_url": "https://pay.vagalimitada.com/pages/blogpost?slug=pacote-de-moldes-premium-fallback"
 }

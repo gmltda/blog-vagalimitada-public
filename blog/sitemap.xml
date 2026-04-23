@@ -2,9 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://pay.vagalimitada.com/pages/blog</loc>
-    <lastmod>2026-04-22T19:36:42.162-03:00</lastmod>
+    <lastmod>2026-04-23T00:42:42.593-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=kit-caneta-de-bordado-curso-completo-de-bordado-3</loc>
+    <lastmod>2026-04-23T00:42:42.593-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://assets.vagalimitada.com/blog/assets/generated/kit-caneta-de-bordado-curso-completo-de-bordado-3/cover-pixabay-bordado-caneta.jpg</image:loc>
+      <image:title>Transforme Seus Tecidos com o Kit Caneta de Bordado e Curso Completo</image:title>
+      <image:caption>Descubra como o Kit Caneta de Bordado pode facilitar seu aprendizado e criar peças incríveis!</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://pay.vagalimitada.com/pages/blogpost?slug=receitas-dos-vestidos-de-croch-9</loc>

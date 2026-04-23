@@ -31,5 +31,7 @@
       "images": "unsplash_api"
     }
   },
-  "cta_button_text": "Acesse os Modelos de Crochê Agora!"
+  "cta_button_text": "Acesse os Modelos de Crochê Agora!",
+  "cover_absolute": "https://images.unsplash.com/photo-1727689484465-c704c115740e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4ODQ1OTR8MHwxfHNlYXJjaHwxfHxtb2xkZXMlMjBjb3N0dXJhfGVufDB8MHx8fDE3NzIyOTc1NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "canonical_url": "https://pay.vagalimitada.com/pages/blogpost?slug=pacote-moldes-2"
 }

@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 135,
+  "published_count": 136,
   "history": [
-    {
-      "date": "2026-04-02T13:55:34.678Z",
-      "product_id": 23316090,
-      "post_file": "bolsas-de-croch-lucrativas-aulas-6.json",
-      "slug": "bolsas-de-croch-lucrativas-aulas-6"
-    },
     {
       "date": "2026-04-02T19:13:14.968Z",
       "product_id": 22333280,
@@ -319,6 +313,12 @@
       "product_id": 23316749,
       "post_file": "receitas-dos-vestidos-de-croch-9.json",
       "slug": "receitas-dos-vestidos-de-croch-9"
+    },
+    {
+      "date": "2026-04-23T03:43:45.784Z",
+      "product_id": 29487868,
+      "post_file": "kit-caneta-de-bordado-curso-completo-de-bordado-3.json",
+      "slug": "kit-caneta-de-bordado-curso-completo-de-bordado-3"
     }
   ]
 }
