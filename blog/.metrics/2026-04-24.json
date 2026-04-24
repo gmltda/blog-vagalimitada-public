@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-04-24T03:49:11.050Z",
+    "duration_ms": 172956,
+    "slug": "moldes-de-feltro-para-artesanato",
+    "product_id": 22333280,
+    "openai": {
+      "prompt_tokens": 4027,
+      "completion_tokens": 3541,
+      "cost_usd": 0.00272865,
+      "calls": 2
+    },
+    "status": "ok"
+  }
+]

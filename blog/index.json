@@ -1,5 +1,45 @@
 [
   {
+    "id": "moldes-de-feltro-para-artesanato",
+    "slug": "moldes-de-feltro-para-artesanato",
+    "title": "Moldes de Feltro para Artesanato: Tutorial Passo a Passo para Iniciantes",
+    "date": "2026-04-24T00:46:18.639-03:00",
+    "updated_at": "2026-04-24T00:46:18.639-03:00",
+    "date_display": "24/04/2026 às 00:46",
+    "tags": [
+      "artesanato",
+      "feltro",
+      "moldes",
+      "costura"
+    ],
+    "cover": "assets/generated/moldes-de-feltro-para-artesanato/cover-unsplash-colorful-felt-patterns-f.jpg",
+    "cover_absolute": "https://assets.vagalimitada.com/blog/assets/generated/moldes-de-feltro-para-artesanato/cover-unsplash-colorful-felt-patterns-f.jpg",
+    "canonical_url": "https://vagalimitada.com/moldes-de-feltro-para-artesanato/",
+    "reading_time_min": 5,
+    "excerpt": "Aprenda a usar moldes de feltro para criar peças incríveis. Tutorial passo a passo para iniciantes e dicas úteis!",
+    "og": {
+      "title": "Moldes de Feltro para Artesanato | Vaga Limitada",
+      "description": "Aprenda a usar moldes de feltro para criar peças incríveis. Tutorial passo a passo para iniciantes e dicas úteis!",
+      "image": "https://assets.vagalimitada.com/blog/assets/generated/moldes-feltro/cover-unsplash-colorful-felt-patterns-f.jpg",
+      "image_width": 1200,
+      "image_height": 630,
+      "image_alt": "moldes de feltro colorido em uma mesa de trabalho de artesanato",
+      "type": "article",
+      "locale": "pt_BR",
+      "site_name": "Vaga Limitada",
+      "url": "https://vagalimitada.com/moldes-de-feltro-para-artesanato/",
+      "article_section": "Artesanato em Feltro",
+      "article_published_time": "2026-04-24T00:46:18.639-03:00",
+      "article_modified_time": "2026-04-24T00:46:18.639-03:00",
+      "article_tags": [
+        "artesanato",
+        "feltro",
+        "moldes",
+        "costura"
+      ]
+    }
+  },
+  {
     "id": "curso-de-confeccao-de-bolsas",
     "slug": "curso-de-confeccao-de-bolsas",
     "title": "Curso de Confecção de Bolsas: Aprenda Passo a Passo em 2026",

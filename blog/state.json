@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 140,
+  "published_count": 141,
   "history": [
-    {
-      "date": "2026-04-04T19:01:03.470Z",
-      "product_id": 23316749,
-      "post_file": "receitas-dos-vestidos-de-croch-6.json",
-      "slug": "receitas-dos-vestidos-de-croch-6"
-    },
     {
       "date": "2026-04-05T03:35:40.310Z",
       "product_id": 24783372,
@@ -319,6 +313,12 @@
       "product_id": 22476585,
       "post_file": "curso-de-confeccao-de-bolsas.json",
       "slug": "curso-de-confeccao-de-bolsas"
+    },
+    {
+      "date": "2026-04-24T03:48:35.266Z",
+      "product_id": 22333280,
+      "post_file": "moldes-de-feltro-para-artesanato.json",
+      "slug": "moldes-de-feltro-para-artesanato"
     }
   ],
   "wp_posts": {
