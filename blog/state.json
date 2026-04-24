@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 141,
+  "published_count": 142,
   "history": [
-    {
-      "date": "2026-04-05T03:35:40.310Z",
-      "product_id": 24783372,
-      "post_file": "curso-resina-artstica-6.json",
-      "slug": "curso-resina-artstica-6"
-    },
     {
       "date": "2026-04-05T13:21:36.863Z",
       "product_id": 22354760,
@@ -319,6 +313,12 @@
       "product_id": 22333280,
       "post_file": "moldes-de-feltro-para-artesanato.json",
       "slug": "moldes-de-feltro-para-artesanato"
+    },
+    {
+      "date": "2026-04-24T19:11:13.334Z",
+      "product_id": 24783372,
+      "post_file": "curso-resina-artistica.json",
+      "slug": "curso-resina-artistica"
     }
   ],
   "wp_posts": {
@@ -337,6 +337,22 @@
       "content_angle": "Aprenda a utilizar 500 moldes de E.V.A para criar peças personalizadas e práticas para a volta às aulas.",
       "editorial_type": "tutorial_passo",
       "published_at": "2026-04-23T15:55:17.217Z"
+    },
+    "curso-resina-artistica": {
+      "wp_url": "https://vagalimitada.com/curso-resina-artistica/",
+      "wp_post_id": 2503,
+      "title": "Curso Resina Artística: Guia Completo para Iniciantes em 2026",
+      "tags": [
+        "resina",
+        "artesanato",
+        "técnicas de resina",
+        "curso de resina"
+      ],
+      "niche": "Artesanato com Resina",
+      "primary_keyword": "Curso Resina Artística",
+      "content_angle": "Um guia completo para iniciantes no uso de resina artística, abordando técnicas e dicas práticas.",
+      "editorial_type": "guia_inicial",
+      "published_at": "2026-04-24T19:15:33.880Z"
     }
   }
 }

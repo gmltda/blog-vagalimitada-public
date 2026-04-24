@@ -11,5 +11,18 @@
       "calls": 2
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-04-24T19:15:34.952Z",
+    "duration_ms": 328321,
+    "slug": "curso-resina-artistica",
+    "product_id": 24783372,
+    "openai": {
+      "prompt_tokens": 4000,
+      "completion_tokens": 3559,
+      "cost_usd": 0.0027354,
+      "calls": 2
+    },
+    "status": "ok"
   }
 ]

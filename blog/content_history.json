@@ -60,6 +60,21 @@
         "published_at": "2026-04-23T19:39:06.839Z"
       }
     ],
+    "24783372": [
+      {
+        "slug": "curso-resina-artistica",
+        "primary_keyword": "Curso Resina Artística",
+        "content_angle": "Um guia completo para iniciantes no uso de resina artística, abordando técnicas e dicas práticas.",
+        "editorial_type": "guia_inicial",
+        "entities": [
+          "resina epóxi",
+          "moldes de silicone",
+          "pigmentos para resina",
+          "ferramentas de mistura"
+        ],
+        "published_at": "2026-04-24T19:11:13.335Z"
+      }
+    ],
     "24813717": [
       {
         "slug": "500-moldes-de-eva-7",

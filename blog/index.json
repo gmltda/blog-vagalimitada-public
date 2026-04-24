@@ -1,5 +1,45 @@
 [
   {
+    "id": "curso-resina-artistica",
+    "slug": "curso-resina-artistica",
+    "title": "Curso Resina Artística: Guia Completo para Iniciantes em 2026",
+    "date": "2026-04-24T16:10:07.271-03:00",
+    "updated_at": "2026-04-24T16:10:07.271-03:00",
+    "date_display": "24/04/2026 às 16:10",
+    "tags": [
+      "resina",
+      "artesanato",
+      "técnicas de resina",
+      "curso de resina"
+    ],
+    "cover": "assets/generated/curso-resina-artistica/cover-unsplash-epoxy-resin-mixing-conta.jpg",
+    "cover_absolute": "https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/generated/curso-resina-artistica/cover-unsplash-epoxy-resin-mixing-conta.jpg",
+    "canonical_url": "https://vagalimitada.com/curso-resina-artistica/",
+    "reading_time_min": 5,
+    "excerpt": "Descubra como iniciar no artesanato de resina com nosso guia completo e dicas práticas.",
+    "og": {
+      "title": "Curso Resina Artística | Vaga Limitada",
+      "description": "Aprenda a criar peças únicas com nosso Curso Resina Artística. Descubra técnicas, dicas e materiais essenciais.",
+      "image": "https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/generated/curso-resina-artistica/cover-unsplash-epoxy-resin-mixing-conta.jpg",
+      "image_width": 1200,
+      "image_height": 630,
+      "image_alt": "Imagem de mãos misturando resina epóxi em um ambiente de trabalho artesanal.",
+      "type": "article",
+      "locale": "pt_BR",
+      "site_name": "Vaga Limitada",
+      "url": "https://vagalimitada.com/curso-resina-artistica/",
+      "article_section": "Artesanato com Resina",
+      "article_published_time": "2026-04-24T16:10:07.271-03:00",
+      "article_modified_time": "2026-04-24T16:10:07.271-03:00",
+      "article_tags": [
+        "resina",
+        "artesanato",
+        "técnicas de resina",
+        "curso de resina"
+      ]
+    }
+  },
+  {
     "id": "moldes-de-feltro-para-artesanato",
     "slug": "moldes-de-feltro-para-artesanato",
     "title": "Moldes de Feltro para Artesanato: Tutorial Passo a Passo para Iniciantes",
