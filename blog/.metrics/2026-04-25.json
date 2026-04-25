@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-04-25T03:35:50.821Z",
+    "duration_ms": 423393,
+    "slug": "receitas-de-donuts-americanos",
+    "product_id": 29487985,
+    "openai": {
+      "prompt_tokens": 4308,
+      "completion_tokens": 3887,
+      "cost_usd": 0.0029784,
+      "calls": 2
+    },
+    "status": "ok"
+  }
+]

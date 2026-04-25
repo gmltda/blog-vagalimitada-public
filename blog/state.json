@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 142,
+  "published_count": 143,
   "history": [
-    {
-      "date": "2026-04-05T13:21:36.863Z",
-      "product_id": 22354760,
-      "post_file": "moldes-feltro-religioso-6.json",
-      "slug": "moldes-feltro-religioso-6"
-    },
     {
       "date": "2026-04-05T19:02:27.519Z",
       "product_id": 22812385,
@@ -319,6 +313,12 @@
       "product_id": 24783372,
       "post_file": "curso-resina-artistica.json",
       "slug": "curso-resina-artistica"
+    },
+    {
+      "date": "2026-04-25T03:31:31.740Z",
+      "product_id": 29487985,
+      "post_file": "receitas-de-donuts-americanos.json",
+      "slug": "receitas-de-donuts-americanos"
     }
   ],
   "wp_posts": {
@@ -353,6 +353,22 @@
       "content_angle": "Um guia completo para iniciantes no uso de resina artística, abordando técnicas e dicas práticas.",
       "editorial_type": "guia_inicial",
       "published_at": "2026-04-24T19:15:33.880Z"
+    },
+    "receitas-de-donuts-americanos": {
+      "wp_url": "https://vagalimitada.com/receitas-de-donuts-americanos/",
+      "wp_post_id": 2504,
+      "title": "Receitas de Donuts Americanos: Aprenda a Fazer em Casa",
+      "tags": [
+        "culinária",
+        "donuts",
+        "receitas",
+        "sobremesas"
+      ],
+      "niche": "Culinária",
+      "primary_keyword": "receitas de donuts americanos",
+      "content_angle": "Aprenda a fazer deliciosos donuts americanos em casa com esta receita simples e prática.",
+      "editorial_type": "tutorial_passo",
+      "published_at": "2026-04-25T03:35:49.820Z"
     }
   }
 }

@@ -1,5 +1,45 @@
 [
   {
+    "id": "receitas-de-donuts-americanos",
+    "slug": "receitas-de-donuts-americanos",
+    "title": "Receitas de Donuts Americanos: Aprenda a Fazer em Casa",
+    "date": "2026-04-25T00:28:48.219-03:00",
+    "updated_at": "2026-04-25T00:28:48.219-03:00",
+    "date_display": "25/04/2026 às 00:28",
+    "tags": [
+      "culinária",
+      "donuts",
+      "receitas",
+      "sobremesas"
+    ],
+    "cover": "assets/generated/receitas-de-donuts-americanos/cover-unsplash-homemade-american-donuts.jpg",
+    "cover_absolute": "https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/generated/receitas-de-donuts-americanos/cover-unsplash-homemade-american-donuts.jpg",
+    "canonical_url": "https://vagalimitada.com/receitas-de-donuts-americanos/",
+    "reading_time_min": 5,
+    "excerpt": "Aprenda a fazer donuts americanos deliciosos com receitas simples e práticas para iniciantes.",
+    "og": {
+      "title": "Receitas de Donuts Americanos | Vaga Limitada",
+      "description": "Descubra como fazer donuts americanos em casa com receitas simples e saborosas. Ideal para iniciantes!",
+      "image": "https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/generated/super-receitas-donuts-americanos/cover-unsplash-homemade-american-donuts.jpg",
+      "image_width": 1200,
+      "image_height": 630,
+      "image_alt": "imagem de donuts americanos caseiros decorados com glacê em uma mesa de madeira",
+      "type": "article",
+      "locale": "pt_BR",
+      "site_name": "Vaga Limitada",
+      "url": "https://vagalimitada.com/receitas-de-donuts-americanos/",
+      "article_section": "Culinária",
+      "article_published_time": "2026-04-25T00:28:48.219-03:00",
+      "article_modified_time": "2026-04-25T00:28:48.219-03:00",
+      "article_tags": [
+        "culinária",
+        "donuts",
+        "receitas",
+        "sobremesas"
+      ]
+    }
+  },
+  {
     "id": "curso-resina-artistica",
     "slug": "curso-resina-artistica",
     "title": "Curso Resina Artística: Guia Completo para Iniciantes em 2026",

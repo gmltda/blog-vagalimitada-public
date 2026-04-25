@@ -2,9 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://pay.vagalimitada.com/pages/blog</loc>
-    <lastmod>2026-04-24T16:10:07.271-03:00</lastmod>
+    <lastmod>2026-04-25T00:28:48.219-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=receitas-de-donuts-americanos</loc>
+    <lastmod>2026-04-25T00:28:48.219-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/generated/receitas-de-donuts-americanos/cover-unsplash-homemade-american-donuts.jpg</image:loc>
+      <image:title>Receitas de Donuts Americanos: Aprenda a Fazer em Casa</image:title>
+      <image:caption>Aprenda a fazer donuts americanos deliciosos com receitas simples e práticas para iniciantes.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://pay.vagalimitada.com/pages/blogpost?slug=curso-resina-artistica</loc>
