@@ -1,5 +1,45 @@
 [
   {
+    "id": "metodo-sapatinho-de-ouro",
+    "slug": "metodo-sapatinho-de-ouro",
+    "title": "Método Sapatinho de Ouro: Aprenda Costura Fácil e Lucrativa",
+    "date": "2026-04-25T11:53:12.548-03:00",
+    "updated_at": "2026-04-25T11:53:12.548-03:00",
+    "date_display": "25/04/2026 às 11:53",
+    "tags": [
+      "costura",
+      "artesanato",
+      "sapatinhos",
+      "iniciantes"
+    ],
+    "cover": "assets/generated/metodo-sapatinho-de-ouro/cover-unsplash-handmade-baby-shoes-cott.jpg",
+    "cover_absolute": "https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/generated/metodo-sapatinho-de-ouro/cover-unsplash-handmade-baby-shoes-cott.jpg",
+    "canonical_url": "https://vagalimitada.com/metodo-sapatinho-de-ouro/",
+    "reading_time_min": 5,
+    "excerpt": "Aprenda o Método Sapatinho de Ouro e inicie sua jornada no artesanato de forma fácil e lucrativa.",
+    "og": {
+      "title": "Método Sapatinho de Ouro | Vaga Limitada",
+      "description": "Descubra o Método Sapatinho de Ouro e transforme seu talento em costura em um passatempo lucrativo. Aprenda o Método Sapatinho de Ouro e inicie sua jornada",
+      "image": "https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/generated/mtodo-sapatinho-de-ouro/cover-unsplash-handmade-baby-shoes-cott.jpg",
+      "image_width": 1200,
+      "image_height": 630,
+      "image_alt": "imagem de sapatinhos de bebê sendo costurados à mão com tecido colorido",
+      "type": "article",
+      "locale": "pt_BR",
+      "site_name": "Vaga Limitada",
+      "url": "https://vagalimitada.com/metodo-sapatinho-de-ouro/",
+      "article_section": "Artesanato",
+      "article_published_time": "2026-04-25T11:53:12.548-03:00",
+      "article_modified_time": "2026-04-25T11:53:12.548-03:00",
+      "article_tags": [
+        "costura",
+        "artesanato",
+        "sapatinhos",
+        "iniciantes"
+      ]
+    }
+  },
+  {
     "id": "receitas-de-donuts-americanos",
     "slug": "receitas-de-donuts-americanos",
     "title": "Receitas de Donuts Americanos: Aprenda a Fazer em Casa",

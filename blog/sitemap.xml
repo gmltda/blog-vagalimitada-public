@@ -2,9 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://pay.vagalimitada.com/pages/blog</loc>
-    <lastmod>2026-04-25T00:28:48.219-03:00</lastmod>
+    <lastmod>2026-04-25T11:53:12.548-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=metodo-sapatinho-de-ouro</loc>
+    <lastmod>2026-04-25T11:53:12.548-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/generated/metodo-sapatinho-de-ouro/cover-unsplash-handmade-baby-shoes-cott.jpg</image:loc>
+      <image:title>Método Sapatinho de Ouro: Aprenda Costura Fácil e Lucrativa</image:title>
+      <image:caption>Aprenda o Método Sapatinho de Ouro e inicie sua jornada no artesanato de forma fácil e lucrativa.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://pay.vagalimitada.com/pages/blogpost?slug=receitas-de-donuts-americanos</loc>

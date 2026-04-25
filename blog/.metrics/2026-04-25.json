@@ -11,5 +11,18 @@
       "calls": 2
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-04-25T14:59:10.359Z",
+    "duration_ms": 358508,
+    "slug": "metodo-sapatinho-de-ouro",
+    "product_id": 24040943,
+    "openai": {
+      "prompt_tokens": 3934,
+      "completion_tokens": 3264,
+      "cost_usd": 0.0025484999999999996,
+      "calls": 2
+    },
+    "status": "ok"
   }
 ]

@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 143,
+  "published_count": 144,
   "history": [
-    {
-      "date": "2026-04-05T19:02:27.519Z",
-      "product_id": 22812385,
-      "post_file": "ateli-dos-sapatinhos-chic-6.json",
-      "slug": "ateli-dos-sapatinhos-chic-6"
-    },
     {
       "date": "2026-04-06T03:37:56.957Z",
       "product_id": 22476583,
@@ -319,6 +313,12 @@
       "product_id": 29487985,
       "post_file": "receitas-de-donuts-americanos.json",
       "slug": "receitas-de-donuts-americanos"
+    },
+    {
+      "date": "2026-04-25T14:54:55.420Z",
+      "product_id": 24040943,
+      "post_file": "metodo-sapatinho-de-ouro.json",
+      "slug": "metodo-sapatinho-de-ouro"
     }
   ],
   "wp_posts": {
@@ -369,6 +369,22 @@
       "content_angle": "Aprenda a fazer deliciosos donuts americanos em casa com esta receita simples e prática.",
       "editorial_type": "tutorial_passo",
       "published_at": "2026-04-25T03:35:49.820Z"
+    },
+    "metodo-sapatinho-de-ouro": {
+      "wp_url": "https://vagalimitada.com/metodo-sapatinho-de-ouro/",
+      "wp_post_id": 2506,
+      "title": "Método Sapatinho de Ouro: Aprenda Costura Fácil e Lucrativa",
+      "tags": [
+        "costura",
+        "artesanato",
+        "sapatinhos",
+        "iniciantes"
+      ],
+      "niche": "Artesanato",
+      "primary_keyword": "Método Sapatinho de Ouro",
+      "content_angle": "Como o Método Sapatinho de Ouro pode transformar suas habilidades de costura em um passatempo lucrativo.",
+      "editorial_type": "guia_inicial",
+      "published_at": "2026-04-25T14:59:09.479Z"
     }
   }
 }
