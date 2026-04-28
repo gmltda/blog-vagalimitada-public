@@ -2,9 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://pay.vagalimitada.com/pages/blog</loc>
-    <lastmod>2026-04-28T09:19:32.488-03:00</lastmod>
+    <lastmod>2026-04-28T10:53:56.354-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=como-fazer-pacote-de-molde-para-costura</loc>
+    <lastmod>2026-04-28T10:53:56.354-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/generated/como-fazer-pacote-de-molde-para-costura/cover-unsplash-sewing-patterns-collecti.jpg</image:loc>
+      <image:title>Pacote de Moldes para Costura: Aprenda a Costurar Roupas em 2026</image:title>
+      <image:caption>Aprenda a costurar com o Pacote de Moldes. Moldes prontos para diversas categorias de roupas!</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://pay.vagalimitada.com/pages/blogpost?slug=como-fazer-sapatinho-de-croche-para-bebes</loc>

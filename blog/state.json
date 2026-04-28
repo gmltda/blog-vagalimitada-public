@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 145,
+  "published_count": 146,
   "history": [
-    {
-      "date": "2026-04-06T13:45:39.135Z",
-      "product_id": 24813717,
-      "post_file": "500-moldes-de-eva-6.json",
-      "slug": "500-moldes-de-eva-6"
-    },
     {
       "date": "2026-04-06T19:17:23.403Z",
       "product_id": 23316819,
@@ -319,6 +313,12 @@
       "product_id": 22812385,
       "post_file": "como-fazer-sapatinho-de-croche-para-bebes.json",
       "slug": "como-fazer-sapatinho-de-croche-para-bebes"
+    },
+    {
+      "date": "2026-04-28T13:55:17.736Z",
+      "product_id": 22476583,
+      "post_file": "como-fazer-pacote-de-molde-para-costura.json",
+      "slug": "como-fazer-pacote-de-molde-para-costura"
     }
   ],
   "wp_posts": {
@@ -401,6 +401,22 @@
       "content_angle": "Aprenda a confeccionar sapatinhos de crochê modernos e delicados para bebês, com dicas práticas e técnicas simples.",
       "editorial_type": "tutorial_passo",
       "published_at": "2026-04-28T12:21:00.613Z"
+    },
+    "como-fazer-pacote-de-molde-para-costura": {
+      "wp_url": "https://vagalimitada.com/como-fazer-pacote-de-molde-para-costura/",
+      "wp_post_id": 2529,
+      "title": "Pacote de Moldes para Costura: Aprenda a Costurar Roupas em 2026",
+      "tags": [
+        "costura",
+        "moldes",
+        "artesanato",
+        "modelagem"
+      ],
+      "niche": "Costura",
+      "primary_keyword": "pacote de moldes para costura",
+      "content_angle": "Como o Pacote de Moldes pode acelerar seu aprendizado em costura.",
+      "editorial_type": "tutorial_passo",
+      "published_at": "2026-04-28T13:55:30.218Z"
     }
   }
 }

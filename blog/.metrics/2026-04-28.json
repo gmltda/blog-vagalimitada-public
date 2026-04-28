@@ -11,5 +11,18 @@
       "calls": 2
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-04-28T13:55:31.878Z",
+    "duration_ms": 96213,
+    "slug": "como-fazer-pacote-de-molde-para-costura",
+    "product_id": 22476583,
+    "openai": {
+      "prompt_tokens": 4604,
+      "completion_tokens": 3921,
+      "cost_usd": 0.0030432,
+      "calls": 2
+    },
+    "status": "ok"
   }
 ]
