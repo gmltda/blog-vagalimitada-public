@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 147,
+  "published_count": 148,
   "history": [
-    {
-      "date": "2026-04-07T13:59:49.977Z",
-      "product_id": 22476585,
-      "post_file": "curso-de-confeco-de-bolsas-passo-a-passo-5.json",
-      "slug": "curso-de-confeco-de-bolsas-passo-a-passo-5"
-    },
     {
       "date": "2026-04-07T19:20:58.008Z",
       "product_id": 28394753,
@@ -319,6 +313,12 @@
       "product_id": 23315664,
       "post_file": "como-fazer-criacao-de-camaroes-aquarismo.json",
       "slug": "como-fazer-criacao-de-camaroes-aquarismo"
+    },
+    {
+      "date": "2026-04-28T19:55:05.516Z",
+      "product_id": 28471749,
+      "post_file": "como-fazer-formas-de-criar-hortas-em-casa.json",
+      "slug": "como-fazer-formas-de-criar-hortas-em-casa"
     }
   ],
   "wp_posts": {
@@ -433,6 +433,22 @@
       "content_angle": "Aprenda como criar camarões em aquários de forma prática e eficiente.",
       "editorial_type": "guia_inicial",
       "published_at": "2026-04-28T14:40:54.130Z"
+    },
+    "como-fazer-formas-de-criar-hortas-em-casa": {
+      "wp_url": "https://vagalimitada.com/como-fazer-formas-de-criar-hortas-em-casa/",
+      "wp_post_id": 2533,
+      "title": "5 Formas de Criar Hortas em Casa para Decorar Seu Espaço",
+      "tags": [
+        "hortas",
+        "decoração",
+        "sustentabilidade",
+        "plantas"
+      ],
+      "niche": "decoracao",
+      "primary_keyword": "formas de criar hortas em casa",
+      "content_angle": "Aprenda a transformar sua casa em um espaço verde com hortas práticas e decorativas.",
+      "editorial_type": "guia_inicial",
+      "published_at": "2026-04-28T19:55:23.537Z"
     }
   }
 }

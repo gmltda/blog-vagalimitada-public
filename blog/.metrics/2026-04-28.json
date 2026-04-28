@@ -37,5 +37,18 @@
       "calls": 2
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-04-28T19:55:25.120Z",
+    "duration_ms": 97983,
+    "slug": "como-fazer-formas-de-criar-hortas-em-casa",
+    "product_id": 28471749,
+    "openai": {
+      "prompt_tokens": 4147,
+      "completion_tokens": 3456,
+      "cost_usd": 0.0026956499999999995,
+      "calls": 2
+    },
+    "status": "ok"
   }
 ]

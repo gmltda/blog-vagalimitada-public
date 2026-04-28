@@ -2,9 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://pay.vagalimitada.com/pages/blog</loc>
-    <lastmod>2026-04-28T11:39:22.382-03:00</lastmod>
+    <lastmod>2026-04-28T16:53:48.120-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=como-fazer-formas-de-criar-hortas-em-casa</loc>
+    <lastmod>2026-04-28T16:53:48.120-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/generated/como-fazer-formas-de-criar-hortas-em-casa/cover-unsplash-home-garden-setup-with-h.jpg</image:loc>
+      <image:title>5 Formas de Criar Hortas em Casa para Decorar Seu Espaço</image:title>
+      <image:caption>Transforme sua casa com 5 formas de criar hortas e decorar seu espaço de maneira sustentável.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://pay.vagalimitada.com/pages/blogpost?slug=como-fazer-criacao-de-camaroes-aquarismo</loc>
