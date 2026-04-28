@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-04-28T12:21:02.392Z",
+    "duration_ms": 90541,
+    "slug": "como-fazer-sapatinho-de-croche-para-bebes",
+    "product_id": 22812385,
+    "openai": {
+      "prompt_tokens": 4344,
+      "completion_tokens": 3458,
+      "cost_usd": 0.0027264,
+      "calls": 2
+    },
+    "status": "ok"
+  }
+]

@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 144,
+  "published_count": 145,
   "history": [
-    {
-      "date": "2026-04-06T03:37:56.957Z",
-      "product_id": 22476583,
-      "post_file": "pacote-de-moldes-6.json",
-      "slug": "pacote-de-moldes-6"
-    },
     {
       "date": "2026-04-06T13:45:39.135Z",
       "product_id": 24813717,
@@ -319,6 +313,12 @@
       "product_id": 24040943,
       "post_file": "metodo-sapatinho-de-ouro.json",
       "slug": "metodo-sapatinho-de-ouro"
+    },
+    {
+      "date": "2026-04-28T12:20:51.177Z",
+      "product_id": 22812385,
+      "post_file": "como-fazer-sapatinho-de-croche-para-bebes.json",
+      "slug": "como-fazer-sapatinho-de-croche-para-bebes"
     }
   ],
   "wp_posts": {
@@ -385,6 +385,22 @@
       "content_angle": "Como o Método Sapatinho de Ouro pode transformar suas habilidades de costura em um passatempo lucrativo.",
       "editorial_type": "guia_inicial",
       "published_at": "2026-04-25T14:59:09.479Z"
+    },
+    "como-fazer-sapatinho-de-croche-para-bebes": {
+      "wp_url": "https://vagalimitada.com/como-fazer-sapatinho-de-croche-para-bebes/",
+      "wp_post_id": 2527,
+      "title": "Sapatinhos de Crochê para Bebês: Aprenda a Fazer Passo a Passo",
+      "tags": [
+        "crochê",
+        "artesanato",
+        "bebês",
+        "sapatinhos"
+      ],
+      "niche": "bebes_infantil",
+      "primary_keyword": "sapatinhos de crochê para bebês",
+      "content_angle": "Aprenda a confeccionar sapatinhos de crochê modernos e delicados para bebês, com dicas práticas e técnicas simples.",
+      "editorial_type": "tutorial_passo",
+      "published_at": "2026-04-28T12:21:00.613Z"
     }
   }
 }
