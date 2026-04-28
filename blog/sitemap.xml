@@ -2,9 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://pay.vagalimitada.com/pages/blog</loc>
-    <lastmod>2026-04-28T10:53:56.354-03:00</lastmod>
+    <lastmod>2026-04-28T11:39:22.382-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=como-fazer-criacao-de-camaroes-aquarismo</loc>
+    <lastmod>2026-04-28T11:39:22.382-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/generated/como-fazer-criacao-de-camaroes-aquarismo/cover-pexels-freshwater-shrimp-in-aqu.jpg</image:loc>
+      <image:title>Criação de Camarões no Aquarismo: Guia Completo para Iniciantes</image:title>
+      <image:caption>Aprenda a criar camarões no aquarismo com este guia completo e dicas práticas.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://pay.vagalimitada.com/pages/blogpost?slug=como-fazer-pacote-de-molde-para-costura</loc>

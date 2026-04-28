@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 146,
+  "published_count": 147,
   "history": [
-    {
-      "date": "2026-04-06T19:17:23.403Z",
-      "product_id": 23316819,
-      "post_file": "receitas-dos-tapetes-de-croch-7.json",
-      "slug": "receitas-dos-tapetes-de-croch-7"
-    },
     {
       "date": "2026-04-07T13:59:49.977Z",
       "product_id": 22476585,
@@ -319,6 +313,12 @@
       "product_id": 22476583,
       "post_file": "como-fazer-pacote-de-molde-para-costura.json",
       "slug": "como-fazer-pacote-de-molde-para-costura"
+    },
+    {
+      "date": "2026-04-28T14:40:43.251Z",
+      "product_id": 23315664,
+      "post_file": "como-fazer-criacao-de-camaroes-aquarismo.json",
+      "slug": "como-fazer-criacao-de-camaroes-aquarismo"
     }
   ],
   "wp_posts": {
@@ -417,6 +417,22 @@
       "content_angle": "Como o Pacote de Moldes pode acelerar seu aprendizado em costura.",
       "editorial_type": "tutorial_passo",
       "published_at": "2026-04-28T13:55:30.218Z"
+    },
+    "como-fazer-criacao-de-camaroes-aquarismo": {
+      "wp_url": "https://vagalimitada.com/como-fazer-criacao-de-camaroes-aquarismo/",
+      "wp_post_id": 2531,
+      "title": "Criação de Camarões no Aquarismo: Guia Completo para Iniciantes",
+      "tags": [
+        "camarões",
+        "aquarismo",
+        "iniciantes",
+        "cuidados"
+      ],
+      "niche": "Aquarismo",
+      "primary_keyword": "Criação de Camarões no Aquarismo",
+      "content_angle": "Aprenda como criar camarões em aquários de forma prática e eficiente.",
+      "editorial_type": "guia_inicial",
+      "published_at": "2026-04-28T14:40:54.130Z"
     }
   }
 }

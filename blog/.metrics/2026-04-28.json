@@ -24,5 +24,18 @@
       "calls": 2
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-04-28T14:40:55.851Z",
+    "duration_ms": 94480,
+    "slug": "como-fazer-criacao-de-camaroes-aquarismo",
+    "product_id": 23315664,
+    "openai": {
+      "prompt_tokens": 4103,
+      "completion_tokens": 3371,
+      "cost_usd": 0.00263805,
+      "calls": 2
+    },
+    "status": "ok"
   }
 ]
