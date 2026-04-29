@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-04-29T03:59:51.526Z",
+    "duration_ms": 87936,
+    "slug": "como-fazer-molde-de-feltro-religioso",
+    "product_id": 22354760,
+    "openai": {
+      "prompt_tokens": 4362,
+      "completion_tokens": 3522,
+      "cost_usd": 0.0027675,
+      "calls": 2
+    },
+    "status": "ok"
+  }
+]

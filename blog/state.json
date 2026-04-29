@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 148,
+  "published_count": 149,
   "history": [
-    {
-      "date": "2026-04-07T19:20:58.008Z",
-      "product_id": 28394753,
-      "post_file": "bolsas-praianas-em-croch-7.json",
-      "slug": "bolsas-praianas-em-croch-7"
-    },
     {
       "date": "2026-04-08T03:30:28.977Z",
       "product_id": 22476584,
@@ -319,6 +313,12 @@
       "product_id": 28471749,
       "post_file": "como-fazer-formas-de-criar-hortas-em-casa.json",
       "slug": "como-fazer-formas-de-criar-hortas-em-casa"
+    },
+    {
+      "date": "2026-04-29T03:59:40.452Z",
+      "product_id": 22354760,
+      "post_file": "como-fazer-molde-de-feltro-religioso.json",
+      "slug": "como-fazer-molde-de-feltro-religioso"
     }
   ],
   "wp_posts": {
@@ -449,6 +449,22 @@
       "content_angle": "Aprenda a transformar sua casa em um espaço verde com hortas práticas e decorativas.",
       "editorial_type": "guia_inicial",
       "published_at": "2026-04-28T19:55:23.537Z"
+    },
+    "como-fazer-molde-de-feltro-religioso": {
+      "wp_url": "https://vagalimitada.com/como-fazer-molde-de-feltro-religioso/",
+      "wp_post_id": 2535,
+      "title": "Moldes de Feltro Religioso: Crie Peças Artesanais sem Erro",
+      "tags": [
+        "costura",
+        "artesanato",
+        "feltro",
+        "peças religiosas"
+      ],
+      "niche": "Costura",
+      "primary_keyword": "moldes de feltro religioso",
+      "content_angle": "Aprenda a criar peças religiosas em feltro com moldes prontos para facilitar sua costura.",
+      "editorial_type": "tutorial_passo",
+      "published_at": "2026-04-29T03:59:49.834Z"
     }
   }
 }
