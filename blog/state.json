@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 149,
+  "published_count": 150,
   "history": [
-    {
-      "date": "2026-04-08T03:30:28.977Z",
-      "product_id": 22476584,
-      "post_file": "2500-modelos-de-croch-8.json",
-      "slug": "2500-modelos-de-croch-8"
-    },
     {
       "date": "2026-04-08T14:01:53.564Z",
       "product_id": 23316784,
@@ -319,6 +313,12 @@
       "product_id": 22354760,
       "post_file": "como-fazer-molde-de-feltro-religioso.json",
       "slug": "como-fazer-molde-de-feltro-religioso"
+    },
+    {
+      "date": "2026-04-29T14:30:41.914Z",
+      "product_id": 28394753,
+      "post_file": "como-fazer-bolsa-praiana-de-croche.json",
+      "slug": "como-fazer-bolsa-praiana-de-croche"
     }
   ],
   "wp_posts": {
@@ -465,6 +465,22 @@
       "content_angle": "Aprenda a criar peças religiosas em feltro com moldes prontos para facilitar sua costura.",
       "editorial_type": "tutorial_passo",
       "published_at": "2026-04-29T03:59:49.834Z"
+    },
+    "como-fazer-bolsa-praiana-de-croche": {
+      "wp_url": "https://vagalimitada.com/como-fazer-bolsa-praiana-de-croche/",
+      "wp_post_id": 2537,
+      "title": "Aprenda a Fazer Bolsas Praianas em Crochê: Passo a Passo Completo",
+      "tags": [
+        "crochê",
+        "artesanato",
+        "bolsas praianas",
+        "moda sustentável"
+      ],
+      "niche": "Crochê",
+      "primary_keyword": "bolsas praianas em crochê",
+      "content_angle": "Como confeccionar bolsas praianas em crochê que vendem o ano todo.",
+      "editorial_type": "tutorial_passo",
+      "published_at": "2026-04-29T14:30:52.856Z"
     }
   }
 }

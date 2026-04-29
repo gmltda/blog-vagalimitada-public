@@ -11,5 +11,18 @@
       "calls": 2
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-04-29T14:30:54.798Z",
+    "duration_ms": 101363,
+    "slug": "como-fazer-bolsa-praiana-de-croche",
+    "product_id": 28394753,
+    "openai": {
+      "prompt_tokens": 4400,
+      "completion_tokens": 3719,
+      "cost_usd": 0.0028913999999999997,
+      "calls": 2
+    },
+    "status": "ok"
   }
 ]
