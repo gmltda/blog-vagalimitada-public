@@ -2,9 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://pay.vagalimitada.com/pages/blog</loc>
-    <lastmod>2026-04-30T11:22:25.897-03:00</lastmod>
+    <lastmod>2026-04-30T16:46:26.268-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=como-fazer-molde-de-v-para-costura</loc>
+    <lastmod>2026-04-30T16:46:26.268-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/generated/como-fazer-molde-de-v-para-costura/cover-pexels-500-e-v-a-molds-displaye.jpg</image:loc>
+      <image:title>500 Moldes de E.V.A para Costura: Tutorial Passo a Passo</image:title>
+      <image:caption>Descubra como utilizar 500 moldes de E.V.A para costura e crie projetos práticos para a volta às aulas.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://pay.vagalimitada.com/pages/blogpost?slug=como-fazer-receita-de-tapetes-de-croche</loc>

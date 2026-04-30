@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 152,
+  "published_count": 153,
   "history": [
-    {
-      "date": "2026-04-09T14:11:40.258Z",
-      "product_id": 28471749,
-      "post_file": "formas-de-criar-hortas-em-casa-6.json",
-      "slug": "formas-de-criar-hortas-em-casa-6"
-    },
     {
       "date": "2026-04-09T19:24:16.134Z",
       "product_id": 22354760,
@@ -319,6 +313,12 @@
       "product_id": 23316819,
       "post_file": "como-fazer-receita-de-tapetes-de-croche.json",
       "slug": "como-fazer-receita-de-tapetes-de-croche"
+    },
+    {
+      "date": "2026-04-30T19:48:23.503Z",
+      "product_id": 24813717,
+      "post_file": "como-fazer-molde-de-v-para-costura.json",
+      "slug": "como-fazer-molde-de-v-para-costura"
     }
   ],
   "wp_posts": {
@@ -513,6 +513,22 @@
       "content_angle": "Explore receitas práticas e criativas para tapetes de crochê que vão transformar sua casa.",
       "editorial_type": "guia_inicial",
       "published_at": "2026-04-30T14:24:29.579Z"
+    },
+    "como-fazer-molde-de-v-para-costura": {
+      "wp_url": "https://vagalimitada.com/como-fazer-molde-de-v-para-costura/",
+      "wp_post_id": 2543,
+      "title": "500 Moldes de E.V.A para Costura: Tutorial Passo a Passo",
+      "tags": [
+        "costura",
+        "moldes de E.V.A",
+        "artesanato",
+        "DIY"
+      ],
+      "niche": "Costura",
+      "primary_keyword": "moldes de E.V.A para costura",
+      "content_angle": "Como utilizar 500 moldes de E.V.A para criar projetos de costura incríveis e práticos.",
+      "editorial_type": "tutorial_passo",
+      "published_at": "2026-04-30T19:48:37.655Z"
     }
   }
 }

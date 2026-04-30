@@ -24,5 +24,18 @@
       "calls": 3
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-04-30T19:48:40.551Z",
+    "duration_ms": 134925,
+    "slug": "como-fazer-molde-de-v-para-costura",
+    "product_id": 24813717,
+    "openai": {
+      "prompt_tokens": 6763,
+      "completion_tokens": 4665,
+      "cost_usd": 0.0038134499999999995,
+      "calls": 3
+    },
+    "status": "ok"
   }
 ]
