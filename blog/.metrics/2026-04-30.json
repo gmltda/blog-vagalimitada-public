@@ -11,5 +11,18 @@
       "calls": 2
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-04-30T14:24:31.276Z",
+    "duration_ms": 126096,
+    "slug": "como-fazer-receita-de-tapetes-de-croche",
+    "product_id": 23316819,
+    "openai": {
+      "prompt_tokens": 6752,
+      "completion_tokens": 4839,
+      "cost_usd": 0.0039162,
+      "calls": 3
+    },
+    "status": "ok"
   }
 ]

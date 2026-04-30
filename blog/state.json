@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 151,
+  "published_count": 152,
   "history": [
-    {
-      "date": "2026-04-08T19:39:34.259Z",
-      "product_id": 23316749,
-      "post_file": "receitas-dos-vestidos-de-croch-7.json",
-      "slug": "receitas-dos-vestidos-de-croch-7"
-    },
     {
       "date": "2026-04-09T14:11:40.258Z",
       "product_id": 28471749,
@@ -319,6 +313,12 @@
       "product_id": 29487868,
       "post_file": "como-fazer-caneta-de-bordado.json",
       "slug": "como-fazer-caneta-de-bordado"
+    },
+    {
+      "date": "2026-04-30T14:24:17.184Z",
+      "product_id": 23316819,
+      "post_file": "como-fazer-receita-de-tapetes-de-croche.json",
+      "slug": "como-fazer-receita-de-tapetes-de-croche"
     }
   ],
   "wp_posts": {
@@ -497,6 +497,22 @@
       "content_angle": "Como o kit caneta de bordado pode transformar sua experiência de bordar.",
       "editorial_type": "guia_inicial",
       "published_at": "2026-04-30T04:01:20.093Z"
+    },
+    "como-fazer-receita-de-tapetes-de-croche": {
+      "wp_url": "https://vagalimitada.com/como-fazer-receita-de-tapetes-de-croche/",
+      "wp_post_id": 2541,
+      "title": "Receitas de Tapetes de Crochê: Aprenda a Criar com Estilo",
+      "tags": [
+        "tapete",
+        "crochê",
+        "receitas",
+        "artesanato"
+      ],
+      "niche": "Receitas",
+      "primary_keyword": "receitas de tapetes de crochê",
+      "content_angle": "Explore receitas práticas e criativas para tapetes de crochê que vão transformar sua casa.",
+      "editorial_type": "guia_inicial",
+      "published_at": "2026-04-30T14:24:29.579Z"
     }
   }
 }
