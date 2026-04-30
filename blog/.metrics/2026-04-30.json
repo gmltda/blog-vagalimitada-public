@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-04-30T04:01:21.825Z",
+    "duration_ms": 110581,
+    "slug": "como-fazer-caneta-de-bordado",
+    "product_id": 29487868,
+    "openai": {
+      "prompt_tokens": 4275,
+      "completion_tokens": 3191,
+      "cost_usd": 0.0025558499999999997,
+      "calls": 2
+    },
+    "status": "ok"
+  }
+]

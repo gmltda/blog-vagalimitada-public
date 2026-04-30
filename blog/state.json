@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 150,
+  "published_count": 151,
   "history": [
-    {
-      "date": "2026-04-08T14:01:53.564Z",
-      "product_id": 23316784,
-      "post_file": "receitas-dos-biqunis-de-croch-6.json",
-      "slug": "receitas-dos-biqunis-de-croch-6"
-    },
     {
       "date": "2026-04-08T19:39:34.259Z",
       "product_id": 23316749,
@@ -319,6 +313,12 @@
       "product_id": 28394753,
       "post_file": "como-fazer-bolsa-praiana-de-croche.json",
       "slug": "como-fazer-bolsa-praiana-de-croche"
+    },
+    {
+      "date": "2026-04-30T04:01:09.080Z",
+      "product_id": 29487868,
+      "post_file": "como-fazer-caneta-de-bordado.json",
+      "slug": "como-fazer-caneta-de-bordado"
     }
   ],
   "wp_posts": {
@@ -481,6 +481,22 @@
       "content_angle": "Como confeccionar bolsas praianas em crochê que vendem o ano todo.",
       "editorial_type": "tutorial_passo",
       "published_at": "2026-04-29T14:30:52.856Z"
+    },
+    "como-fazer-caneta-de-bordado": {
+      "wp_url": "https://vagalimitada.com/como-fazer-caneta-de-bordado/",
+      "wp_post_id": 2539,
+      "title": "Kit Caneta de Bordado + Curso Completo: Comece a Criar Hoje!",
+      "tags": [
+        "bordado",
+        "artesanato",
+        "iniciantes",
+        "caneta de bordado"
+      ],
+      "niche": "Bordado",
+      "primary_keyword": "kit caneta de bordado",
+      "content_angle": "Como o kit caneta de bordado pode transformar sua experiência de bordar.",
+      "editorial_type": "guia_inicial",
+      "published_at": "2026-04-30T04:01:20.093Z"
     }
   }
 }
