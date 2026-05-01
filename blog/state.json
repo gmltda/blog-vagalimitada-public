@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 153,
+  "published_count": 154,
   "history": [
-    {
-      "date": "2026-04-09T19:24:16.134Z",
-      "product_id": 22354760,
-      "post_file": "moldes-feltro-religioso-7.json",
-      "slug": "moldes-feltro-religioso-7"
-    },
     {
       "date": "2026-04-10T03:37:45.499Z",
       "product_id": 24040943,
@@ -319,6 +313,12 @@
       "product_id": 24813717,
       "post_file": "como-fazer-molde-de-v-para-costura.json",
       "slug": "como-fazer-molde-de-v-para-costura"
+    },
+    {
+      "date": "2026-05-01T13:52:50.534Z",
+      "product_id": 24783372,
+      "post_file": "como-fazer-resina-artistica-para-iniciantes.json",
+      "slug": "como-fazer-resina-artistica-para-iniciantes"
     }
   ],
   "wp_posts": {
@@ -529,6 +529,22 @@
       "content_angle": "Como utilizar 500 moldes de E.V.A para criar projetos de costura incríveis e práticos.",
       "editorial_type": "tutorial_passo",
       "published_at": "2026-04-30T19:48:37.655Z"
+    },
+    "como-fazer-resina-artistica-para-iniciantes": {
+      "wp_url": "https://vagalimitada.com/como-fazer-resina-artistica-para-iniciantes/",
+      "wp_post_id": 2545,
+      "title": "Curso Resina Artística para Iniciantes: Crie Suas Peças em 2026",
+      "tags": [
+        "resina artística",
+        "curso de resina",
+        "artesanato",
+        "dicas de resina"
+      ],
+      "niche": "Artesanato com Resina",
+      "primary_keyword": "Curso Resina Artística para iniciantes",
+      "content_angle": "Aprenda como criar peças incríveis com resina artística, do zero até a sua primeira obra.",
+      "editorial_type": "guia_inicial",
+      "published_at": "2026-05-01T13:53:02.965Z"
     }
   }
 }

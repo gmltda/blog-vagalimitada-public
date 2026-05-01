@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-05-01T13:53:06.041Z",
+    "duration_ms": 85237,
+    "slug": "como-fazer-resina-artistica-para-iniciantes",
+    "product_id": 24783372,
+    "openai": {
+      "prompt_tokens": 4011,
+      "completion_tokens": 3344,
+      "cost_usd": 0.0026080499999999998,
+      "calls": 2
+    },
+    "status": "ok"
+  }
+]
