@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 154,
+  "published_count": 155,
   "history": [
-    {
-      "date": "2026-04-10T03:37:45.499Z",
-      "product_id": 24040943,
-      "post_file": "mtodo-sapatinho-de-ouro-7.json",
-      "slug": "mtodo-sapatinho-de-ouro-7"
-    },
     {
       "date": "2026-04-10T13:49:26.695Z",
       "product_id": 23315664,
@@ -319,6 +313,12 @@
       "product_id": 24783372,
       "post_file": "como-fazer-resina-artistica-para-iniciantes.json",
       "slug": "como-fazer-resina-artistica-para-iniciantes"
+    },
+    {
+      "date": "2026-05-02T03:48:08.690Z",
+      "product_id": 23316749,
+      "post_file": "como-fazer-receita-vestidos-de-croche.json",
+      "slug": "como-fazer-receita-vestidos-de-croche"
     }
   ],
   "wp_posts": {
@@ -545,6 +545,22 @@
       "content_angle": "Aprenda como criar peças incríveis com resina artística, do zero até a sua primeira obra.",
       "editorial_type": "guia_inicial",
       "published_at": "2026-05-01T13:53:02.965Z"
+    },
+    "como-fazer-receita-vestidos-de-croche": {
+      "wp_url": "https://vagalimitada.com/como-fazer-receita-vestidos-de-croche/",
+      "wp_post_id": 2547,
+      "title": "Receitas dos Vestidos de Crochê: 5 Passos para Iniciantes",
+      "tags": [
+        "crochê",
+        "vestidos",
+        "receitas",
+        "moda"
+      ],
+      "niche": "Receitas",
+      "primary_keyword": "receitas dos vestidos de crochê",
+      "content_angle": "Aprenda a criar vestidos de crochê com receitas simples e criativas para iniciantes.",
+      "editorial_type": "tutorial_passo",
+      "published_at": "2026-05-02T03:48:19.582Z"
     }
   }
 }

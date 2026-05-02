@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-05-02T03:48:21.292Z",
+    "duration_ms": 105419,
+    "slug": "como-fazer-receita-vestidos-de-croche",
+    "product_id": 23316749,
+    "openai": {
+      "prompt_tokens": 6743,
+      "completion_tokens": 4764,
+      "cost_usd": 0.0038698499999999993,
+      "calls": 3
+    },
+    "status": "ok"
+  }
+]
