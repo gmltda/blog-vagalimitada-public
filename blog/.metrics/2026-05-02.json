@@ -24,5 +24,18 @@
       "calls": 3
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-02T19:17:24.961Z",
+    "duration_ms": 173920,
+    "slug": "como-fazer-sapatinho-para-bebes",
+    "product_id": 24040943,
+    "openai": {
+      "prompt_tokens": 6794,
+      "completion_tokens": 4768,
+      "cost_usd": 0.0038798999999999995,
+      "calls": 3
+    },
+    "status": "ok"
   }
 ]

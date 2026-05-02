@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 156,
+  "published_count": 157,
   "history": [
-    {
-      "date": "2026-04-10T19:10:12.362Z",
-      "product_id": 24783372,
-      "post_file": "curso-resina-artstica-7.json",
-      "slug": "curso-resina-artstica-7"
-    },
     {
       "date": "2026-04-11T13:22:04.219Z",
       "product_id": 23316090,
@@ -319,6 +313,12 @@
       "product_id": 22333280,
       "post_file": "como-fazer-como-usar-molde-de-feltro-costura.json",
       "slug": "como-fazer-como-usar-molde-de-feltro-costura"
+    },
+    {
+      "date": "2026-05-02T19:17:10.837Z",
+      "product_id": 24040943,
+      "post_file": "como-fazer-sapatinho-para-bebes.json",
+      "slug": "como-fazer-sapatinho-para-bebes"
     }
   ],
   "wp_posts": {
@@ -577,6 +577,22 @@
       "content_angle": "Aprenda a maximizar seus projetos de costura com moldes de feltro detalhados.",
       "editorial_type": "tutorial_passo",
       "published_at": "2026-05-02T13:48:18.048Z"
+    },
+    "como-fazer-sapatinho-para-bebes": {
+      "wp_url": "https://vagalimitada.com/como-fazer-sapatinho-para-bebes/",
+      "wp_post_id": 2551,
+      "title": "Sapatinhos para Bebês: Tutorial Completo para Criar Sapatinhos Adoráveis",
+      "tags": [
+        "sapatinhos",
+        "bebês",
+        "artesanato",
+        "maternidade"
+      ],
+      "niche": "Bebês e Infantil",
+      "primary_keyword": "sapatinhos para bebês",
+      "content_angle": "Aprenda a criar sapatinhos adoráveis para recém-nascidos e transforme seu enxoval.",
+      "editorial_type": "tutorial_passo",
+      "published_at": "2026-05-02T19:17:23.258Z"
     }
   }
 }
