@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 155,
+  "published_count": 156,
   "history": [
-    {
-      "date": "2026-04-10T13:49:26.695Z",
-      "product_id": 23315664,
-      "post_file": "criao-de-camares-projetos-7.json",
-      "slug": "criao-de-camares-projetos-7"
-    },
     {
       "date": "2026-04-10T19:10:12.362Z",
       "product_id": 24783372,
@@ -319,6 +313,12 @@
       "product_id": 23316749,
       "post_file": "como-fazer-receita-vestidos-de-croche.json",
       "slug": "como-fazer-receita-vestidos-de-croche"
+    },
+    {
+      "date": "2026-05-02T13:48:08.676Z",
+      "product_id": 22333280,
+      "post_file": "como-fazer-como-usar-molde-de-feltro-costura.json",
+      "slug": "como-fazer-como-usar-molde-de-feltro-costura"
     }
   ],
   "wp_posts": {
@@ -561,6 +561,22 @@
       "content_angle": "Aprenda a criar vestidos de crochê com receitas simples e criativas para iniciantes.",
       "editorial_type": "tutorial_passo",
       "published_at": "2026-05-02T03:48:19.582Z"
+    },
+    "como-fazer-como-usar-molde-de-feltro-costura": {
+      "wp_url": "https://vagalimitada.com/como-fazer-como-usar-molde-de-feltro-costura/",
+      "wp_post_id": 2549,
+      "title": "Como Usar Moldes de Feltro na Costura: Guia Completo para Iniciantes",
+      "tags": [
+        "costura",
+        "feltro",
+        "artesanato",
+        "moldes"
+      ],
+      "niche": "Costura",
+      "primary_keyword": "Como usar moldes de feltro na costura",
+      "content_angle": "Aprenda a maximizar seus projetos de costura com moldes de feltro detalhados.",
+      "editorial_type": "tutorial_passo",
+      "published_at": "2026-05-02T13:48:18.048Z"
     }
   }
 }

@@ -11,5 +11,18 @@
       "calls": 3
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-05-02T13:48:19.735Z",
+    "duration_ms": 164671,
+    "slug": "como-fazer-como-usar-molde-de-feltro-costura",
+    "product_id": 22333280,
+    "openai": {
+      "prompt_tokens": 7162,
+      "completion_tokens": 4899,
+      "cost_usd": 0.004013699999999999,
+      "calls": 3
+    },
+    "status": "ok"
   }
 ]
