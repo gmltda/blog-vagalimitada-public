@@ -261,11 +261,8 @@ function readPosts() {
       }
 
       if (post.content_html) {
-        const shopeeItems = getShopeeItems(post);
         const withAssets = rewriteHtmlAssets(post.content_html);
-        const withoutGrid = removeShopeeGrid(withAssets);
-        const enriched = enrichMaterialsUlWithThumbs(withoutGrid, shopeeItems, post.slug);
-        const templated = applyTemplateVariant(enriched, post.template);
+        const templated = applyTemplateVariant(withAssets, post.template);
         if (templated !== post.content_html) {
           post.content_html = templated;
           modified = true;
@@ -273,54 +270,30 @@ function readPosts() {
       }
 
       if (!post.date_iso) {
-        if (post.date) {
-          post.date_iso = `${post.date}T12:00:00-03:00`;
-        } else {
-          post.date_iso = new Date().toISOString();
-        }
+        post.date_iso = post.date ? `${post.date}T12:00:00-03:00` : new Date().toISOString();
         modified = true;
       }
 
       if (!post.date_display) {
         try {
           const d = new Date(post.date_iso);
-          const day = String(d.getDate()).padStart(2, '0');
-          const month = String(d.getMonth() + 1).padStart(2, '0');
-          const year = d.getFullYear();
-          const hours = String(d.getHours()).padStart(2, '0');
-          const minutes = String(d.getMinutes()).padStart(2, '0');
-          post.date_display = `${day}/${month}/${year} às ${hours}:${minutes}`;
+          post.date_display = `${String(d.getDate()).padStart(2, '0')}/${String(d.getMonth() + 1).padStart(2, '0')}/${d.getFullYear()}`;
         } catch {
-          post.date_display = post.date || "Data desconhecida";
+          post.date_display = post.date || "Recente";
         }
         modified = true;
       }
 
-      if (!post.id) {
-        post.id = post.slug;
-        modified = true;
-      }
-
-      if (post.cover && !post.cover_absolute) {
-        post.cover_absolute = absolutizeAssetUrl(post.cover);
-        modified = true;
-      }
-
+      if (!post.id) { post.id = post.slug; modified = true; }
+      if (post.cover && !post.cover_absolute) { post.cover_absolute = absolutizeAssetUrl(post.cover); modified = true; }
+      
       if (!post.canonical_url && post.slug) {
         post.canonical_url = `${baseUrl}/pages/blogpost?slug=${post.slug}`;
         modified = true;
       }
 
       const normalizedStatus = normalizeStatus(post.status);
-      if (post.status !== normalizedStatus) {
-        post.status = normalizedStatus;
-        modified = true;
-      }
-
-      if (post.cta_button_text !== 'Acesse os Modelos de Crochê Agora!') {
-        post.cta_button_text = 'Acesse os Modelos de Crochê Agora!';
-        modified = true;
-      }
+      if (post.status !== normalizedStatus) { post.status = normalizedStatus; modified = true; }
 
       if (modified) {
         fs.writeFileSync(filePath, JSON.stringify(post, null, 2));
