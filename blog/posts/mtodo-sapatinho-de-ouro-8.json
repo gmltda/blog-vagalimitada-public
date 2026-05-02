@@ -16,8 +16,8 @@
   "product": {
     "id": 24040943,
     "title": "Método Sapatinho de Ouro",
-    "handle": "método-sapatinho-de-ouro",
-    "url": "https://pay.vagalimitada.com/products/método-sapatinho-de-ouro",
+    "handle": "metodo-sapatinho-de-ouro",
+    "url": "https://pay.vagalimitada.com/products/metodo-sapatinho-de-ouro",
     "image_url": "https://assets.mycartpanda.com/static/products_images/56/24/f7/1746796559.png",
     "price": 0
   },
@@ -27,7 +27,7 @@
   },
   "cta": {
     "text": "Compre agora e comece a criar!",
-    "url": "https://pay.vagalimitada.com/products/método-sapatinho-de-ouro"
+    "url": "https://pay.vagalimitada.com/products/metodo-sapatinho-de-ouro"
   },
   "shopee": {
     "searches": [
@@ -70,7 +70,7 @@
     }
   },
   "status": "published",
-  "cta_button_text": "Acesse os Modelos de Crochê Agora!",
+  "cta_button_text": "Acesse o Método Sapatinho de Ouro!",
   "cover_absolute": "https://assets.vagalimitada.com/blog/assets/generated/mtodo-sapatinho-de-ouro-8/cover-pixabay-sapatinho-de-croche.jpg",
   "canonical_url": "https://pay.vagalimitada.com/pages/blogpost?slug=mtodo-sapatinho-de-ouro-8"
 }

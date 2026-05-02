@@ -17,8 +17,8 @@
   "product": {
     "id": 22476585,
     "title": "Curso de Confecção de Bolsas Passo a Passo",
-    "handle": "curso-de-confecção-de-bolsas-passo-a-passo-1",
-    "url": "https://pay.vagalimitada.com/products/curso-de-confecção-de-bolsas-passo-a-passo-1",
+    "handle": "curso-de-confeccao-de-bolsas-passo-a-passo-1",
+    "url": "https://pay.vagalimitada.com/products/curso-de-confeccao-de-bolsas-passo-a-passo-1",
     "image_url": "https://assets.mycartpanda.com/static/products_images/f6/b3/a3/1736342392.jpg",
     "price": 0
   },
@@ -28,7 +28,7 @@
   },
   "cta": {
     "text": "Inscreva-se agora e comece a criar suas bolsas!",
-    "url": "https://pay.vagalimitada.com/products/curso-de-confecção-de-bolsas-passo-a-passo-1"
+    "url": "https://pay.vagalimitada.com/products/curso-de-confeccao-de-bolsas-passo-a-passo-1"
   },
   "shopee": {
     "searches": [
@@ -73,7 +73,7 @@
       "shopee": "shopee_api"
     }
   },
-  "cta_button_text": "Acesse os Modelos de Crochê Agora!",
+  "cta_button_text": "Acesse o Conteúdo Completo!",
   "cover_absolute": "https://assets.vagalimitada.com/blog/assets/generated/curso-de-confeco-de-bolsas-passo-a-passo/cover-pixabay-bolsas-artesanais.jpg",
   "canonical_url": "https://pay.vagalimitada.com/pages/blogpost?slug=curso-de-confeco-de-bolsas-passo-a-passo"
 }

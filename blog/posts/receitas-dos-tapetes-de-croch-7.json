@@ -16,8 +16,8 @@
   "product": {
     "id": 23316819,
     "title": "Receitas dos Tapetes de Crochê",
-    "handle": "receitas-dos-tapetes-de-crochê",
-    "url": "https://pay.vagalimitada.com/products/receitas-dos-tapetes-de-crochê",
+    "handle": "receitas-dos-tapetes-de-croche",
+    "url": "https://pay.vagalimitada.com/products/receitas-dos-tapetes-de-croche",
     "image_url": "https://assets.mycartpanda.com/static/products_images/fb/ca/fd/1742343835.png",
     "price": 0
   },
@@ -27,7 +27,7 @@
   },
   "cta": {
     "text": "Compre agora e comece a criar!",
-    "url": "https://pay.vagalimitada.com/products/receitas-dos-tapetes-de-crochê"
+    "url": "https://pay.vagalimitada.com/products/receitas-dos-tapetes-de-croche"
   },
   "shopee": {
     "searches": [
@@ -70,7 +70,7 @@
     }
   },
   "status": "published",
-  "cta_button_text": "Acesse os Modelos de Crochê Agora!",
+  "cta_button_text": "Acesse o Conteúdo Completo!",
   "cover_absolute": "https://assets.vagalimitada.com/blog/assets/generated/receitas-dos-tapetes-de-croch-7/cover-pixabay-tapete-de-croche.jpg",
   "canonical_url": "https://pay.vagalimitada.com/pages/blogpost?slug=receitas-dos-tapetes-de-croch-7"
 }
