@@ -4,10 +4,12 @@ import path from 'path';
 const BLOG_DIR = path.resolve('blog');
 const POSTS_DIR = path.join(BLOG_DIR, 'posts');
 const INDEX_FILE = path.join(BLOG_DIR, 'index.json');
+const CONFIG_FILE = path.join(BLOG_DIR, 'config.json');
 const RSS_FILE = path.join(BLOG_DIR, 'rss.xml');
 const SITEMAP_FILE = path.join(BLOG_DIR, 'sitemap.xml');
 const baseUrl = 'https://pay.vagalimitada.com';
-const BLOG_ASSETS_ORIGIN = 'https://assets.vagalimitada.com';
+const canonicalOrigin = 'https://vagalimitada.com'; // O blog principal (WordPress)
+const BLOG_ASSETS_ORIGIN = 'https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main';
 
 function ensureDirs() {
   if (!fs.existsSync(POSTS_DIR)) {
@@ -377,6 +379,17 @@ export function buildIndex(posts) {
   console.log(`Successfully built blog/index.json with ${index.length} posts.`);
 }
 
+export function buildConfig() {
+  const config = {
+    canonical_origin: canonicalOrigin,
+    assets_origin: BLOG_ASSETS_ORIGIN,
+    base_url: baseUrl,
+    last_updated: new Date().toISOString()
+  };
+  fs.writeFileSync(CONFIG_FILE, JSON.stringify(config, null, 2));
+  console.log(`Successfully built blog/config.json.`);
+}
+
 function xmlEscape(s) {
   return String(s || '')
     .replace(/&/g, '&amp;')
@@ -471,6 +484,7 @@ export function buildAll() {
   buildIndex(published);
   buildSitemap(published);
   buildRss(published);
+  buildConfig();
   return published.length;
 }
 
