@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 157,
+  "published_count": 158,
   "history": [
-    {
-      "date": "2026-04-11T13:22:04.219Z",
-      "product_id": 23316090,
-      "post_file": "bolsas-de-croch-lucrativas-aulas-7.json",
-      "slug": "bolsas-de-croch-lucrativas-aulas-7"
-    },
     {
       "date": "2026-04-11T19:03:38.161Z",
       "product_id": 22476585,
@@ -319,6 +313,12 @@
       "product_id": 24040943,
       "post_file": "como-fazer-sapatinho-para-bebes.json",
       "slug": "como-fazer-sapatinho-para-bebes"
+    },
+    {
+      "date": "2026-05-03T13:48:07.278Z",
+      "product_id": 22476584,
+      "post_file": "como-fazer-modelos-de-croche-para-todas-ocasioes.json",
+      "slug": "como-fazer-modelos-de-croche-para-todas-ocasioes"
     }
   ],
   "wp_posts": {
@@ -593,6 +593,22 @@
       "content_angle": "Aprenda a criar sapatinhos adoráveis para recém-nascidos e transforme seu enxoval.",
       "editorial_type": "tutorial_passo",
       "published_at": "2026-05-02T19:17:23.258Z"
+    },
+    "como-fazer-modelos-de-croche-para-todas-ocasioes": {
+      "wp_url": "https://vagalimitada.com/como-fazer-modelos-de-croche-para-todas-ocasioes/",
+      "wp_post_id": 2553,
+      "title": "Modelos de Crochê para Todas as Ocasiões: +2500 Receitas Incríveis",
+      "tags": [
+        "crochê",
+        "modelos de crochê",
+        "artesanato",
+        "receitas de crochê"
+      ],
+      "niche": "Crochê",
+      "primary_keyword": "modelos de crochê para todas as ocasiões",
+      "content_angle": "Explore como os +2500 modelos de crochê podem enriquecer sua experiência criativa e trazer alegria ao seu dia a dia.",
+      "editorial_type": "guias_iniciais",
+      "published_at": "2026-05-03T13:48:16.687Z"
     }
   }
 }

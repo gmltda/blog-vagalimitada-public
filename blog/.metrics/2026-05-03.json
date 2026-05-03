@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-05-03T13:48:18.459Z",
+    "duration_ms": 129027,
+    "slug": "como-fazer-modelos-de-croche-para-todas-ocasioes",
+    "product_id": 22476584,
+    "openai": {
+      "prompt_tokens": 4380,
+      "completion_tokens": 3474,
+      "cost_usd": 0.0027413999999999997,
+      "calls": 2
+    },
+    "status": "ok"
+  }
+]
