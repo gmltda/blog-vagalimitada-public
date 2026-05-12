@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-05-12T00:54:25.527Z",
+    "duration_ms": 92580,
+    "slug": "como-fazer-de-bordado-para-iniciantes",
+    "product_id": 29487868,
+    "openai": {
+      "prompt_tokens": 4798,
+      "completion_tokens": 3432,
+      "cost_usd": 0.0027789,
+      "calls": 2
+    },
+    "status": "ok"
+  }
+]

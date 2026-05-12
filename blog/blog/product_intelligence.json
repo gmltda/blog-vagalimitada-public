@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-12T00:53:05.074Z",
+  "products": {
+    "29487868": {
+      "product_id": "29487868",
+      "title": "Kit Caneta de Bordado + Curso Completo de Bordado",
+      "handle": "kit-caneta-bordado-curso",
+      "url": "https://pay.vagalimitada.com/products/kit-caneta-bordado-curso",
+      "price": 47,
+      "description_raw": "<p data-end=\"389\" data-start=\"321\">Transforme tecidos simples em bordados lindos mesmo sem experiência.</p><p data-end=\"523\" data-start=\"391\">Com o <strong data-end=\"422\" data-start=\"397\">Kit Caneta de Bordado</strong>, você cria peças delicadas com muito mais facilidade e controle — sem dor nas mãos e sem frustração.</p><p data-end=\"598\" data-start=\"525\">Você recebe em casa + ganha acesso imediato ao curso passo a passo.</p><p data-end=\"713\" data-start=\"600\">*Ideal para iniciantes<br data-start=\"623\" data-end=\"626\">*Resultado já na primeira tentativa<br data-start=\"662\" data-end=\"665\">*Perfeito para hobby, presente ou renda extra</p>",
+      "description": {
+        "clean_text": "Transforme tecidos simples em bordados lindos mesmo sem experiência. Com o Kit Caneta de Bordado , você cria peças delicadas com muito mais facilidade e controle — sem dor nas mãos e sem frustração. Você recebe em casa + ganha acesso imediato ao curso passo a passo. *Ideal para iniciantes *Resultado já na primeira tentativa *Perfeito para hobby, presente ou renda extra",
+        "short": "Transforme tecidos simples em bordados lindos mesmo sem experiência. Com o Kit Caneta de Bordado , você cria peças delicadas com muito mais facilidade e controle — sem dor nas mãos e sem frustração. Você recebe em casa + ganha acesso imediato ao curs",
+        "meta": "",
+        "source_field": "description",
+        "has_description": true,
+        "fetched_from_detail_endpoint": false
+      },
+      "image_urls": [],
+      "fingerprint": "d3c13b7afd7a5060629bab9bf3685be4260faa4ca46532e13229e6bdf274f5d0",
+      "macro_niche": "artesanato",
+      "niche": "bordado",
+      "subniche": "bordado com caneta",
+      "product_type": "fisico",
+      "content_format": "curso",
+      "audience": "Iniciantes em bordado que desejam aprender uma nova habilidade de forma fácil e acessível, buscando um hobby relaxante ou uma forma de gerar renda extra.",
+      "skill_level": "iniciante",
+      "main_promise": "Transforme tecidos simples em bordados lindos mesmo sem experiência.",
+      "transformation": "O comprador se torna capaz de criar peças delicadas e personalizadas, aumentando sua confiança e habilidades manuais.",
+      "pain_points": [
+        "Falta de experiência em bordado",
+        "Dores nas mãos ao bordar",
+        "Frustração com técnicas complexas",
+        "Medo de não conseguir resultados satisfatórios"
+      ],
+      "desired_outcome": "Criar bordados bonitos e únicos, seja para uso pessoal, presente ou venda.",
+      "materials": [
+        "caneta de bordado",
+        "tecidos",
+        "linha de bordado"
+      ],
+      "use_cases": [
+        "Usar a caneta para bordar em camisetas, toalhas, ou quadros decorativos."
+      ],
+      "avoid_topics": [
+        "Técnicas de bordado avançadas",
+        "Outros tipos de artesanato que não envolvem bordado"
+      ],
+      "seo_entities": [
+        "bordado",
+        "artesanato",
+        "caneta de bordado",
+        "curso de bordado"
+      ],
+      "primary_keyword_seeds": [
+        "kit de bordado",
+        "curso de bordado para iniciantes",
+        "bordado fácil"
+      ],
+      "content_angles": [
+        "ângulo de curiosidade",
+        "ângulo de renda extra",
+        "ângulo de tutorial"
+      ],
+      "cta_angles": [
+        "Comece a bordar hoje mesmo!",
+        "Transforme seu hobby em renda extra!",
+        "Aprenda a bordar de forma fácil e divertida!"
+      ],
+      "image_prompt_description": "Sem imagem real disponível",
+      "image_style_tags": [
+        "product_mockup"
+      ],
+      "confidence": 0.9,
+      "evidence": "A descrição enfatiza a facilidade de uso do kit, a acessibilidade para iniciantes e a promessa de resultados imediatos, confirmando o foco no nicho de bordado para iniciantes.",
+      "classification_source": [
+        "ai",
+        "description",
+        "image"
+      ],
+      "last_analyzed_at": "2026-05-12T00:53:05.074Z"
+    }
+  }
+}

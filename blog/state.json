@@ -18,14 +18,8 @@
     }
   },
   "last_published_at": "2026-02-28T02:38:21.583Z",
-  "published_count": 158,
+  "published_count": 159,
   "history": [
-    {
-      "date": "2026-04-11T19:03:38.161Z",
-      "product_id": 22476585,
-      "post_file": "curso-de-confeco-de-bolsas-passo-a-passo-6.json",
-      "slug": "curso-de-confeco-de-bolsas-passo-a-passo-6"
-    },
     {
       "date": "2026-04-12T13:33:49.993Z",
       "product_id": 23316819,
@@ -319,6 +313,12 @@
       "product_id": 22476584,
       "post_file": "como-fazer-modelos-de-croche-para-todas-ocasioes.json",
       "slug": "como-fazer-modelos-de-croche-para-todas-ocasioes"
+    },
+    {
+      "date": "2026-05-12T00:54:11.364Z",
+      "product_id": 29487868,
+      "post_file": "como-fazer-de-bordado-para-iniciantes.json",
+      "slug": "como-fazer-de-bordado-para-iniciantes"
     }
   ],
   "wp_posts": {
@@ -609,6 +609,22 @@
       "content_angle": "Explore como os +2500 modelos de crochê podem enriquecer sua experiência criativa e trazer alegria ao seu dia a dia.",
       "editorial_type": "guias_iniciais",
       "published_at": "2026-05-03T13:48:16.687Z"
+    },
+    "como-fazer-de-bordado-para-iniciantes": {
+      "wp_url": "https://vagalimitada.com/como-fazer-de-bordado-para-iniciantes/",
+      "wp_post_id": 2586,
+      "title": "Kit de Bordado para Iniciantes: Transforme Seu Hobby com Facilidade",
+      "tags": [
+        "bordado",
+        "artesanato",
+        "hobby",
+        "bordadeira"
+      ],
+      "niche": "Bordado",
+      "primary_keyword": "kit de bordado para iniciantes",
+      "content_angle": "Como o kit de bordado pode simplificar a sua jornada no bordado.",
+      "editorial_type": "guia_inicial",
+      "published_at": "2026-05-12T00:54:23.796Z"
     }
   }
 }
