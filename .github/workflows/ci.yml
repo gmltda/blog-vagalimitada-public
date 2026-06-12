@@ -37,6 +37,10 @@ jobs:
           node scripts/build_sitemap.mjs
           node scripts/build_rss.mjs
 
+      - name: Validate XML
+        run: |
+          node scripts/test_xml_validity.mjs
+
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
