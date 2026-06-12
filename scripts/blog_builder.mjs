@@ -364,12 +364,24 @@ export function buildConfig() {
 }
 
 function xmlEscape(s) {
-  return String(s || '')
+  if (s === null || s === undefined) return '';
+  return String(s)
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&apos;');
+}
+
+function formatIsoDate(dateVal) {
+  if (!dateVal) return new Date().toISOString();
+  try {
+    const d = new Date(dateVal);
+    if (!isNaN(d.getTime())) {
+      return d.toISOString();
+    }
+  } catch {}
+  return xmlEscape(String(dateVal).trim());
 }
 
 // #10 RSS with content:encoded + enclosure for cover image.
@@ -379,33 +391,35 @@ export function buildRss(posts) {
   xml += '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">\n';
   xml += '  <channel>\n';
   xml += '    <title>Blog VagaLimitada</title>\n';
-  xml += `    <link>${baseUrl}/pages/blog</link>\n`;
+  xml += `    <link>${xmlEscape(baseUrl + '/pages/blog')}</link>\n`;
   xml += '    <description>Moldes, Costura, Crochê e Dicas Profissionais</description>\n';
   xml += '    <language>pt-BR</language>\n';
-  xml += `    <lastBuildDate>${lastBuildDate}</lastBuildDate>\n`;
-  xml += `    <atom:link href="${baseUrl}/blog/rss.xml" rel="self" type="application/rss+xml" />\n`;
+  xml += `    <lastBuildDate>${xmlEscape(lastBuildDate)}</lastBuildDate>\n`;
+  xml += `    <atom:link href="${xmlEscape(baseUrl + '/blog/rss.xml')}" rel="self" type="application/rss+xml" />\n`;
 
   for (const post of posts) {
     const postUrl = `${baseUrl}/pages/blogpost?slug=${post.slug}`;
     const pubDate = new Date(getPostDate(post)).toUTCString();
     const coverAbs = post.cover_absolute || (post.cover ? absolutizeAssetUrl(post.cover) : '');
     const fullHtml = rewriteHtmlAssets(post.content_html || '');
+    const safeHtml = fullHtml.replace(/\]\]>/g, ']]&gt;');
+    
     xml += '    <item>\n';
     xml += `      <title>${xmlEscape(post.title)}</title>\n`;
-    xml += `      <link>${postUrl}</link>\n`;
-    xml += `      <guid isPermaLink="true">${postUrl}</guid>\n`;
-    xml += `      <pubDate>${pubDate}</pubDate>\n`;
+    xml += `      <link>${xmlEscape(postUrl)}</link>\n`;
+    xml += `      <guid isPermaLink="true">${xmlEscape(postUrl)}</guid>\n`;
+    xml += `      <pubDate>${xmlEscape(pubDate)}</pubDate>\n`;
     xml += `      <dc:creator>${xmlEscape(post.author || 'Equipe Vaga Limitada')}</dc:creator>\n`;
     xml += `      <description>${xmlEscape(post.excerpt || '')}</description>\n`;
-    if (fullHtml) {
-      xml += `      <content:encoded><![CDATA[${fullHtml}]]></content:encoded>\n`;
+    if (safeHtml) {
+      xml += `      <content:encoded><![CDATA[${safeHtml}]]></content:encoded>\n`;
     }
     (post.tags || []).forEach(t => {
       xml += `      <category>${xmlEscape(t)}</category>\n`;
     });
     if (coverAbs) {
       const mime = coverAbs.endsWith('.webp') ? 'image/webp' : (coverAbs.endsWith('.png') ? 'image/png' : 'image/jpeg');
-      xml += `      <enclosure url="${coverAbs}" type="${mime}" length="0" />\n`;
+      xml += `      <enclosure url="${xmlEscape(coverAbs)}" type="${xmlEscape(mime)}" length="0" />\n`;
     }
     xml += '    </item>\n';
   }
@@ -421,9 +435,10 @@ export function buildSitemap(posts) {
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n';
   xml += '  <url>\n';
-  xml += `    <loc>${baseUrl}/pages/blog</loc>\n`;
+  xml += `    <loc>${xmlEscape(baseUrl + '/pages/blog')}</loc>\n`;
   if (posts.length > 0) {
-    xml += `    <lastmod>${posts[0].updated_at || getPostDate(posts[0])}</lastmod>\n`;
+    const rawDate = posts[0].updated_at || getPostDate(posts[0]);
+    xml += `    <lastmod>${formatIsoDate(rawDate)}</lastmod>\n`;
   }
   xml += '    <changefreq>daily</changefreq>\n';
   xml += '    <priority>1.0</priority>\n';
@@ -431,14 +446,16 @@ export function buildSitemap(posts) {
 
   for (const post of posts) {
     const coverAbs = post.cover_absolute || (post.cover ? absolutizeAssetUrl(post.cover) : '');
+    const postUrl = `${baseUrl}/pages/blogpost?slug=${post.slug}`;
+    const rawDate = post.updated_at || getPostDate(post);
     xml += '  <url>\n';
-    xml += `    <loc>${baseUrl}/pages/blogpost?slug=${post.slug}</loc>\n`;
-    xml += `    <lastmod>${post.updated_at || getPostDate(post)}</lastmod>\n`;
+    xml += `    <loc>${xmlEscape(postUrl)}</loc>\n`;
+    xml += `    <lastmod>${formatIsoDate(rawDate)}</lastmod>\n`;
     xml += '    <changefreq>monthly</changefreq>\n';
     xml += '    <priority>0.8</priority>\n';
     if (coverAbs) {
       xml += '    <image:image>\n';
-      xml += `      <image:loc>${coverAbs}</image:loc>\n`;
+      xml += `      <image:loc>${xmlEscape(coverAbs)}</image:loc>\n`;
       xml += `      <image:title>${xmlEscape(post.title)}</image:title>\n`;
       if (post.excerpt) xml += `      <image:caption>${xmlEscape(post.excerpt)}</image:caption>\n`;
       xml += '    </image:image>\n';
