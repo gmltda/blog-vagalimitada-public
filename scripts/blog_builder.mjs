@@ -330,6 +330,10 @@ export function buildIndex(posts) {
   const index = posts.map(post => {
     const coverAbsolute = post.cover_absolute || (post.cover ? absolutizeAssetUrl(post.cover) : '');
     const canonicalUrl = post.canonical_url || `${baseUrl}/pages/blogpost?slug=${post.slug}`;
+    const cartpandaUrl = post.cartpanda_url || `${baseUrl}/pages/blogpost?slug=${post.slug}`;
+    const displayUrl = post.display_url || `${baseUrl}/pages/blogpost?slug=${post.slug}`;
+    const wordpressUrl = post.wordpress_url || (canonicalUrl.includes('vagalimitada.com') && !canonicalUrl.includes('pay.vagalimitada.com') ? canonicalUrl : null);
+    
     return {
       id: post.id,
       slug: post.slug,
@@ -341,6 +345,9 @@ export function buildIndex(posts) {
       cover: post.cover,
       cover_absolute: coverAbsolute,
       canonical_url: canonicalUrl,
+      wordpress_url: wordpressUrl,
+      cartpanda_url: cartpandaUrl,
+      display_url: displayUrl,
       reading_time_min: post.reading_time_min || null, // #33
       excerpt: post.excerpt,
       // #12, #18 — pass-through OG meta for the frontend head renderer.
