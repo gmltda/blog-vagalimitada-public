@@ -44,6 +44,21 @@
         ],
         "published_at": "2026-06-13T03:28:19.729Z"
       }
+    ],
+    "29660646": [
+      {
+        "slug": "costura-simples-passo-a-passo",
+        "primary_keyword": "costura simples",
+        "content_angle": "Guia prático e completo de costura para quem quer começar sem erros.",
+        "editorial_type": "guia_inicial",
+        "entities": [
+          "costura",
+          "passo a passo",
+          "materiais",
+          "artesanato"
+        ],
+        "published_at": "2026-06-13T19:50:26.161Z"
+      }
     ]
   }
 }

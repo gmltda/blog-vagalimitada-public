@@ -3,7 +3,7 @@
   "published_keywords": {},
   "published_by_product": {},
   "last_published_at": "",
-  "published_count": 3,
+  "published_count": 4,
   "history": [
     {
       "date": "2026-06-13T03:28:19.728Z",
@@ -22,6 +22,12 @@
       "product_id": 29462272,
       "post_file": "como-fazer-costura-simples.json",
       "slug": "como-fazer-costura-simples"
+    },
+    {
+      "date": "2026-06-13T19:50:26.161Z",
+      "product_id": 29660646,
+      "post_file": "costura-simples-passo-a-passo.json",
+      "slug": "costura-simples-passo-a-passo"
     }
   ],
   "wp_posts": {

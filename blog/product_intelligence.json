@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-13T04:47:16.346Z",
+  "updated_at": "2026-06-13T19:50:14.295Z",
   "products": {
     "22333280": {
       "product_id": "22333280",
@@ -253,6 +253,54 @@
         "image"
       ],
       "last_analyzed_at": "2026-06-13T03:49:06.948Z"
+    },
+    "29660646": {
+      "product_id": "29660646",
+      "title": "Guia Rápido de Acabamento Profissional para Bolsas",
+      "handle": "guia-rapido-de-acabamento-profissional-para-bolsas",
+      "url": "https://pay.vagalimitada.com/products/guia-rapido-de-acabamento-profissional-para-bolsas",
+      "price": 0,
+      "description_raw": "<p>Receba um guia prático com dicas de costura reforçada, acabamento interno, aplicação de alças, estruturação e detalhes que deixam a bolsa com aparência mais bonita e profissional.</p>",
+      "description": {
+        "clean_text": "Receba um guia prático com dicas de costura reforçada, acabamento interno, aplicação de alças, estruturação e detalhes que deixam a bolsa com aparência mais bonita e profissional.",
+        "short": "Receba um guia prático com dicas de costura reforçada, acabamento interno, aplicação de alças, estruturação e detalhes que deixam a bolsa com aparência mais bonita e profissional.",
+        "meta": "",
+        "source_field": "description",
+        "has_description": true,
+        "fetched_from_detail_endpoint": false
+      },
+      "image_urls": [
+        "https://assets.mycartpanda.com/static/products_images/04/7e/e2/1781266327.jpg"
+      ],
+      "fingerprint": "d09b47fcf1ee1b13a39955cab857719f208c471dc8348a60e17eb9d705383fe9",
+      "macro_niche": "artesanato",
+      "niche": "costura",
+      "subniche": "",
+      "product_type": "infoproduto",
+      "content_format": "",
+      "audience": "",
+      "skill_level": "iniciante",
+      "main_promise": "",
+      "transformation": "",
+      "pain_points": [],
+      "desired_outcome": "",
+      "materials": [],
+      "use_cases": [],
+      "avoid_topics": [],
+      "seo_entities": [],
+      "primary_keyword_seeds": [],
+      "content_angles": [],
+      "cta_angles": [],
+      "image_prompt_description": "Imagem de Guia Rápido de Acabamento Profissional para Bolsas",
+      "image_style_tags": [],
+      "confidence": 0.1,
+      "evidence": "",
+      "classification_source": [
+        "ai",
+        "description",
+        "image"
+      ],
+      "last_analyzed_at": "2026-06-13T19:50:14.295Z"
     }
   }
 }

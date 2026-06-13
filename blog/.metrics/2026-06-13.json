@@ -37,5 +37,18 @@
       "calls": 0
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-06-13T19:54:31.909Z",
+    "duration_ms": 279419,
+    "slug": "costura-simples-passo-a-passo",
+    "product_id": 29660646,
+    "openai": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    },
+    "status": "ok"
   }
 ]
