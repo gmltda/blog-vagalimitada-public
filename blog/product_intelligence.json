@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-12T00:53:05.074Z",
+  "updated_at": "2026-06-13T03:27:58.096Z",
   "products": {
     "29487868": {
       "product_id": "29487868",
@@ -17,69 +17,38 @@
         "has_description": true,
         "fetched_from_detail_endpoint": false
       },
-      "image_urls": [],
-      "fingerprint": "d3c13b7afd7a5060629bab9bf3685be4260faa4ca46532e13229e6bdf274f5d0",
+      "image_urls": [
+        "https://assets.mycartpanda.com/static/products_images/5a/8e/3c/1776058998.png"
+      ],
+      "fingerprint": "b51c41c31a5b990ba630bc1f680b777e52ba13fbd1ed854e765e8bb68923879d",
       "macro_niche": "artesanato",
       "niche": "bordado",
-      "subniche": "bordado com caneta",
-      "product_type": "fisico",
-      "content_format": "curso",
-      "audience": "Iniciantes em bordado que desejam aprender uma nova habilidade de forma fácil e acessível, buscando um hobby relaxante ou uma forma de gerar renda extra.",
+      "subniche": "",
+      "product_type": "infoproduto",
+      "content_format": "",
+      "audience": "",
       "skill_level": "iniciante",
-      "main_promise": "Transforme tecidos simples em bordados lindos mesmo sem experiência.",
-      "transformation": "O comprador se torna capaz de criar peças delicadas e personalizadas, aumentando sua confiança e habilidades manuais.",
-      "pain_points": [
-        "Falta de experiência em bordado",
-        "Dores nas mãos ao bordar",
-        "Frustração com técnicas complexas",
-        "Medo de não conseguir resultados satisfatórios"
-      ],
-      "desired_outcome": "Criar bordados bonitos e únicos, seja para uso pessoal, presente ou venda.",
-      "materials": [
-        "caneta de bordado",
-        "tecidos",
-        "linha de bordado"
-      ],
-      "use_cases": [
-        "Usar a caneta para bordar em camisetas, toalhas, ou quadros decorativos."
-      ],
-      "avoid_topics": [
-        "Técnicas de bordado avançadas",
-        "Outros tipos de artesanato que não envolvem bordado"
-      ],
-      "seo_entities": [
-        "bordado",
-        "artesanato",
-        "caneta de bordado",
-        "curso de bordado"
-      ],
-      "primary_keyword_seeds": [
-        "kit de bordado",
-        "curso de bordado para iniciantes",
-        "bordado fácil"
-      ],
-      "content_angles": [
-        "ângulo de curiosidade",
-        "ângulo de renda extra",
-        "ângulo de tutorial"
-      ],
-      "cta_angles": [
-        "Comece a bordar hoje mesmo!",
-        "Transforme seu hobby em renda extra!",
-        "Aprenda a bordar de forma fácil e divertida!"
-      ],
-      "image_prompt_description": "Sem imagem real disponível",
-      "image_style_tags": [
-        "product_mockup"
-      ],
-      "confidence": 0.9,
-      "evidence": "A descrição enfatiza a facilidade de uso do kit, a acessibilidade para iniciantes e a promessa de resultados imediatos, confirmando o foco no nicho de bordado para iniciantes.",
+      "main_promise": "",
+      "transformation": "",
+      "pain_points": [],
+      "desired_outcome": "",
+      "materials": [],
+      "use_cases": [],
+      "avoid_topics": [],
+      "seo_entities": [],
+      "primary_keyword_seeds": [],
+      "content_angles": [],
+      "cta_angles": [],
+      "image_prompt_description": "Imagem de Kit Caneta de Bordado + Curso Completo de Bordado",
+      "image_style_tags": [],
+      "confidence": 0.1,
+      "evidence": "",
       "classification_source": [
         "ai",
         "description",
         "image"
       ],
-      "last_analyzed_at": "2026-05-12T00:53:05.074Z"
+      "last_analyzed_at": "2026-06-13T03:27:58.096Z"
     }
   }
 }

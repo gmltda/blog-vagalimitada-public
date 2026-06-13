@@ -3,7 +3,30 @@
   "published_keywords": {},
   "published_by_product": {},
   "last_published_at": "",
-  "published_count": 0,
-  "history": [],
-  "wp_posts": {}
+  "published_count": 1,
+  "history": [
+    {
+      "date": "2026-06-13T03:28:19.728Z",
+      "product_id": 29487868,
+      "post_file": "como-fazer-bordado-simples.json",
+      "slug": "como-fazer-bordado-simples"
+    }
+  ],
+  "wp_posts": {
+    "como-fazer-bordado-simples": {
+      "wp_url": "https://vagalimitada.com/como-fazer-bordado-simples/",
+      "wp_post_id": 2613,
+      "title": "Kit Caneta de Bordado + Curso Completo de Bordado Passo a Passo: Guia Completo para Iniciantes",
+      "tags": [
+        "bordado",
+        "artesanato",
+        "iniciantes"
+      ],
+      "niche": "Bordado",
+      "primary_keyword": "bordado simples",
+      "content_angle": "Guia prático e completo de bordado para quem quer começar sem erros.",
+      "editorial_type": "guia_inicial",
+      "published_at": "2026-06-13T03:28:29.077Z"
+    }
+  }
 }

@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-06-13T03:28:30.756Z",
+    "duration_ms": 34115,
+    "slug": "como-fazer-bordado-simples",
+    "product_id": 29487868,
+    "openai": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    },
+    "status": "ok"
+  }
+]
