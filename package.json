@@ -1,0 +1,10 @@
+{
+  "name": "blog-vagalimitada-public",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "reset:blog:dry": "node scripts/reset_public_blog.mjs --dry-run",
+    "reset:blog": "node scripts/reset_public_blog.mjs --confirm"
+  }
+}
