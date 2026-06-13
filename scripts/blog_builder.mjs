@@ -64,6 +64,44 @@ function rewriteTagAttributes(html, tagName) {
       const fixed = attr.toLowerCase() === 'srcset' ? rewriteSrcset(value) : absolutizeAssetUrl(value);
       return ` ${attr}="${fixed}"`;
     });
+    if (tagName.toLowerCase() === 'img') {
+      if (!/\bdecoding=["']/i.test(updated)) {
+        updated = updated.replace('<img', '<img decoding="async"');
+      }
+      if (!/\bloading=["']/i.test(updated) && !/\bfetchpriority=["']/i.test(updated)) {
+        updated = updated.replace('<img', '<img loading="lazy"');
+      }
+    }
+    return updated;
+  });
+}
+
+function rewriteLinkAttributes(html) {
+  const linkRegex = /<a\s[^>]*>/gi;
+  return String(html || '').replace(linkRegex, tag => {
+    let updated = tag;
+    const hrefMatch = tag.match(/\shref=["']([^"']+)["']/i);
+    if (hrefMatch && hrefMatch[1]) {
+      const href = hrefMatch[1];
+      const isShopee = href.includes('shopee.com.br') || href.includes('s.shopee.com.br');
+      const isCartpanda = href.includes('pay.vagalimitada.com/products/');
+      
+      if (isShopee || isCartpanda) {
+        if (/\brel=["']/i.test(updated)) {
+          updated = updated.replace(/\srel=["']([^"']*)["']/i, ' rel="nofollow sponsored noopener"');
+        } else {
+          updated = updated.replace('<a', '<a rel="nofollow sponsored noopener"');
+        }
+      }
+      
+      if (isShopee) {
+        if (/\btarget=["']/i.test(updated)) {
+          updated = updated.replace(/\starget=["']([^"']*)["']/i, ' target="_blank"');
+        } else {
+          updated = updated.replace('<a', '<a target="_blank"');
+        }
+      }
+    }
     return updated;
   });
 }
@@ -72,6 +110,7 @@ function rewriteHtmlAssets(html) {
   let updated = String(html || '');
   updated = rewriteTagAttributes(updated, 'img');
   updated = rewriteTagAttributes(updated, 'source');
+  updated = rewriteLinkAttributes(updated);
   return updated;
 }
 
@@ -167,7 +206,7 @@ function enrichMaterialsUlWithThumbs(html, shopeeItems, slug) {
         updatedLi = updatedLi.replace(/href=["'][^"']*["']/, `href="${linkUrl}"`);
       }
       if (!hasLink && linkUrl) {
-        updatedLi = updatedLi.replace(/<\/li>/i, `<br><a href="${linkUrl}" target="_blank" rel="nofollow noopener">Ver produto recomendado</a></li>`);
+        updatedLi = updatedLi.replace(/<\/li>/i, `<br><a href="${linkUrl}" target="_blank" rel="nofollow sponsored noopener">Ver produto recomendado</a></li>`);
       }
       if (!hasBody) {
         updatedLi = updatedLi.replace(/<li([^>]*)>/i, (match, attrs) => {
@@ -183,7 +222,7 @@ function enrichMaterialsUlWithThumbs(html, shopeeItems, slug) {
           if (hasThumb) return `<li class="${liClass}">${body}</li>`;
           // Só injeta thumbnail quando houver imagem real; sem imagem, apenas o corpo (no-thumb).
           const thumb = imageUrl
-            ? `<img class="material-thumb" src="${imageUrl}" alt="${nameLabel || 'Material'}" loading="lazy" onerror="this.remove()">`
+            ? `<img class="material-thumb" src="${imageUrl}" alt="${nameLabel || 'Material'}" loading="lazy" decoding="async" onerror="this.remove()">`
             : '';
           return `<li class="${liClass}">${thumb}${body}</li>`;
         });
@@ -261,10 +300,11 @@ function readPosts() {
       }
 
       if (post.content_html) {
-        const withAssets = rewriteHtmlAssets(post.content_html);
-        const templated = applyTemplateVariant(withAssets, post.template);
-        if (templated !== post.content_html) {
-          post.content_html = templated;
+        let updatedHtml = enrichMaterialsUlWithThumbs(post.content_html, getShopeeItems(post), post.slug);
+        updatedHtml = rewriteHtmlAssets(updatedHtml);
+        updatedHtml = applyTemplateVariant(updatedHtml, post.template);
+        if (updatedHtml !== post.content_html) {
+          post.content_html = updatedHtml;
           modified = true;
         }
       }
@@ -334,25 +374,29 @@ export function buildIndex(posts) {
     const displayUrl = post.display_url || `${baseUrl}/pages/blogpost?slug=${post.slug}`;
     const wordpressUrl = post.wordpress_url || (canonicalUrl.includes('vagalimitada.com') && !canonicalUrl.includes('pay.vagalimitada.com') ? canonicalUrl : null);
     
+    const productBasic = post.product ? {
+      title: post.product.title,
+      image_url: post.product.image_url,
+      price: post.product.price,
+      url: post.product.url || post.product.product_url
+    } : null;
+
     return {
-      id: post.id,
       slug: post.slug,
       title: post.title,
-      date: post.date_iso,
-      updated_at: post.updated_at || post.date_iso, // #11
+      excerpt: post.excerpt,
+      date_iso: post.date_iso || post.date,
+      updated_at: post.updated_at || post.date_iso || post.date,
       date_display: post.date_display,
       tags: post.tags || [],
-      cover: post.cover,
       cover_absolute: coverAbsolute,
       canonical_url: canonicalUrl,
       wordpress_url: wordpressUrl,
       cartpanda_url: cartpandaUrl,
       display_url: displayUrl,
-      reading_time_min: post.reading_time_min || null, // #33
-      excerpt: post.excerpt,
-      // #12, #18 — pass-through OG meta for the frontend head renderer.
-      // Twitter Cards removidos: não há conta Twitter/X ativa.
-      og: post.og || null
+      reading_time_min: post.reading_time_min || null,
+      primary_keyword: post.seo?.primary_keyword || post.primary_keyword || '',
+      product: productBasic
     };
   });
   fs.writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2));
