@@ -24,5 +24,18 @@
       "calls": 0
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-06-13T04:47:42.166Z",
+    "duration_ms": 27786,
+    "slug": "como-fazer-costura-simples",
+    "product_id": 29462272,
+    "openai": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    },
+    "status": "ok"
   }
 ]

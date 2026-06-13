@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-13T03:49:16.825Z",
+  "updated_at": "2026-06-13T04:47:16.346Z",
   "products": {
     "22333280": {
       "product_id": "22333280",
@@ -58,6 +58,105 @@
         "image"
       ],
       "last_analyzed_at": "2026-06-13T03:49:16.825Z"
+    },
+    "23315664": {
+      "product_id": "23315664",
+      "title": "Criação de Camarões + Projetos",
+      "handle": "criacao-de-camaroes-projetos",
+      "url": "https://pay.vagalimitada.com/products/criacao-de-camaroes-projetos",
+      "price": 0,
+      "description_raw": "<p>Criação de Camarões + Projetos</p>",
+      "description": {
+        "clean_text": "Criação de Camarões + Projetos",
+        "short": "Criação de Camarões + Projetos",
+        "meta": "",
+        "source_field": "body_html",
+        "has_description": true,
+        "fetched_from_detail_endpoint": true
+      },
+      "image_urls": [
+        "https://assets.mycartpanda.com/static/products_images/2b/b3/57/1742340610.jpg",
+        "https://assets.mycartpanda.com/static/products_images/9c/4e/c8/1742340592.jpg",
+        "https://assets.mycartpanda.com/static/products_images/60/36/64/1742340389.png",
+        "https://assets.mycartpanda.com/static/products_images/e2/cc/99/1742340022.jpg"
+      ],
+      "fingerprint": "3f495e002d9d181fbb6a40a0bc64c2ea70a6a86926acb8a9ddee0515075f433e",
+      "macro_niche": "artesanato",
+      "niche": "aquarismo",
+      "subniche": "",
+      "product_type": "infoproduto",
+      "content_format": "",
+      "audience": "",
+      "skill_level": "iniciante",
+      "main_promise": "",
+      "transformation": "",
+      "pain_points": [],
+      "desired_outcome": "",
+      "materials": [],
+      "use_cases": [],
+      "avoid_topics": [],
+      "seo_entities": [],
+      "primary_keyword_seeds": [],
+      "content_angles": [],
+      "cta_angles": [],
+      "image_prompt_description": "Imagem de Criação de Camarões + Projetos",
+      "image_style_tags": [],
+      "confidence": 0.1,
+      "evidence": "",
+      "classification_source": [
+        "ai",
+        "description",
+        "image"
+      ],
+      "last_analyzed_at": "2026-06-13T04:47:15.891Z"
+    },
+    "29462272": {
+      "product_id": "29462272",
+      "title": "Bolsas na Tela",
+      "handle": "bolsas-na-tela",
+      "url": "https://pay.vagalimitada.com/products/bolsas-na-tela",
+      "price": 0,
+      "description_raw": "<p>Aprenda a criar Bolsas na Tela lindas, estruturadas e com acabamento artesanal, mesmo começando do zero.</p><p>Após a confirmação do pagamento, seu acesso será liberado imediatamente na própria página de obrigado da compra.</p><p>Você não precisa baixar aplicativo, criar cadastro separado ou esperar email para começar. Assim que finalizar o pedido, continue na página de confirmação para acessar o conteúdo pela área de membros DeliveryHub.</p><p>O acesso funciona pelo celular, tablet ou computador.</p><p>Importante:</p><p>- Pagamento aprovado no cartão: acesso liberado na hora.</p><p>- Pagamento via PIX: acesso liberado após a confirmação do pagamento.</p><p>- A entrega acontece diretamente na página de obrigado após a compra.</p><p>- Use o mesmo dispositivo/navegador da compra para acessar com mais facilidade.</p><p>Você também poderá receber informações importantes no email usado na compra. Verifique sua caixa de entrada, spam ou promoções caso necessário.</p><p>Este produto possui garantia de 7 dias.</p>",
+      "description": {
+        "clean_text": "Aprenda a criar Bolsas na Tela lindas, estruturadas e com acabamento artesanal, mesmo começando do zero. Após a confirmação do pagamento, seu acesso será liberado imediatamente na própria página de obrigado da compra. Você não precisa baixar aplicativo, criar cadastro separado ou esperar email para começar. Assim que finalizar o pedido, continue na página de confirmação para acessar o conteúdo pela área de membros DeliveryHub. O acesso funciona pelo celular, tablet ou computador. Importante: - Pagamento aprovado no cartão: acesso liberado na hora. - Pagamento via PIX: acesso liberado após a confirmação do pagamento. - A entrega acontece diretamente na página de obrigado após a compra. - Use o mesmo dispositivo/navegador da compra para acessar com mais facilidade. Você também poderá receber informações importantes no email usado na compra. Verifique sua caixa de entrada, spam ou promoções caso necessário. Este produto possui garantia de 7 dias.",
+        "short": "Aprenda a criar Bolsas na Tela lindas, estruturadas e com acabamento artesanal, mesmo começando do zero. Após a confirmação do pagamento, seu acesso será liberado imediatamente na própria página de obrigado da compra. Você não precisa baixar aplicati",
+        "meta": "",
+        "source_field": "description",
+        "has_description": true,
+        "fetched_from_detail_endpoint": false
+      },
+      "image_urls": [
+        "https://assets.mycartpanda.com/static/products_images/0c/e5/05/1778354233.png"
+      ],
+      "fingerprint": "f71e704df1e7c7d269b6cd79d5b1185c25d2bd8bbb305728683f5159d3472a36",
+      "macro_niche": "artesanato",
+      "niche": "trico",
+      "subniche": "",
+      "product_type": "infoproduto",
+      "content_format": "",
+      "audience": "",
+      "skill_level": "iniciante",
+      "main_promise": "",
+      "transformation": "",
+      "pain_points": [],
+      "desired_outcome": "",
+      "materials": [],
+      "use_cases": [],
+      "avoid_topics": [],
+      "seo_entities": [],
+      "primary_keyword_seeds": [],
+      "content_angles": [],
+      "cta_angles": [],
+      "image_prompt_description": "Imagem de Bolsas na Tela",
+      "image_style_tags": [],
+      "confidence": 0.1,
+      "evidence": "",
+      "classification_source": [
+        "ai",
+        "description",
+        "image"
+      ],
+      "last_analyzed_at": "2026-06-13T04:47:16.346Z"
     },
     "29487868": {
       "product_id": "29487868",

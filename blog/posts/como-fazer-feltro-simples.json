@@ -423,5 +423,6 @@
       "shopee": "shopee_api"
     }
   },
-  "wordpress_status": "published"
+  "wordpress_status": "published",
+  "status": "published"
 }
