@@ -1,5 +1,20 @@
 {
   "by_product_id": {
+    "22333280": [
+      {
+        "slug": "como-fazer-feltro-simples",
+        "primary_keyword": "feltro simples",
+        "content_angle": "Guia prático e completo de feltro para quem quer começar sem erros.",
+        "editorial_type": "guia_inicial",
+        "entities": [
+          "feltro",
+          "passo a passo",
+          "materiais",
+          "artesanato"
+        ],
+        "published_at": "2026-06-13T03:49:26.626Z"
+      }
+    ],
     "29487868": [
       {
         "slug": "como-fazer-bordado-simples",

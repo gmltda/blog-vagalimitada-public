@@ -3,13 +3,19 @@
   "published_keywords": {},
   "published_by_product": {},
   "last_published_at": "",
-  "published_count": 1,
+  "published_count": 2,
   "history": [
     {
       "date": "2026-06-13T03:28:19.728Z",
       "product_id": 29487868,
       "post_file": "como-fazer-bordado-simples.json",
       "slug": "como-fazer-bordado-simples"
+    },
+    {
+      "date": "2026-06-13T03:49:26.626Z",
+      "product_id": 22333280,
+      "post_file": "como-fazer-feltro-simples.json",
+      "slug": "como-fazer-feltro-simples"
     }
   ],
   "wp_posts": {
@@ -27,6 +33,21 @@
       "content_angle": "Guia prático e completo de bordado para quem quer começar sem erros.",
       "editorial_type": "guia_inicial",
       "published_at": "2026-06-13T03:28:29.077Z"
+    },
+    "como-fazer-feltro-simples": {
+      "wp_url": "https://vagalimitada.com/como-fazer-feltro-simples/",
+      "wp_post_id": 2615,
+      "title": "Moldes Feltro Passo a Passo: Guia Completo para Iniciantes",
+      "tags": [
+        "feltro",
+        "artesanato",
+        "iniciantes"
+      ],
+      "niche": "Feltro",
+      "primary_keyword": "feltro simples",
+      "content_angle": "Guia prático e completo de feltro para quem quer começar sem erros.",
+      "editorial_type": "guia_inicial",
+      "published_at": "2026-06-13T03:49:35.955Z"
     }
   }
 }

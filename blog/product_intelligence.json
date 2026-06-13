@@ -1,7 +1,64 @@
 {
   "version": 1,
-  "updated_at": "2026-06-13T03:27:58.096Z",
+  "updated_at": "2026-06-13T03:49:16.825Z",
   "products": {
+    "22333280": {
+      "product_id": "22333280",
+      "title": "Moldes Feltro",
+      "handle": "moldes-feltro",
+      "url": "https://pay.vagalimitada.com/products/moldes-feltro",
+      "price": 0,
+      "description_raw": "<p data-end=\"493\" data-start=\"189\">Transforme seus projetos de feltro em peças perfeitas com <strong data-end=\"302\" data-start=\"247\">moldes profissionais prontos para cortar e costurar</strong>!<br data-start=\"303\" data-end=\"306\">Este produto digital oferece uma coleção completa de moldes de feltro altamente detalhados, ideais para artesãs de todos os níveis — desde quem está começando até quem já tem experiência.</p><p data-end=\"704\" data-start=\"495\">Com os <strong data-end=\"519\" data-start=\"502\">Moldes Feltro</strong>, você terá:<br>*Padrões precisos e dimensionados<br data-start=\"567\" data-end=\"570\">*Formatos fáceis de imprimir em casa<br data-start=\"608\" data-end=\"611\">*Design pensado para peças que realmente funcionam<br data-start=\"663\" data-end=\"666\">*Compatível com feltro, tecido e EVA</p><p data-end=\"853\" data-start=\"706\">Perfeito para produzir <strong data-end=\"792\" data-start=\"729\">lembrancinhas, decoração, acessórios e presentes artesanais</strong>, economizando tempo e garantindo um acabamento profissional.</p>",
+      "description": {
+        "clean_text": "Transforme seus projetos de feltro em peças perfeitas com moldes profissionais prontos para cortar e costurar ! Este produto digital oferece uma coleção completa de moldes de feltro altamente detalhados, ideais para artesãs de todos os níveis — desde quem está começando até quem já tem experiência. Com os Moldes Feltro , você terá: *Padrões precisos e dimensionados *Formatos fáceis de imprimir em casa *Design pensado para peças que realmente funcionam *Compatível com feltro, tecido e EVA Perfeito para produzir lembrancinhas, decoração, acessórios e presentes artesanais , economizando tempo e garantindo um acabamento profissional.",
+        "short": "Transforme seus projetos de feltro em peças perfeitas com moldes profissionais prontos para cortar e costurar ! Este produto digital oferece uma coleção completa de moldes de feltro altamente detalhados, ideais para artesãs de todos os níveis — desde",
+        "meta": "",
+        "source_field": "description",
+        "has_description": true,
+        "fetched_from_detail_endpoint": false
+      },
+      "image_urls": [
+        "https://assets.mycartpanda.com/static/products_images/aa/ea/1f/1736344646.jpg",
+        "https://assets.mycartpanda.com/static/products_images/0e/93/54/1771475503.jpg",
+        "https://assets.mycartpanda.com/static/products_images/10/00/eb/1771475730.jpg",
+        "https://assets.mycartpanda.com/static/products_images/78/4e/85/1771473696.png",
+        "https://assets.mycartpanda.com/static/products_images/30/16/d4/1771473694.png",
+        "https://assets.mycartpanda.com/static/products_images/7b/22/53/1771473692.png",
+        "https://assets.mycartpanda.com/static/products_images/d9/81/19/1771473690.png",
+        "https://assets.mycartpanda.com/static/products_images/4e/66/eb/1771473688.png",
+        "https://assets.mycartpanda.com/static/products_images/a3/7b/e9/1771473232.png",
+        "https://assets.mycartpanda.com/static/products_images/97/28/ae/1736344676.png"
+      ],
+      "fingerprint": "701a3128ad9ce30bdcdeeebb3655d536c028aefaaed398ffa6487c3badca75c2",
+      "macro_niche": "artesanato",
+      "niche": "costura",
+      "subniche": "",
+      "product_type": "infoproduto",
+      "content_format": "",
+      "audience": "",
+      "skill_level": "iniciante",
+      "main_promise": "",
+      "transformation": "",
+      "pain_points": [],
+      "desired_outcome": "",
+      "materials": [],
+      "use_cases": [],
+      "avoid_topics": [],
+      "seo_entities": [],
+      "primary_keyword_seeds": [],
+      "content_angles": [],
+      "cta_angles": [],
+      "image_prompt_description": "Imagem de Moldes Feltro",
+      "image_style_tags": [],
+      "confidence": 0.1,
+      "evidence": "",
+      "classification_source": [
+        "ai",
+        "description",
+        "image"
+      ],
+      "last_analyzed_at": "2026-06-13T03:49:16.825Z"
+    },
     "29487868": {
       "product_id": "29487868",
       "title": "Kit Caneta de Bordado + Curso Completo de Bordado",
@@ -49,6 +106,54 @@
         "image"
       ],
       "last_analyzed_at": "2026-06-13T03:27:58.096Z"
+    },
+    "29660545": {
+      "product_id": "29660545",
+      "title": "+50 Moldes de Bolsas Mais Vendidas",
+      "handle": "50-moldes-de-bolsas-mais-vendidas",
+      "url": "https://pay.vagalimitada.com/products/50-moldes-de-bolsas-mais-vendidas",
+      "price": 0,
+      "description_raw": "<p>pacote extra com +50 moldes de bolsas prontas para copiar, adaptar e vender. Inclui modelos como bolsa tiracolo, nécessaire, bolsa de mão, sacola, carteira e porta-celular</p>",
+      "description": {
+        "clean_text": "pacote extra com +50 moldes de bolsas prontas para copiar, adaptar e vender. Inclui modelos como bolsa tiracolo, nécessaire, bolsa de mão, sacola, carteira e porta-celular",
+        "short": "pacote extra com +50 moldes de bolsas prontas para copiar, adaptar e vender. Inclui modelos como bolsa tiracolo, nécessaire, bolsa de mão, sacola, carteira e porta-celular",
+        "meta": "",
+        "source_field": "description",
+        "has_description": true,
+        "fetched_from_detail_endpoint": false
+      },
+      "image_urls": [
+        "https://assets.mycartpanda.com/static/products_images/4b/75/11/1781264862.jpg"
+      ],
+      "fingerprint": "de7e37a02dcdff697d013842d09de0d1ddfd726f3bf817a024d3389ef157e279",
+      "macro_niche": "artesanato",
+      "niche": "costura",
+      "subniche": "",
+      "product_type": "infoproduto",
+      "content_format": "",
+      "audience": "",
+      "skill_level": "iniciante",
+      "main_promise": "",
+      "transformation": "",
+      "pain_points": [],
+      "desired_outcome": "",
+      "materials": [],
+      "use_cases": [],
+      "avoid_topics": [],
+      "seo_entities": [],
+      "primary_keyword_seeds": [],
+      "content_angles": [],
+      "cta_angles": [],
+      "image_prompt_description": "Imagem de +50 Moldes de Bolsas Mais Vendidas",
+      "image_style_tags": [],
+      "confidence": 0.1,
+      "evidence": "",
+      "classification_source": [
+        "ai",
+        "description",
+        "image"
+      ],
+      "last_analyzed_at": "2026-06-13T03:49:06.948Z"
     }
   }
 }

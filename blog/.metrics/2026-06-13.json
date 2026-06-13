@@ -11,5 +11,18 @@
       "calls": 0
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-06-13T03:49:37.598Z",
+    "duration_ms": 32112,
+    "slug": "como-fazer-feltro-simples",
+    "product_id": 22333280,
+    "openai": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    },
+    "status": "ok"
   }
 ]
