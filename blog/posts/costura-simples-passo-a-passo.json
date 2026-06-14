@@ -418,5 +418,6 @@
     }
   },
   "wordpress_status": "failed",
-  "wordpress_error": "[WP] GET /categories?slug=costura&per_page=1 → network error após 8: fetch failed"
+  "wordpress_error": "[WP] GET /categories?slug=costura&per_page=1 → network error após 8: fetch failed",
+  "status": "published"
 }

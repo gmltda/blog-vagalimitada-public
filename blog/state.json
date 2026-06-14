@@ -3,7 +3,7 @@
   "published_keywords": {},
   "published_by_product": {},
   "last_published_at": "",
-  "published_count": 4,
+  "published_count": 5,
   "history": [
     {
       "date": "2026-06-13T03:28:19.728Z",
@@ -28,6 +28,12 @@
       "product_id": 29660646,
       "post_file": "costura-simples-passo-a-passo.json",
       "slug": "costura-simples-passo-a-passo"
+    },
+    {
+      "date": "2026-06-14T14:25:42.555Z",
+      "product_id": 28394753,
+      "post_file": "como-fazer-croche-simples.json",
+      "slug": "como-fazer-croche-simples"
     }
   ],
   "wp_posts": {

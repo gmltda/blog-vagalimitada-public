@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-13T19:50:14.295Z",
+  "updated_at": "2026-06-14T14:25:16.551Z",
   "products": {
     "22333280": {
       "product_id": "22333280",
@@ -109,6 +109,54 @@
         "image"
       ],
       "last_analyzed_at": "2026-06-13T04:47:15.891Z"
+    },
+    "28394753": {
+      "product_id": "28394753",
+      "title": "Bolsas Praianas em Crochê",
+      "handle": "bolsas-praianas-em-croche",
+      "url": "https://pay.vagalimitada.com/products/bolsas-praianas-em-croche",
+      "price": 0,
+      "description_raw": "<p data-end=\"415\" data-start=\"317\">Transforme seu crochê em renda criando <strong data-end=\"414\" data-start=\"356\">bolsas praianas modernas, desejadas e fáceis de vender</strong>.</p><p data-end=\"607\" data-start=\"417\">Neste treinamento você aprende, passo a passo, como confeccionar <strong data-end=\"514\" data-start=\"482\">bolsas que vendem o ano todo</strong>, mesmo começando do zero, usando técnicas simples, modelos atuais e acabamento profissional.</p><p data-end=\"630\" data-start=\"609\">Ideal para quem quer:</p><ul data-end=\"768\" data-start=\"631\"><li data-end=\"661\" data-start=\"631\"><p data-end=\"661\" data-start=\"633\">Ganhar renda extra em casa</p></li><li data-end=\"689\" data-start=\"662\"><p data-end=\"689\" data-start=\"664\">Trabalhar por encomenda</p></li><li data-end=\"733\" data-start=\"690\"><p data-end=\"733\" data-start=\"692\">Produzir peças com alto valor percebido</p></li><li><p><br></p></li><li data-end=\"733\" data-start=\"690\"><p data-end=\"733\" data-start=\"692\">Começar rápido sem complicação</p></li></ul><p data-end=\"818\" data-start=\"770\">Acesso imediato após a confirmação do pagamento.</p>",
+      "description": {
+        "clean_text": "Transforme seu crochê em renda criando bolsas praianas modernas, desejadas e fáceis de vender . Neste treinamento você aprende, passo a passo, como confeccionar bolsas que vendem o ano todo , mesmo começando do zero, usando técnicas simples, modelos atuais e acabamento profissional. Ideal para quem quer: Ganhar renda extra em casa Trabalhar por encomenda Produzir peças com alto valor percebido Começar rápido sem complicação Acesso imediato após a confirmação do pagamento.",
+        "short": "Transforme seu crochê em renda criando bolsas praianas modernas, desejadas e fáceis de vender . Neste treinamento você aprende, passo a passo, como confeccionar bolsas que vendem o ano todo , mesmo começando do zero, usando técnicas simples, modelos ",
+        "meta": "",
+        "source_field": "description",
+        "has_description": true,
+        "fetched_from_detail_endpoint": false
+      },
+      "image_urls": [
+        "https://assets.mycartpanda.com/static/products_images/ca/51/ec/1768221094.png"
+      ],
+      "fingerprint": "167bdb6c287fa299371631ca4f407260fd8bdf6d3836faa70bdce4b80781455c",
+      "macro_niche": "artesanato",
+      "niche": "costura",
+      "subniche": "",
+      "product_type": "infoproduto",
+      "content_format": "",
+      "audience": "",
+      "skill_level": "iniciante",
+      "main_promise": "",
+      "transformation": "",
+      "pain_points": [],
+      "desired_outcome": "",
+      "materials": [],
+      "use_cases": [],
+      "avoid_topics": [],
+      "seo_entities": [],
+      "primary_keyword_seeds": [],
+      "content_angles": [],
+      "cta_angles": [],
+      "image_prompt_description": "Imagem de Bolsas Praianas em Crochê",
+      "image_style_tags": [],
+      "confidence": 0.1,
+      "evidence": "",
+      "classification_source": [
+        "ai",
+        "description",
+        "image"
+      ],
+      "last_analyzed_at": "2026-06-14T14:25:16.549Z"
     },
     "29462272": {
       "product_id": "29462272",

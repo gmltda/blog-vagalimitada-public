@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-06-14T14:29:47.117Z",
+    "duration_ms": 272793,
+    "slug": "como-fazer-croche-simples",
+    "product_id": 28394753,
+    "openai": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    },
+    "status": "ok"
+  }
+]

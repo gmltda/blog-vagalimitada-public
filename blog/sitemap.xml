@@ -2,9 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://pay.vagalimitada.com/pages/blog</loc>
-    <lastmod>2026-06-13T19:50:14.296Z</lastmod>
+    <lastmod>2026-06-14T14:25:16.553Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pay.vagalimitada.com/pages/blogpost?slug=como-fazer-croche-simples</loc>
+    <lastmod>2026-06-14T14:25:16.553Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/gmltda/blog-vagalimitada-public@main/blog/assets/generated/como-fazer-croche-simples/cover-unsplash-crochet-hook-with-yarn-y.jpg</image:loc>
+      <image:title>Bolsas Praianas em Crochê Passo a Passo: Guia Completo para Iniciantes</image:title>
+      <image:caption>Quer aprender a trabalhar com Bolsas Praianas em Crochê? Descubra o passo a passo completo, dicas essenciais e materiais recomendados para começar hoje mesmo.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://pay.vagalimitada.com/pages/blogpost?slug=costura-simples-passo-a-passo</loc>
