@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-06-15T05:29:21.060Z",
+    "duration_ms": 267786,
+    "slug": "costura-simples-para-iniciantes",
+    "product_id": 22476583,
+    "openai": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    },
+    "status": "ok"
+  }
+]

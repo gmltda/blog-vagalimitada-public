@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-14T14:25:16.551Z",
+  "updated_at": "2026-06-15T05:24:55.247Z",
   "products": {
     "22333280": {
       "product_id": "22333280",
@@ -58,6 +58,66 @@
         "image"
       ],
       "last_analyzed_at": "2026-06-13T03:49:16.825Z"
+    },
+    "22476583": {
+      "product_id": "22476583",
+      "title": "Pacote de Moldes",
+      "handle": "pacote-moldes",
+      "url": "https://pay.vagalimitada.com/products/pacote-moldes",
+      "price": 0,
+      "description_raw": "<p>Pare de perder tempo criando moldes do zero.</p><p>Com o Pacote de Moldes Profissionais você recebe uma biblioteca completa de modelagens prontas para imprimir, cortar e costurar — mesmo que você ainda esteja começando.</p><p>Você vai encontrar moldes organizados por categoria:</p><p>* Vestidos</p><p>* Calças</p><p>* Blusas</p><p>* Saias</p><p>* Shorts</p><p>* Macacões</p><p>* Uniformes</p><p>* Infantil</p><p>* Lingerie</p><p>* Pijamas</p><p>* Pet</p><p>* Fitness</p><p>* Plus Size</p><p>* Moda Praia</p><p>* Conjuntos</p><p>* Fantasias</p><p>* E muitos outros modelos</p><p>Todos os moldes já vêm configurados para impressão em A4 comum.</p><p>Basta baixar, imprimir em casa, montar e começar a produzir.</p><p>Ideal para quem quer:</p><p>* acelerar a produção</p><p>* parar de errar medidas</p><p>* fazer peças bonitas com padrão profissional</p><p>* vender ou evoluir na costura</p><p>* ganhar tempo no dia a dia</p><p>O acesso é 100% digital e imediato após o pagamento.</p>",
+      "description": {
+        "clean_text": "Pare de perder tempo criando moldes do zero. Com o Pacote de Moldes Profissionais você recebe uma biblioteca completa de modelagens prontas para imprimir, cortar e costurar — mesmo que você ainda esteja começando. Você vai encontrar moldes organizados por categoria: * Vestidos * Calças * Blusas * Saias * Shorts * Macacões * Uniformes * Infantil * Lingerie * Pijamas * Pet * Fitness * Plus Size * Moda Praia * Conjuntos * Fantasias * E muitos outros modelos Todos os moldes já vêm configurados para impressão em A4 comum. Basta baixar, imprimir em casa, montar e começar a produzir. Ideal para quem quer: * acelerar a produção * parar de errar medidas * fazer peças bonitas com padrão profissional * vender ou evoluir na costura * ganhar tempo no dia a dia O acesso é 100% digital e imediato após o pagamento.",
+        "short": "Pare de perder tempo criando moldes do zero. Com o Pacote de Moldes Profissionais você recebe uma biblioteca completa de modelagens prontas para imprimir, cortar e costurar — mesmo que você ainda esteja começando. Você vai encontrar moldes organizado",
+        "meta": "",
+        "source_field": "description",
+        "has_description": true,
+        "fetched_from_detail_endpoint": false
+      },
+      "image_urls": [
+        "https://assets.mycartpanda.com/static/products_images/08/70/bd/1737239463.jpg",
+        "https://assets.mycartpanda.com/static/products_images/65/a5/47/1771587309.jpg",
+        "https://assets.mycartpanda.com/static/products_images/c7/69/1c/1771591831.jpg",
+        "https://assets.mycartpanda.com/static/products_images/36/3a/6f/1771590073.jpg",
+        "https://assets.mycartpanda.com/static/products_images/dc/82/f8/1771589869.jpg",
+        "https://assets.mycartpanda.com/static/products_images/c0/57/f8/1771589651.jpg",
+        "https://assets.mycartpanda.com/static/products_images/36/ae/72/1771587310.jpg",
+        "https://assets.mycartpanda.com/static/products_images/04/11/53/1771587307.jpg",
+        "https://assets.mycartpanda.com/static/products_images/ea/8d/87/1771587306.jpg",
+        "https://assets.mycartpanda.com/static/products_images/4e/21/cf/1771587305.jpg",
+        "https://assets.mycartpanda.com/static/products_images/4f/a7/c9/1771587304.jpg",
+        "https://assets.mycartpanda.com/static/products_images/c7/44/03/1771583873.jpg",
+        "https://assets.mycartpanda.com/static/products_images/c0/09/59/1771582587.png"
+      ],
+      "fingerprint": "89f6a7c8569e923b94f310419c4e5c0eb27199c6dd0e84ad32e87f79a8299ab2",
+      "macro_niche": "artesanato",
+      "niche": "costura",
+      "subniche": "",
+      "product_type": "infoproduto",
+      "content_format": "",
+      "audience": "",
+      "skill_level": "iniciante",
+      "main_promise": "",
+      "transformation": "",
+      "pain_points": [],
+      "desired_outcome": "",
+      "materials": [],
+      "use_cases": [],
+      "avoid_topics": [],
+      "seo_entities": [],
+      "primary_keyword_seeds": [],
+      "content_angles": [],
+      "cta_angles": [],
+      "image_prompt_description": "Imagem de Pacote de Moldes",
+      "image_style_tags": [],
+      "confidence": 0.1,
+      "evidence": "",
+      "classification_source": [
+        "ai",
+        "description",
+        "image"
+      ],
+      "last_analyzed_at": "2026-06-15T05:24:55.247Z"
     },
     "23315664": {
       "product_id": "23315664",

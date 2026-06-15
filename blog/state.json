@@ -3,7 +3,7 @@
   "published_keywords": {},
   "published_by_product": {},
   "last_published_at": "",
-  "published_count": 5,
+  "published_count": 6,
   "history": [
     {
       "date": "2026-06-13T03:28:19.728Z",
@@ -34,6 +34,12 @@
       "product_id": 28394753,
       "post_file": "como-fazer-croche-simples.json",
       "slug": "como-fazer-croche-simples"
+    },
+    {
+      "date": "2026-06-15T05:25:16.217Z",
+      "product_id": 22476583,
+      "post_file": "costura-simples-para-iniciantes.json",
+      "slug": "costura-simples-para-iniciantes"
     }
   ],
   "wp_posts": {
