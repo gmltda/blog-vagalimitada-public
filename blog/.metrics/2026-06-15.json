@@ -11,5 +11,18 @@
       "calls": 0
     },
     "status": "ok"
+  },
+  {
+    "timestamp": "2026-06-15T17:26:58.812Z",
+    "duration_ms": 35377,
+    "slug": "croche-simples-passo-a-passo",
+    "product_id": 22812385,
+    "openai": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    },
+    "status": "ok"
   }
 ]

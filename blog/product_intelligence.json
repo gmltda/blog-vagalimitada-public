@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-15T05:24:55.247Z",
+  "updated_at": "2026-06-15T17:26:25.953Z",
   "products": {
     "22333280": {
       "product_id": "22333280",
@@ -119,6 +119,54 @@
       ],
       "last_analyzed_at": "2026-06-15T05:24:55.247Z"
     },
+    "22812385": {
+      "product_id": "22812385",
+      "title": "Ateliê dos Sapatinhos Chic",
+      "handle": "sapatinhos-chic-em-croche",
+      "url": "https://pay.vagalimitada.com/products/sapatinhos-chic-em-croche",
+      "price": 0,
+      "description_raw": "<p data-end=\"441\" data-start=\"340\">Transforme seu crochê em renda criando <strong data-end=\"440\" data-start=\"379\">sapatinhos modernos, delicados e com alta saída de vendas</strong>.</p><p data-end=\"649\" data-start=\"443\">Neste treinamento você aprende, passo a passo, como confeccionar <strong data-end=\"547\" data-start=\"508\">sapatinhos que vendem o ano inteiro</strong>, mesmo começando do zero, utilizando técnicas simples, modelos atualizados e acabamento profissional.</p><p data-end=\"672\" data-start=\"651\">Ideal para quem quer:</p><ul data-end=\"854\" data-start=\"673\"><li data-end=\"703\" data-start=\"673\"><p data-end=\"703\" data-start=\"675\">Ganhar renda extra em casa</p></li><li data-end=\"732\" data-start=\"704\"><p data-end=\"732\" data-start=\"706\">Trabalhar com encomendas</p></li><li data-end=\"772\" data-start=\"733\"><p data-end=\"772\" data-start=\"735\">Produzir peças rápidas e lucrativas</p></li><li data-end=\"816\" data-start=\"773\"><p data-end=\"816\" data-start=\"775\">Criar produtos com alto valor percebido</p></li><li data-end=\"854\" data-start=\"817\"><p data-end=\"854\" data-start=\"819\">Começar no crochê sem complicação</p></li></ul><p data-end=\"904\" data-start=\"856\">Acesso imediato após a confirmação do pagamento.</p>",
+      "description": {
+        "clean_text": "Transforme seu crochê em renda criando sapatinhos modernos, delicados e com alta saída de vendas . Neste treinamento você aprende, passo a passo, como confeccionar sapatinhos que vendem o ano inteiro , mesmo começando do zero, utilizando técnicas simples, modelos atualizados e acabamento profissional. Ideal para quem quer: Ganhar renda extra em casa Trabalhar com encomendas Produzir peças rápidas e lucrativas Criar produtos com alto valor percebido Começar no crochê sem complicação Acesso imediato após a confirmação do pagamento.",
+        "short": "Transforme seu crochê em renda criando sapatinhos modernos, delicados e com alta saída de vendas . Neste treinamento você aprende, passo a passo, como confeccionar sapatinhos que vendem o ano inteiro , mesmo começando do zero, utilizando técnicas sim",
+        "meta": "",
+        "source_field": "description",
+        "has_description": true,
+        "fetched_from_detail_endpoint": false
+      },
+      "image_urls": [
+        "https://assets.mycartpanda.com/static/products_images/12/c9/4c/1768221983.jpg"
+      ],
+      "fingerprint": "efd8f82e0c6cb37ac6f4d5fa3a29fbe7353b39bf021f39baf8b61259b951bcb2",
+      "macro_niche": "artesanato",
+      "niche": "bebes_infantil",
+      "subniche": "",
+      "product_type": "infoproduto",
+      "content_format": "",
+      "audience": "",
+      "skill_level": "iniciante",
+      "main_promise": "",
+      "transformation": "",
+      "pain_points": [],
+      "desired_outcome": "",
+      "materials": [],
+      "use_cases": [],
+      "avoid_topics": [],
+      "seo_entities": [],
+      "primary_keyword_seeds": [],
+      "content_angles": [],
+      "cta_angles": [],
+      "image_prompt_description": "Imagem de Ateliê dos Sapatinhos Chic",
+      "image_style_tags": [],
+      "confidence": 0.1,
+      "evidence": "",
+      "classification_source": [
+        "ai",
+        "description",
+        "image"
+      ],
+      "last_analyzed_at": "2026-06-15T17:26:25.953Z"
+    },
     "23315664": {
       "product_id": "23315664",
       "title": "Criação de Camarões + Projetos",
@@ -169,6 +217,54 @@
         "image"
       ],
       "last_analyzed_at": "2026-06-13T04:47:15.891Z"
+    },
+    "24040943": {
+      "product_id": "24040943",
+      "title": "Método Sapatinho de Ouro",
+      "handle": "método-sapatinho-de-ouro",
+      "url": "https://pay.vagalimitada.com/products/método-sapatinho-de-ouro",
+      "price": 0,
+      "description_raw": "",
+      "description": {
+        "clean_text": "Método Sapatinho de Ouro. ",
+        "short": "",
+        "meta": "",
+        "source_field": "fallback",
+        "has_description": false,
+        "fetched_from_detail_endpoint": false
+      },
+      "image_urls": [
+        "https://assets.mycartpanda.com/static/products_images/56/24/f7/1746796559.png"
+      ],
+      "fingerprint": "a9b23be05c42eb485465b0bbd66af5021f17dab73579aea2ce116325d3ed9179",
+      "macro_niche": "artesanato",
+      "niche": "bebes_infantil",
+      "subniche": "",
+      "product_type": "infoproduto",
+      "content_format": "",
+      "audience": "",
+      "skill_level": "iniciante",
+      "main_promise": "",
+      "transformation": "",
+      "pain_points": [],
+      "desired_outcome": "",
+      "materials": [],
+      "use_cases": [],
+      "avoid_topics": [],
+      "seo_entities": [],
+      "primary_keyword_seeds": [],
+      "content_angles": [],
+      "cta_angles": [],
+      "image_prompt_description": "Imagem de Método Sapatinho de Ouro",
+      "image_style_tags": [],
+      "confidence": 0.1,
+      "evidence": "",
+      "classification_source": [
+        "ai",
+        "description",
+        "image"
+      ],
+      "last_analyzed_at": "2026-06-15T17:26:25.367Z"
     },
     "28394753": {
       "product_id": "28394753",
