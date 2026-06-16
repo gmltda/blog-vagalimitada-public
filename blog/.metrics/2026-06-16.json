@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-06-16T05:33:15.406Z",
+    "duration_ms": 278382,
+    "slug": "feltro-simples-passo-a-passo",
+    "product_id": 22354760,
+    "openai": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    },
+    "status": "ok"
+  }
+]

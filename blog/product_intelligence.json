@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-15T17:26:25.953Z",
+  "updated_at": "2026-06-16T05:29:00.576Z",
   "products": {
     "22333280": {
       "product_id": "22333280",
@@ -58,6 +58,61 @@
         "image"
       ],
       "last_analyzed_at": "2026-06-13T03:49:16.825Z"
+    },
+    "22354760": {
+      "product_id": "22354760",
+      "title": "Moldes Feltro Religioso",
+      "handle": "moldes-feltro-religioso",
+      "url": "https://pay.vagalimitada.com/products/moldes-feltro-religioso",
+      "price": 0,
+      "description_raw": "<p data-end=\"320\" data-start=\"221\">Crie peças religiosas em feltro com acabamento profissional, mesmo que você ainda esteja começando.</p><p data-end=\"563\" data-start=\"322\">O <em data-end=\"349\" data-start=\"324\">Moldes Feltro Religioso</em> é um produto digital com moldes prontos para imprimir, desenvolvidos especialmente para quem deseja produzir peças artesanais com temática cristã e religiosa — seja para vender, presentear ou montar lembrancinhas.</p><p data-end=\"635\" data-start=\"565\">Você não precisa desenhar do zero, adivinhar medidas ou refazer peças.</p><p data-end=\"725\" data-start=\"637\">Aqui você recebe moldes já testados, organizados e pensados para facilitar sua produção.</p><hr data-start=\"727\" data-end=\"730\"><p data-end=\"766\" data-start=\"732\"><em data-end=\"766\" data-start=\"732\">Com este material você consegue:</em></p><ul data-end=\"1023\" data-start=\"768\"><li data-end=\"826\" data-section-id=\"1wrmj20\" data-start=\"768\"><p data-end=\"826\" data-start=\"770\">Produzir peças religiosas bonitas e bem proporcionadas</p></li><li data-end=\"869\" data-section-id=\"ushvwb\" data-start=\"827\"><p data-end=\"869\" data-start=\"829\">Economizar tempo usando moldes prontos</p></li><li data-end=\"914\" data-section-id=\"1b2bl70\" data-start=\"870\"><p data-end=\"914\" data-start=\"872\">Evitar erros comuns de tamanho e encaixe</p></li><li data-end=\"969\" data-section-id=\"1dvbesj\" data-start=\"915\"><p data-end=\"969\" data-start=\"917\">Trabalhar com mais segurança mesmo sendo iniciante</p></li><li data-end=\"1023\" data-section-id=\"xts4m8\" data-start=\"970\"><p data-end=\"1023\" data-start=\"972\">Criar lembrancinhas, decoração e peças para venda</p></li></ul><p data-end=\"1056\" data-start=\"1025\">Os moldes podem ser usados com:</p><ul data-end=\"1094\" data-start=\"1058\"><li data-end=\"1068\" data-section-id=\"1s1qo7i\" data-start=\"1058\"><p data-end=\"1068\" data-start=\"1060\">Feltro</p></li><li data-end=\"1076\" data-section-id=\"171730a\" data-start=\"1069\"><p data-end=\"1076\" data-start=\"1071\">EVA</p></li><li data-end=\"1094\" data-section-id=\"1jcrarm\" data-start=\"1077\"><p data-end=\"1094\" data-start=\"1079\">Tecidos leves</p></li></ul><p data-end=\"1145\" data-start=\"1096\">Todos em formato digital, prontos para impressão.</p>",
+      "description": {
+        "clean_text": "Crie peças religiosas em feltro com acabamento profissional, mesmo que você ainda esteja começando. O Moldes Feltro Religioso é um produto digital com moldes prontos para imprimir, desenvolvidos especialmente para quem deseja produzir peças artesanais com temática cristã e religiosa — seja para vender, presentear ou montar lembrancinhas. Você não precisa desenhar do zero, adivinhar medidas ou refazer peças. Aqui você recebe moldes já testados, organizados e pensados para facilitar sua produção. Com este material você consegue: Produzir peças religiosas bonitas e bem proporcionadas Economizar tempo usando moldes prontos Evitar erros comuns de tamanho e encaixe Trabalhar com mais segurança mesmo sendo iniciante Criar lembrancinhas, decoração e peças para venda Os moldes podem ser usados com: Feltro EVA Tecidos leves Todos em formato digital, prontos para impressão.",
+        "short": "Crie peças religiosas em feltro com acabamento profissional, mesmo que você ainda esteja começando. O Moldes Feltro Religioso é um produto digital com moldes prontos para imprimir, desenvolvidos especialmente para quem deseja produzir peças artesanai",
+        "meta": "",
+        "source_field": "description",
+        "has_description": true,
+        "fetched_from_detail_endpoint": false
+      },
+      "image_urls": [
+        "https://assets.mycartpanda.com/static/products_images/7f/f5/1b/1736448306.jpg",
+        "https://assets.mycartpanda.com/static/products_images/7f/e9/20/1771510635.png",
+        "https://assets.mycartpanda.com/static/products_images/55/30/79/1771506778.jpg",
+        "https://assets.mycartpanda.com/static/products_images/32/9e/4b/1771505915.jpg",
+        "https://assets.mycartpanda.com/static/products_images/e4/fa/95/1771505794.png",
+        "https://assets.mycartpanda.com/static/products_images/68/16/c9/1771505412.jpg",
+        "https://assets.mycartpanda.com/static/products_images/5c/f1/77/1771505411.jpg",
+        "https://assets.mycartpanda.com/static/products_images/3a/40/7d/1771505410.jpg"
+      ],
+      "fingerprint": "8b4d54c4d604948e78fb242d6ff3dd592f4dd9ba9a0ecffa82621a641296293f",
+      "macro_niche": "artesanato",
+      "niche": "costura",
+      "subniche": "",
+      "product_type": "infoproduto",
+      "content_format": "",
+      "audience": "",
+      "skill_level": "iniciante",
+      "main_promise": "",
+      "transformation": "",
+      "pain_points": [],
+      "desired_outcome": "",
+      "materials": [],
+      "use_cases": [],
+      "avoid_topics": [],
+      "seo_entities": [],
+      "primary_keyword_seeds": [],
+      "content_angles": [],
+      "cta_angles": [],
+      "image_prompt_description": "Imagem de Moldes Feltro Religioso",
+      "image_style_tags": [],
+      "confidence": 0.1,
+      "evidence": "",
+      "classification_source": [
+        "ai",
+        "description",
+        "image"
+      ],
+      "last_analyzed_at": "2026-06-16T05:29:00.576Z"
     },
     "22476583": {
       "product_id": "22476583",
