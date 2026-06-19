@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-06-19T20:01:24.620Z",
+    "duration_ms": 26877,
+    "slug": "ideias-de-costura-simples",
+    "product_id": 22476585,
+    "openai": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    },
+    "status": "ok"
+  }
+]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-16T05:29:00.576Z",
+  "updated_at": "2026-06-19T20:01:07.790Z",
   "products": {
     "22333280": {
       "product_id": "22333280",
@@ -174,6 +174,54 @@
       ],
       "last_analyzed_at": "2026-06-15T05:24:55.247Z"
     },
+    "22476585": {
+      "product_id": "22476585",
+      "title": "Curso de Confecção de Bolsas Passo a Passo",
+      "handle": "curso-de-confeccao-de-bolsas-passo-a-passo",
+      "url": "https://pay.vagalimitada.com/products/curso-de-confeccao-de-bolsas-passo-a-passo",
+      "price": 0,
+      "description_raw": "<p data-end=\"415\" data-start=\"356\"><strong data-end=\"415\" data-start=\"359\">O Maior Curso de Confecção de Bolsas com 100 Modelos</strong></p><p data-end=\"525\" data-start=\"417\">Aprenda do zero a criar bolsas incríveis usando técnicas de costura criativa e reaproveitamento de retalhos.</p><p data-end=\"687\" data-start=\"527\">Este curso completo foi desenvolvido para levar você desde os fundamentos até técnicas avançadas de montagem, acabamento e estruturação de bolsas profissionais.</p><p data-end=\"707\" data-start=\"689\">Você vai aprender:</p><p data-end=\"926\" data-start=\"709\">*Técnicas de corte correto<br data-start=\"736\" data-end=\"739\">*Costura reforçada e estruturada<br data-start=\"772\" data-end=\"775\">*Aplicação de alças e acessórios<br data-start=\"808\" data-end=\"811\">*Acabamento profissional<br data-start=\"836\" data-end=\"839\">*Montagem passo a passo<br data-start=\"863\" data-end=\"866\">*Como transformar retalhos em bolsas modernas e vendáveis</p><p data-end=\"995\" data-start=\"928\">Ideal para iniciantes e também para quem já costura e quer evoluir.</p><p data-end=\"1059\" data-start=\"997\">Perfeito para quem deseja renda extra com costura criativa.</p><p data-end=\"1100\" data-start=\"1061\">Escolha abaixo o plano ideal para você.</p>",
+      "description": {
+        "clean_text": "O Maior Curso de Confecção de Bolsas com 100 Modelos Aprenda do zero a criar bolsas incríveis usando técnicas de costura criativa e reaproveitamento de retalhos. Este curso completo foi desenvolvido para levar você desde os fundamentos até técnicas avançadas de montagem, acabamento e estruturação de bolsas profissionais. Você vai aprender: *Técnicas de corte correto *Costura reforçada e estruturada *Aplicação de alças e acessórios *Acabamento profissional *Montagem passo a passo *Como transformar retalhos em bolsas modernas e vendáveis Ideal para iniciantes e também para quem já costura e quer evoluir. Perfeito para quem deseja renda extra com costura criativa. Escolha abaixo o plano ideal para você.",
+        "short": "O Maior Curso de Confecção de Bolsas com 100 Modelos Aprenda do zero a criar bolsas incríveis usando técnicas de costura criativa e reaproveitamento de retalhos. Este curso completo foi desenvolvido para levar você desde os fundamentos até técnicas a",
+        "meta": "",
+        "source_field": "description",
+        "has_description": true,
+        "fetched_from_detail_endpoint": false
+      },
+      "image_urls": [
+        "https://assets.mycartpanda.com/static/products_images/f6/b3/a3/1736342392.jpg"
+      ],
+      "fingerprint": "f6d6d3717ca58f5af25d6827116df1479b651bcb46ede66793a38826df221dc7",
+      "macro_niche": "artesanato",
+      "niche": "costura",
+      "subniche": "",
+      "product_type": "infoproduto",
+      "content_format": "",
+      "audience": "",
+      "skill_level": "iniciante",
+      "main_promise": "",
+      "transformation": "",
+      "pain_points": [],
+      "desired_outcome": "",
+      "materials": [],
+      "use_cases": [],
+      "avoid_topics": [],
+      "seo_entities": [],
+      "primary_keyword_seeds": [],
+      "content_angles": [],
+      "cta_angles": [],
+      "image_prompt_description": "Imagem de Curso de Confecção de Bolsas Passo a Passo",
+      "image_style_tags": [],
+      "confidence": 0.1,
+      "evidence": "",
+      "classification_source": [
+        "ai",
+        "description",
+        "image"
+      ],
+      "last_analyzed_at": "2026-06-19T20:01:07.790Z"
+    },
     "22812385": {
       "product_id": "22812385",
       "title": "Ateliê dos Sapatinhos Chic",
@@ -320,6 +368,54 @@
         "image"
       ],
       "last_analyzed_at": "2026-06-15T17:26:25.367Z"
+    },
+    "24813717": {
+      "product_id": "24813717",
+      "title": "500 Moldes de E.V.A",
+      "handle": "500-moldes-de-e-v-a",
+      "url": "https://pay.vagalimitada.com/products/500-moldes-de-e-v-a",
+      "price": 0,
+      "description_raw": "<p>500 Moldes de E.V.A</p>",
+      "description": {
+        "clean_text": "500 Moldes de E.V.A",
+        "short": "500 Moldes de E.V.A",
+        "meta": "",
+        "source_field": "body_html",
+        "has_description": true,
+        "fetched_from_detail_endpoint": true
+      },
+      "image_urls": [
+        "https://assets.mycartpanda.com/static/products_images/bc/48/d1/1751752649.png"
+      ],
+      "fingerprint": "5840f14f56e0f1e423b08c1a378e8f318aa54b32b13a8e5eca41efe79bef73e8",
+      "macro_niche": "artesanato",
+      "niche": "costura",
+      "subniche": "",
+      "product_type": "infoproduto",
+      "content_format": "",
+      "audience": "",
+      "skill_level": "iniciante",
+      "main_promise": "",
+      "transformation": "",
+      "pain_points": [],
+      "desired_outcome": "",
+      "materials": [],
+      "use_cases": [],
+      "avoid_topics": [],
+      "seo_entities": [],
+      "primary_keyword_seeds": [],
+      "content_angles": [],
+      "cta_angles": [],
+      "image_prompt_description": "Imagem de 500 Moldes de E.V.A",
+      "image_style_tags": [],
+      "confidence": 0.1,
+      "evidence": "",
+      "classification_source": [
+        "ai",
+        "description",
+        "image"
+      ],
+      "last_analyzed_at": "2026-06-19T20:00:59.356Z"
     },
     "28394753": {
       "product_id": "28394753",

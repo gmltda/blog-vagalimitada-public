@@ -3,7 +3,7 @@
   "published_keywords": {},
   "published_by_product": {},
   "last_published_at": "",
-  "published_count": 8,
+  "published_count": 9,
   "history": [
     {
       "date": "2026-06-13T03:28:19.728Z",
@@ -52,6 +52,12 @@
       "product_id": 22354760,
       "post_file": "feltro-simples-passo-a-passo.json",
       "slug": "feltro-simples-passo-a-passo"
+    },
+    {
+      "date": "2026-06-19T20:01:13.597Z",
+      "product_id": 22476585,
+      "post_file": "ideias-de-costura-simples.json",
+      "slug": "ideias-de-costura-simples"
     }
   ],
   "wp_posts": {
@@ -114,6 +120,21 @@
       "content_angle": "Guia prático e completo de crochê para quem quer começar sem erros.",
       "editorial_type": "guia_inicial",
       "published_at": "2026-06-15T17:26:57.135Z"
+    },
+    "ideias-de-costura-simples": {
+      "wp_url": "https://vagalimitada.com/ideias-de-costura-simples/",
+      "wp_post_id": 2621,
+      "title": "Curso de Confecção de Bolsas Passo a Passo Passo a Passo: Guia Completo para Iniciantes",
+      "tags": [
+        "costura",
+        "artesanato",
+        "iniciantes"
+      ],
+      "niche": "Costura",
+      "primary_keyword": "costura simples",
+      "content_angle": "Guia prático e completo de costura para quem quer começar sem erros.",
+      "editorial_type": "guia_inicial",
+      "published_at": "2026-06-19T20:01:22.923Z"
     }
   }
 }

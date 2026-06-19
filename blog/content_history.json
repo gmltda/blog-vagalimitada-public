@@ -45,6 +45,21 @@
         "published_at": "2026-06-15T05:25:16.217Z"
       }
     ],
+    "22476585": [
+      {
+        "slug": "ideias-de-costura-simples",
+        "primary_keyword": "costura simples",
+        "content_angle": "Guia prático e completo de costura para quem quer começar sem erros.",
+        "editorial_type": "guia_inicial",
+        "entities": [
+          "costura",
+          "passo a passo",
+          "materiais",
+          "artesanato"
+        ],
+        "published_at": "2026-06-19T20:01:13.597Z"
+      }
+    ],
     "22812385": [
       {
         "slug": "croche-simples-passo-a-passo",
