@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-19T20:01:07.790Z",
+  "updated_at": "2026-06-23T20:19:59.279Z",
   "products": {
     "22333280": {
       "product_id": "22333280",
@@ -320,6 +320,54 @@
         "image"
       ],
       "last_analyzed_at": "2026-06-13T04:47:15.891Z"
+    },
+    "23316784": {
+      "product_id": "23316784",
+      "title": "Receitas dos Biquínis de Crochê",
+      "handle": "receitas-dos-biquínis-de-crochê",
+      "url": "https://pay.vagalimitada.com/products/receitas-dos-biquínis-de-crochê",
+      "price": 0,
+      "description_raw": "<p>Receitas dos Biquínis de Crochê</p>",
+      "description": {
+        "clean_text": "Receitas dos Biquínis de Crochê",
+        "short": "Receitas dos Biquínis de Crochê",
+        "meta": "",
+        "source_field": "body_html",
+        "has_description": true,
+        "fetched_from_detail_endpoint": true
+      },
+      "image_urls": [
+        "https://assets.mycartpanda.com/static/products_images/97/5e/99/1742343695.png"
+      ],
+      "fingerprint": "c7ada61653f58630e792fd1f4efafc278fb903d0a1969dc81a0b175f8618a24a",
+      "macro_niche": "artesanato",
+      "niche": "croche",
+      "subniche": "",
+      "product_type": "infoproduto",
+      "content_format": "",
+      "audience": "",
+      "skill_level": "iniciante",
+      "main_promise": "",
+      "transformation": "",
+      "pain_points": [],
+      "desired_outcome": "",
+      "materials": [],
+      "use_cases": [],
+      "avoid_topics": [],
+      "seo_entities": [],
+      "primary_keyword_seeds": [],
+      "content_angles": [],
+      "cta_angles": [],
+      "image_prompt_description": "Imagem de Receitas dos Biquínis de Crochê",
+      "image_style_tags": [],
+      "confidence": 0.1,
+      "evidence": "",
+      "classification_source": [
+        "ai",
+        "description",
+        "image"
+      ],
+      "last_analyzed_at": "2026-06-23T20:19:59.278Z"
     },
     "24040943": {
       "product_id": "24040943",
