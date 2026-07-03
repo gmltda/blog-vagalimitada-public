@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-07-03T14:29:47.164Z",
+    "duration_ms": 33301,
+    "slug": "bordado-simples-passo-a-passo",
+    "product_id": 29487868,
+    "openai": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    },
+    "status": "ok"
+  }
+]

@@ -3,7 +3,7 @@
   "published_keywords": {},
   "published_by_product": {},
   "last_published_at": "",
-  "published_count": 10,
+  "published_count": 11,
   "history": [
     {
       "date": "2026-06-13T03:28:19.728Z",
@@ -64,6 +64,12 @@
       "product_id": 23316784,
       "post_file": "croche-simples-para-iniciantes.json",
       "slug": "croche-simples-para-iniciantes"
+    },
+    {
+      "date": "2026-07-03T14:29:36.234Z",
+      "product_id": 29487868,
+      "post_file": "bordado-simples-passo-a-passo.json",
+      "slug": "bordado-simples-passo-a-passo"
     }
   ],
   "wp_posts": {
@@ -156,6 +162,21 @@
       "content_angle": "Guia prático e completo de crochê para quem quer começar sem erros.",
       "editorial_type": "guia_inicial",
       "published_at": "2026-06-23T20:20:32.225Z"
+    },
+    "bordado-simples-passo-a-passo": {
+      "wp_url": "https://vagalimitada.com/bordado-simples-passo-a-passo/",
+      "wp_post_id": 2625,
+      "title": "Kit Caneta de Bordado + Curso Completo de Bordado Passo a Passo: Guia Completo para Iniciantes",
+      "tags": [
+        "bordado",
+        "artesanato",
+        "iniciantes"
+      ],
+      "niche": "Bordado",
+      "primary_keyword": "bordado simples",
+      "content_angle": "Guia prático e completo de bordado para quem quer começar sem erros.",
+      "editorial_type": "guia_inicial",
+      "published_at": "2026-07-03T14:29:45.555Z"
     }
   }
 }

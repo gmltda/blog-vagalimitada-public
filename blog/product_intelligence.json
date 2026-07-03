@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-23T20:19:59.279Z",
+  "updated_at": "2026-07-03T14:29:16.326Z",
   "products": {
     "22333280": {
       "product_id": "22333280",
@@ -512,6 +512,55 @@
         "image"
       ],
       "last_analyzed_at": "2026-06-14T14:25:16.549Z"
+    },
+    "28471749": {
+      "product_id": "28471749",
+      "title": "Formas de Criar Hortas em Casa",
+      "handle": "formas-de-criar-hortas-em-casa",
+      "url": "https://pay.vagalimitada.com/products/formas-de-criar-hortas-em-casa",
+      "price": 0,
+      "description_raw": "",
+      "description": {
+        "clean_text": "Formas de Criar Hortas em Casa. ",
+        "short": "",
+        "meta": "",
+        "source_field": "fallback",
+        "has_description": false,
+        "fetched_from_detail_endpoint": false
+      },
+      "image_urls": [
+        "https://assets.mycartpanda.com/static/products_images/c5/f5/4e/1768488101.jpg",
+        "https://assets.mycartpanda.com/static/products_images/7f/3e/45/1768488462.jpg"
+      ],
+      "fingerprint": "773bf7ddc5392b647bb9f2c3f7f0d51b88af0eaafa5bd6d6a3ddeefadd4f9dc7",
+      "macro_niche": "artesanato",
+      "niche": "decoracao",
+      "subniche": "",
+      "product_type": "infoproduto",
+      "content_format": "",
+      "audience": "",
+      "skill_level": "iniciante",
+      "main_promise": "",
+      "transformation": "",
+      "pain_points": [],
+      "desired_outcome": "",
+      "materials": [],
+      "use_cases": [],
+      "avoid_topics": [],
+      "seo_entities": [],
+      "primary_keyword_seeds": [],
+      "content_angles": [],
+      "cta_angles": [],
+      "image_prompt_description": "Imagem de Formas de Criar Hortas em Casa",
+      "image_style_tags": [],
+      "confidence": 0.1,
+      "evidence": "",
+      "classification_source": [
+        "ai",
+        "description",
+        "image"
+      ],
+      "last_analyzed_at": "2026-07-03T14:29:16.037Z"
     },
     "29462272": {
       "product_id": "29462272",

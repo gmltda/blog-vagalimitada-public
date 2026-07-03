@@ -133,6 +133,19 @@
           "artesanato"
         ],
         "published_at": "2026-06-13T03:28:19.729Z"
+      },
+      {
+        "slug": "bordado-simples-passo-a-passo",
+        "primary_keyword": "bordado simples",
+        "content_angle": "Guia prático e completo de bordado para quem quer começar sem erros.",
+        "editorial_type": "guia_inicial",
+        "entities": [
+          "bordado",
+          "passo a passo",
+          "materiais",
+          "artesanato"
+        ],
+        "published_at": "2026-07-03T14:29:36.234Z"
       }
     ],
     "29660646": [
