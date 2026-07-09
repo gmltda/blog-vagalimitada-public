@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-03T14:29:16.326Z",
+  "updated_at": "2026-07-09T20:00:51.895Z",
   "products": {
     "22333280": {
       "product_id": "22333280",
@@ -286,12 +286,12 @@
         "fetched_from_detail_endpoint": true
       },
       "image_urls": [
-        "https://assets.mycartpanda.com/static/products_images/2b/b3/57/1742340610.jpg",
         "https://assets.mycartpanda.com/static/products_images/9c/4e/c8/1742340592.jpg",
+        "https://assets.mycartpanda.com/static/products_images/2b/b3/57/1742340610.jpg",
         "https://assets.mycartpanda.com/static/products_images/60/36/64/1742340389.png",
         "https://assets.mycartpanda.com/static/products_images/e2/cc/99/1742340022.jpg"
       ],
-      "fingerprint": "3f495e002d9d181fbb6a40a0bc64c2ea70a6a86926acb8a9ddee0515075f433e",
+      "fingerprint": "cc70b1762b84cd7199445be61ef74ff7ea9cdc3096389a1b9838b6a1d3cac748",
       "macro_niche": "artesanato",
       "niche": "aquarismo",
       "subniche": "",
@@ -319,7 +319,7 @@
         "description",
         "image"
       ],
-      "last_analyzed_at": "2026-06-13T04:47:15.891Z"
+      "last_analyzed_at": "2026-07-09T20:00:51.494Z"
     },
     "23316784": {
       "product_id": "23316784",

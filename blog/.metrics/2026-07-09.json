@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-07-09T20:01:12.451Z",
+    "duration_ms": 36991,
+    "slug": "costura-simples-para-vender",
+    "product_id": 29462272,
+    "openai": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    },
+    "status": "ok"
+  }
+]

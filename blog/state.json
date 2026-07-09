@@ -3,7 +3,7 @@
   "published_keywords": {},
   "published_by_product": {},
   "last_published_at": "",
-  "published_count": 11,
+  "published_count": 12,
   "history": [
     {
       "date": "2026-06-13T03:28:19.728Z",
@@ -70,6 +70,12 @@
       "product_id": 29487868,
       "post_file": "bordado-simples-passo-a-passo.json",
       "slug": "bordado-simples-passo-a-passo"
+    },
+    {
+      "date": "2026-07-09T20:01:01.299Z",
+      "product_id": 29462272,
+      "post_file": "costura-simples-para-vender.json",
+      "slug": "costura-simples-para-vender"
     }
   ],
   "wp_posts": {
@@ -177,6 +183,21 @@
       "content_angle": "Guia prático e completo de bordado para quem quer começar sem erros.",
       "editorial_type": "guia_inicial",
       "published_at": "2026-07-03T14:29:45.555Z"
+    },
+    "costura-simples-para-vender": {
+      "wp_url": "https://vagalimitada.com/costura-simples-para-vender/",
+      "wp_post_id": 2627,
+      "title": "Bolsas na Tela Passo a Passo: Guia Completo para Iniciantes",
+      "tags": [
+        "costura",
+        "artesanato",
+        "iniciantes"
+      ],
+      "niche": "Costura",
+      "primary_keyword": "costura simples",
+      "content_angle": "Guia prático e completo de costura para quem quer começar sem erros.",
+      "editorial_type": "guia_inicial",
+      "published_at": "2026-07-09T20:01:10.658Z"
     }
   }
 }
